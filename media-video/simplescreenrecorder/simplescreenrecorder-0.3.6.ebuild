@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI="5"
 
-inherit autotools flag-o-matic multilib-minimal
+inherit flag-o-matic multilib-minimal
 
 if [[ ${PV} = 9999 ]]; then
 	inherit git-2
@@ -31,14 +31,14 @@ REQUIRED_USE="^^ ( qt4 qt5 )"
 
 RDEPEND="
 	qt4? (
-		>=dev-qt/qtcore-4.8.0:4
-		>=dev-qt/qtgui-4.8.0:4
+		dev-qt/qtcore:4
+		dev-qt/qtgui:4
 	)
 	qt5? (
-		>=dev-qt/qtcore-5.1.0:5
-		>=dev-qt/qtgui-5.1.0:5
-		>=dev-qt/qtwidgets-5.1.0:5
-		>=dev-qt/qtx11extras-5.1.0:5
+		dev-qt/qtcore:5
+		dev-qt/qtgui:5
+		dev-qt/qtwidgets:5
+		dev-qt/qtx11extras:5
 	)
 	virtual/glu[${MULTILIB_USEDEP}]
 	media-libs/alsa-lib
@@ -49,7 +49,7 @@ RDEPEND="
 	jack? ( media-sound/jack-audio-connection-kit )
 	pulseaudio? ( media-sound/pulseaudio )
 	|| (
-		media-video/ffmpeg[vorbis?,vpx?,x264?,mp3?,theora?]
+		media-video/ffmpeg:0[vorbis?,vpx?,x264?,mp3?,theora?]
 		media-video/libav[vorbis?,vpx?,x264?,mp3?,theora?]
 	)
 	"
