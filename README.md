@@ -9,5 +9,6 @@ Yet another Gentoo overlay
 * media-video
 	* simplescreenrecorder
 * net-wireless
+	* aircrack-ng
 	* pixiewps
 	* reaver-wps-fork-t6x
