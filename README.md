@@ -8,6 +8,8 @@ Yet another Gentoo overlay
 	* mutt-kz
 * media-video
 	* simplescreenrecorder
+* net-analyzer
+	* ettercap
 * net-wireless
 	* aircrack-ng
 	* pixiewps
