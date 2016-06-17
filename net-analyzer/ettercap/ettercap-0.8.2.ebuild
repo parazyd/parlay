@@ -15,14 +15,12 @@ SRC_URI="https://github.com/Ettercap/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="alpha amd64 arm ppc ppc64 sparc x86 ~x86-fbsd"
-IUSE="gtk ipv6 ncurses +plugins +ssl libressl"
+IUSE="gtk ipv6 ncurses +plugins libressl"
 
 RDEPEND="dev-libs/libbsd
 	dev-libs/libpcre
-	ssl? (
-		!libressl? ( dev-libs/openssl )
-		libressl? ( dev-libs/libressl )
-	)
+	!libressl? ( dev-libs/openssl )
+	libressl? ( dev-libs/libressl )
 	net-libs/libnet:1.1
 	>=net-libs/libpcap-0.8.1
 	sys-libs/zlib
