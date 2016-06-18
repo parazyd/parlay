@@ -25,6 +25,6 @@ src_prepare() {
 }
 
 src_install() {
-	default
+	dobin pixiewps
 	dodoc ../README.md
 }
