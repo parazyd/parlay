@@ -11,9 +11,11 @@ SRC_URI="https://github.com/wiire/pixiewps/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="libressl"
 
-DEPEND="dev-libs/openssl:0"
+DEPEND="
+	!libressl? ( dev-libs/openssl:0 )
+	libressl? ( dev-libs/libressl:0 )"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${P}/src"
