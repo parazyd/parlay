@@ -68,6 +68,7 @@ src_configure() {
 		$(use_enable ssl encryption) \
 		$(use_enable static-libs static) \
 		--with-boost-libdir=/usr/$(get_libdir) \
+		--with-boost-system=boost_system-mt \
 		${myconf}
 }
 
