@@ -10,6 +10,8 @@ Yet another Gentoo overlay
 	* simplescreenrecorder
 * net-analyzer
 	* ettercap
+* net-libs
+	* rb_libtorrent
 * net-wireless
 	* aircrack-ng
 	* pixiewps
