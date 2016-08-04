@@ -4,14 +4,16 @@ Yet another Gentoo overlay
 * app-crypt
 	* steghide
 	* tomb
+* app-laptop
+	* tp_smapi
+* app-misc
+	* tbt
 * mail-client
 	* mutt-kz
 * media-video
 	* simplescreenrecorder
 * net-analyzer
 	* ettercap
-* net-libs
-	* rb_libtorrent
 * net-wireless
 	* aircrack-ng
 	* pixiewps
