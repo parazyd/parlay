@@ -5,6 +5,7 @@ Yet another Gentoo overlay
 	* steghide
 	* tomb
 * app-laptop
+	* thinkfan
 	* tp_smapi
 * app-misc
 	* tbt
