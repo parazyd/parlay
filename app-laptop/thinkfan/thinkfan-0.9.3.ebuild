@@ -18,12 +18,14 @@ IUSE="atasmart"
 DEPEND="atasmart? ( dev-libs/libatasmart )"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}"
+S="${WORKDIR}/${P}"
 
 src_prepare() {
 	# epatch "${FILESDIR}"/${P}-openrc.patch
 
 	sed -e "s:share/doc/${PN}:share/doc/${P}:" \
+		-i CMakeLists.txt
+	sed -e "s/thinkfan.1/src\/thinkfan.1/" \
 		-i CMakeLists.txt
 }
 
