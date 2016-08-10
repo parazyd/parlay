@@ -21,7 +21,7 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}"
 
 src_prepare() {
-	epatch "${FILESDIR}"/${P}-openrc.patch
+	# epatch "${FILESDIR}"/${P}-openrc.patch
 
 	sed -e "s:share/doc/${PN}:share/doc/${P}:" \
 		-i CMakeLists.txt
