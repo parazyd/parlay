@@ -1,0 +1,26 @@
+diff --git a/src/globaldefs.h b/src/globaldefs.h
+index 75d3f6f..3008326 100644
+--- a/src/globaldefs.h
++++ b/src/globaldefs.h
+@@ -110,7 +110,7 @@ char *config_file, *prefix, *rbuf,
+ 	*cur_lvl,
+ 	*oldpwm; // old contents of pwm*_enable, used for uninit_fan()
+ float bias_level, depulse_tmp;
+-useconds_t depulse;
++unsigned depulse;
+ 
+ int triggered_tidx;
+ 
+diff --git a/src/thinkfan.c b/src/thinkfan.c
+index 9117a3f..1526107 100644
+--- a/src/thinkfan.c
++++ b/src/thinkfan.c
+@@ -310,7 +310,7 @@ int main(int argc, char **argv) {
+ 				}
+ 			}
+ 			else depulse_tmp = 0.5f;
+-			depulse = (useconds_t) (1000*1000 * depulse_tmp);
++			depulse = (unsigned) (1000*1000 * depulse_tmp);
+ 			break;
+ 		default:
+ 			fprintf(stderr, MSG_USAGE);

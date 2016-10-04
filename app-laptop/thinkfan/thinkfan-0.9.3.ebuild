@@ -22,6 +22,7 @@ S="${WORKDIR}/${P}"
 
 src_prepare() {
 	# epatch "${FILESDIR}"/${P}-openrc.patch
+	epatch "${FILESDIR}"/0001-fix-musl-build.patch
 
 	sed -e "s:share/doc/${PN}:share/doc/${P}:" \
 		-i CMakeLists.txt
