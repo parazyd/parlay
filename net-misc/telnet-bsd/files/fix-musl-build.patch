@@ -1,0 +1,23 @@
+diff --git a/telnet/misc-proto.h b/telnet/misc-proto.h
+index 5845751..a4af2e1 100644
+--- a/telnet/misc-proto.h
++++ b/telnet/misc-proto.h
+@@ -63,7 +63,6 @@
+ #ifndef        __MISC_PROTO__
+ #define        __MISC_PROTO__
+
+-#include <sys/cdefs.h>
+
+ void auth_encrypt_init __P((char *, char *, char *, int));
+ void auth_encrypt_user __P((char *));
+diff --git a/telnet/ring.h b/telnet/ring.h
+index 9ef8fb8..a53fe39 100644
+--- a/telnet/ring.h
++++ b/telnet/ring.h
+@@ -28,7 +28,6 @@
+  *
+  */
+
+-#include <sys/cdefs.h>
+ #include <sys/types.h>
+ #define P __P
