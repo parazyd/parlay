@@ -4,15 +4,15 @@
 
 EAPI=5
 
-inherit autotools eutils multilib versionator
+inherit autotools eutils multilib versionator git-r3
 
 MY_PV="$(replace_version_separator 3 -)"
 MY_PF="${PN}-${MY_PV}"
 S=${WORKDIR}/${MY_PF}
 
 DESCRIPTION="Use most socks-friendly applications with Tor"
-HOMEPAGE="https://github.com/dgoulet/torsocks"
-SRC_URI="https://github.com/dgoulet/torsocks/archive/v${MY_PV}.tar.gz -> ${MY_PF}.tar.gz"
+HOMEPAGE="https://gitweb.torproject.org/torsocks.git"
+EGIT_REPO_URI="https://git.torproject.org/torsocks.git"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -27,8 +27,8 @@ src_prepare() {
 	sed -i -e "/dist_doc_DATA/s/^/#/" Makefile.am doc/Makefile.am || die
 
 	# Disable tests requiring network access.
-	sed -i -e '/^\.\/test_dns$/d' tests/test_list || \
-		die "failed to disable network tests"
+	#sed -i -e '/^\.\/test_dns$/d' tests/test_list || \
+	#	die "failed to disable network tests"
 
 	eautoreconf
 }
