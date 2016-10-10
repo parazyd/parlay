@@ -31,11 +31,13 @@ RDEPEND="${DEPEND}"
 ECONF_SOURCE="${S}/src"
 
 #these patches need to be verified and pushed upstream
-#src_prepare() {
+src_prepare() {
 #	epatch "${FILESDIR}" /000[1-4]*.patch
 	#http://code.google.com/p/reaver-wps/issues/detail?id=420
 #	epatch "${FILESDIR}" /0005-soreau-show-status-r2.patch
-#}
+
+	epatch "${FILESDIR}"/0100-Include-sys-types.h-for-definition-of-u_char.patch
+}
 
 src_install() {
 	cd src
