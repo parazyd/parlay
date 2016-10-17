@@ -1,0 +1,14 @@
+diff --git a/configure b/configure
+index c13d330..9392570 100755
+--- a/configure
++++ b/configure
+@@ -1805,7 +1805,8 @@ int main(int argc, char *argv[]) { return foo(argv[0]);}
+ EOF
+   if compile_object "" ; then
+       if has readelf; then
+-          if readelf --syms $TMPO 2>/dev/null |grep -q "IFUNC.*foo"; then
++          if readelf --syms $TMPO 2>/dev/null |grep -q "IFUNC.*foo" &&
++	     ldd $TMPO >/dev/null 2>&1; then
+               avx2_opt="yes"
+           fi
+       fi
