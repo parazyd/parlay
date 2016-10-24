@@ -1,60 +1,52 @@
-# parazyd-overlay
+parazyd-overlay
+===============
+
 Yet another Gentoo overlay
 
+## Contents
 
+```
 .
 ├── app-crypt
 │   ├── steghide
-│   │   └── files
 │   └── tomb
+├── app-emulation
+│   └── qemu
 ├── app-laptop
 │   ├── thinkfan
-│   │   └── files
 │   └── tp_smapi
-│       └── files
 ├── app-misc
 │   ├── tbt
 │   └── wipe
-│       └── files
 ├── app-text
 │   └── mupdf
-│       └── files
 ├── dev-lang
 │   └── ruby
-│       └── files
 ├── dev-libs
 │   └── glib
-│       └── files
 ├── dev-util
 │   └── ltrace
-│       └── files
-├── eclass
-├── licenses
 ├── media-libs
 │   └── fontconfig
-│       └── files
 ├── metadata
 ├── net-analyzer
 │   ├── ettercap
-│   └── macchanger
-│       └── files
+│   ├── macchanger
+│   └── openbsd-netcat
 ├── net-dialup
 │   └── minicom
-│       └── files
+├── net-libs
+│   └── webkit-gtk
 ├── net-misc
 │   ├── bridge-utils
-│   │   └── files
 │   └── telnet-bsd
-│       └── files
 ├── net-proxy
 │   └── torsocks
-│       └── files
 ├── net-wireless
 │   ├── aircrack-ng
 │   ├── pixiewps
-│   └── reaver-wps-fork-t6x
-│       └── files
-├── profiles
-└── sets
-
-53 directories
+│   ├── reaver-wps-fork-t6x
+│   └── wpa_supplicant
+└── sys-apps
+    └── neversearch
+```
