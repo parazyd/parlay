@@ -1,23 +1,517 @@
+From 8f9ccf8f891e25a9180a35c1942e4f4f7dec4260 Mon Sep 17 00:00:00 2001
+From: parazyd <parazyd@dyne.org>
+Date: Mon, 24 Oct 2016 23:47:29 +0200
+Subject: [PATCH] fix musl build
+
+---
+ telnet/misc-proto.h |   2 +-
+ telnet/ring.h       |   2 +-
+ telnet/sys-cdefs.h  |  26 +++++++++++
+ telnetd/logout.h    |  79 +++++++++++++++++++++++++++++++++
+ telnetd/logwtmp.h   |  61 ++++++++++++++++++++++++++
+ telnetd/sys-cdefs.h |  26 +++++++++++
+ telnetd/sys_term.c  |   3 ++
+ telnetd/time32.h    |  99 +++++++++++++++++++++++++++++++++++++++++
+ telnetd/util.h      | 124 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 9 files changed, 420 insertions(+), 2 deletions(-)
+ create mode 100644 telnet/sys-cdefs.h
+ create mode 100644 telnetd/logout.h
+ create mode 100644 telnetd/logwtmp.h
+ create mode 100644 telnetd/sys-cdefs.h
+ create mode 100644 telnetd/time32.h
+ create mode 100644 telnetd/util.h
+
 diff --git a/telnet/misc-proto.h b/telnet/misc-proto.h
-index 5845751..a4af2e1 100644
+index 5845751..d7d6652 100644
 --- a/telnet/misc-proto.h
 +++ b/telnet/misc-proto.h
-@@ -63,7 +63,6 @@
- #ifndef        __MISC_PROTO__
- #define        __MISC_PROTO__
-
+@@ -63,7 +63,7 @@
+ #ifndef	__MISC_PROTO__
+ #define	__MISC_PROTO__
+ 
 -#include <sys/cdefs.h>
-
++#include "sys-cdefs.h"
+ 
  void auth_encrypt_init __P((char *, char *, char *, int));
  void auth_encrypt_user __P((char *));
 diff --git a/telnet/ring.h b/telnet/ring.h
-index 9ef8fb8..a53fe39 100644
+index 9ef8fb8..7f9b23c 100644
 --- a/telnet/ring.h
 +++ b/telnet/ring.h
-@@ -28,7 +28,6 @@
+@@ -28,7 +28,7 @@
   *
   */
-
+ 
 -#include <sys/cdefs.h>
++#include "sys-cdefs.h"
  #include <sys/types.h>
  #define P __P
+ 
+diff --git a/telnet/sys-cdefs.h b/telnet/sys-cdefs.h
+new file mode 100644
+index 0000000..209a623
+--- /dev/null
++++ b/telnet/sys-cdefs.h
+@@ -0,0 +1,26 @@
++#warning usage of non-standard #include <sys/cdefs.h> is deprecated
++
++#undef __P
++#undef __PMT
++
++#define __P(args)	args
++#define __PMT(args)	args
++
++#define __CONCAT(x,y)	x ## y
++#define __STRING(x)	#x
++
++#ifdef  __cplusplus
++# define __BEGIN_DECLS	extern "C" {
++# define __END_DECLS	}
++#else
++# define __BEGIN_DECLS
++# define __END_DECLS
++#endif
++
++#if defined(__GNUC__) && !defined(__cplusplus)
++# define __THROW	__attribute__ ((__nothrow__))
++# define __NTH(fct)	__attribute__ ((__nothrow__)) fct
++#else
++# define __THROW
++# define __NTH(fct)     fct
++#endif
+diff --git a/telnetd/logout.h b/telnetd/logout.h
+new file mode 100644
+index 0000000..11fa743
+--- /dev/null
++++ b/telnetd/logout.h
+@@ -0,0 +1,79 @@
++/*-
++ * Copyright (c) 1988, 1993
++ *	The Regents of the University of California.  All rights reserved.
++ *
++ * Redistribution and use in source and binary forms, with or without
++ * modification, are permitted provided that the following conditions
++ * are met:
++ * 1. Redistributions of source code must retain the above copyright
++ *    notice, this list of conditions and the following disclaimer.
++ * 2. Redistributions in binary form must reproduce the above copyright
++ *    notice, this list of conditions and the following disclaimer in the
++ *    documentation and/or other materials provided with the distribution.
++ * 3. All advertising materials mentioning features or use of this software
++ *    must display the following acknowledgement:
++ *	This product includes software developed by the University of
++ *	California, Berkeley and its contributors.
++ * 4. Neither the name of the University nor the names of its contributors
++ *    may be used to endorse or promote products derived from this software
++ *    without specific prior written permission.
++ *
++ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
++ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
++ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
++ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
++ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
++ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
++ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
++ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
++ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
++ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
++ * SUCH DAMAGE.
++ */
++
++#include "sys-cdefs.h"
++
++#if defined(LIBC_SCCS) && !defined(lint)
++#if 0
++static char sccsid[] = "@(#)logout.c	8.1 (Berkeley) 6/4/93";
++#endif
++#endif /* LIBC_SCCS and not lint */
++
++#include <sys/types.h>
++#include <sys/time.h>
++
++#include <fcntl.h>
++#include <bsd/libutil.h>
++#include <stdlib.h>
++#include <string.h>
++#include <bsd/timeconv.h>
++#include <unistd.h>
++#include <utmp.h>
++
++#include "time32.h"
++
++typedef struct utmp UTMP;
++
++int
++logout(const char *line)
++{
++	int fd;
++	UTMP ut;
++	int rval;
++
++	if ((fd = open(_PATH_UTMP, O_RDWR, 0)) < 0)
++		return(0);
++	rval = 0;
++	while (read(fd, &ut, sizeof(UTMP)) == sizeof(UTMP)) {
++		if (!ut.ut_name[0] || strncmp(ut.ut_line, line, UT_LINESIZE))
++			continue;
++		bzero(ut.ut_name, UT_NAMESIZE);
++		bzero(ut.ut_host, UT_HOSTSIZE);
++		ut.ut_time = _time_to_time32(time(NULL));
++		(void)lseek(fd, -(off_t)sizeof(UTMP), L_INCR);
++		(void)write(fd, &ut, sizeof(UTMP));
++		rval = 1;
++	}
++	(void)close(fd);
++	return(rval);
++}
+diff --git a/telnetd/logwtmp.h b/telnetd/logwtmp.h
+new file mode 100644
+index 0000000..470194a
+--- /dev/null
++++ b/telnetd/logwtmp.h
+@@ -0,0 +1,61 @@
++/*	$OpenBSD: logwtmp.c,v 1.9 2005/08/02 21:46:23 espie Exp $	*/
++/*
++ * Copyright (c) 1988, 1993
++ *	The Regents of the University of California.  All rights reserved.
++ *
++ * Redistribution and use in source and binary forms, with or without
++ * modification, are permitted provided that the following conditions
++ * are met:
++ * 1. Redistributions of source code must retain the above copyright
++ *    notice, this list of conditions and the following disclaimer.
++ * 2. Redistributions in binary form must reproduce the above copyright
++ *    notice, this list of conditions and the following disclaimer in the
++ *    documentation and/or other materials provided with the distribution.
++ * 3. Neither the name of the University nor the names of its contributors
++ *    may be used to endorse or promote products derived from this software
++ *    without specific prior written permission.
++ *
++ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
++ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
++ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
++ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
++ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
++ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
++ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
++ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
++ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
++ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
++ * SUCH DAMAGE.
++ */
++
++#include <sys/types.h>
++#include <sys/time.h>
++#include <sys/stat.h>
++
++#include <fcntl.h>
++#include <string.h>
++#include <unistd.h>
++#include <utmp.h>
++
++#include <bsd/libutil.h>
++
++void
++logwtmp(const char *line, const char *name, const char *host)
++{
++	struct stat buf;
++	struct utmp ut;
++	int fd;
++
++	if ((fd = open(_PATH_WTMP, O_WRONLY|O_APPEND, 0)) < 0)
++		return;
++	if (fstat(fd, &buf) == 0) {
++		(void) strncpy(ut.ut_line, line, sizeof(ut.ut_line));
++		(void) strncpy(ut.ut_name, name, sizeof(ut.ut_name));
++		(void) strncpy(ut.ut_host, host, sizeof(ut.ut_host));
++		(void) time(&ut.ut_time);
++		if (write(fd, &ut, sizeof(struct utmp)) !=
++		    sizeof(struct utmp))
++			(void) ftruncate(fd, buf.st_size);
++	}
++	(void) close(fd);
++}
+diff --git a/telnetd/sys-cdefs.h b/telnetd/sys-cdefs.h
+new file mode 100644
+index 0000000..209a623
+--- /dev/null
++++ b/telnetd/sys-cdefs.h
+@@ -0,0 +1,26 @@
++#warning usage of non-standard #include <sys/cdefs.h> is deprecated
++
++#undef __P
++#undef __PMT
++
++#define __P(args)	args
++#define __PMT(args)	args
++
++#define __CONCAT(x,y)	x ## y
++#define __STRING(x)	#x
++
++#ifdef  __cplusplus
++# define __BEGIN_DECLS	extern "C" {
++# define __END_DECLS	}
++#else
++# define __BEGIN_DECLS
++# define __END_DECLS
++#endif
++
++#if defined(__GNUC__) && !defined(__cplusplus)
++# define __THROW	__attribute__ ((__nothrow__))
++# define __NTH(fct)	__attribute__ ((__nothrow__)) fct
++#else
++# define __THROW
++# define __NTH(fct)     fct
++#endif
+diff --git a/telnetd/sys_term.c b/telnetd/sys_term.c
+index 31897d8..381577f 100644
+--- a/telnetd/sys_term.c
++++ b/telnetd/sys_term.c
+@@ -40,6 +40,9 @@
+ #include "telnetd.h"
+ #include "pathnames.h"
+ 
++#include "logout.h"
++#include "logwtmp.h"
++
+ static struct termios termbuf, termbuf2;	/* pty control structure */
+ 
+ /*
+diff --git a/telnetd/time32.h b/telnetd/time32.h
+new file mode 100644
+index 0000000..5037ef0
+--- /dev/null
++++ b/telnetd/time32.h
+@@ -0,0 +1,99 @@
++/*-
++ * Copyright (c) 2001 FreeBSD Inc.
++ * All rights reserved.
++ *
++ * These routines are for converting time_t to fixed-bit representations
++ * for use in protocols or storage.  When converting time to a larger
++ * representation of time_t these routines are expected to assume temporal
++ * locality and use the 50-year rule to properly set the msb bits.  XXX
++ *
++ * Redistribution and use under the terms of the COPYRIGHT file at the
++ * base of the source tree.
++ */
++
++#include "sys-cdefs.h"
++
++#include <sys/types.h>
++#include <bsd/timeconv.h>
++
++/*
++ * Convert a 32 bit representation of time_t into time_t.  XXX needs to
++ * implement the 50-year rule to handle post-2038 conversions.
++ */
++time_t
++_time32_to_time(int32_t t32)
++{
++    return((time_t)t32);
++}
++
++/*
++ * Convert time_t to a 32 bit representation.  If time_t is 64 bits we can
++ * simply chop it down.   The resulting 32 bit representation can be 
++ * converted back to a temporally local 64 bit time_t using time32_to_time.
++ */
++int32_t
++_time_to_time32(time_t t)
++{
++    return((int32_t)t);
++}
++
++/*
++ * Convert a 64 bit representation of time_t into time_t.  If time_t is
++ * represented as 32 bits we can simply chop it and not support times
++ * past 2038.
++ */
++time_t
++_time64_to_time(int64_t t64)
++{
++    return((time_t)t64);
++}
++
++/*
++ * Convert time_t to a 64 bit representation.  If time_t is represented
++ * as 32 bits we simply sign-extend and do not support times past 2038.
++ */
++int64_t
++_time_to_time64(time_t t)
++{
++    return((int64_t)t);
++}
++
++/*
++ * Convert to/from 'long'.  Depending on the sizeof(long) this may or 
++ * may not require using the 50-year rule.
++ */
++long
++_time_to_long(time_t t)
++{
++    if (sizeof(long) == sizeof(int64_t))
++	return(_time_to_time64(t));
++    return((long)t);
++}
++
++time_t
++_long_to_time(long tlong)
++{
++    if (sizeof(long) == sizeof(int32_t))
++	return(_time32_to_time(tlong));
++    return((time_t)tlong);
++}
++
++/*
++ * Convert to/from 'int'.  Depending on the sizeof(int) this may or 
++ * may not require using the 50-year rule.
++ */
++int
++_time_to_int(time_t t)
++{
++    if (sizeof(int) == sizeof(int64_t))
++	return(_time_to_time64(t));
++    return((int)t);
++}
++
++time_t
++_int_to_time(int tint)
++{
++    if (sizeof(int) == sizeof(int32_t))
++	return(_time32_to_time(tint));
++    return((time_t)tint);
++}
+diff --git a/telnetd/util.h b/telnetd/util.h
+new file mode 100644
+index 0000000..a50dbd0
+--- /dev/null
++++ b/telnetd/util.h
+@@ -0,0 +1,124 @@
++/*	$OpenBSD: util.h,v 1.27 2006/06/14 02:14:25 krw Exp $	*/
++/*	$NetBSD: util.h,v 1.2 1996/05/16 07:00:22 thorpej Exp $	*/
++
++/*-
++ * Copyright (c) 1995
++ *	The Regents of the University of California.  All rights reserved.
++ * Portions Copyright (c) 1996, Jason Downs.  All rights reserved.
++ *
++ * Redistribution and use in source and binary forms, with or without
++ * modification, are permitted provided that the following conditions
++ * are met:
++ * 1. Redistributions of source code must retain the above copyright
++ *    notice, this list of conditions and the following disclaimer.
++ * 2. Redistributions in binary form must reproduce the above copyright
++ *    notice, this list of conditions and the following disclaimer in the
++ *    documentation and/or other materials provided with the distribution.
++ * 3. Neither the name of the University nor the names of its contributors
++ *    may be used to endorse or promote products derived from this software
++ *    without specific prior written permission.
++ *
++ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
++ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
++ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
++ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
++ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
++ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
++ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
++ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
++ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
++ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
++ * SUCH DAMAGE.
++ */
++
++#ifndef _UTIL_H_
++#define _UTIL_H_
++
++// #include "sys-cdefs.h"
++#include <sys/types.h>
++
++/*
++ * fparseln() specific operation flags.
++ */
++#define FPARSELN_UNESCESC	0x01
++#define FPARSELN_UNESCCONT	0x02
++#define FPARSELN_UNESCCOMM	0x04
++#define FPARSELN_UNESCREST	0x08
++#define FPARSELN_UNESCALL	0x0f
++
++/*
++ * opendev() specific operation flags.
++ */
++#define OPENDEV_PART	0x01		/* Try to open the raw partition. */
++#define OPENDEV_BLCK	0x04		/* Open block, not character device. */
++
++/*
++ * uucplock(3) specific flags.
++ */
++#define UU_LOCK_INUSE (1)
++#define UU_LOCK_OK (0)
++#define UU_LOCK_OPEN_ERR (-1)
++#define UU_LOCK_READ_ERR (-2)
++#define UU_LOCK_CREAT_ERR (-3)
++#define UU_LOCK_WRITE_ERR (-4)
++#define UU_LOCK_LINK_ERR (-5)
++#define UU_LOCK_TRY_ERR (-6)
++#define UU_LOCK_OWNER_ERR (-7)
++
++/*
++ * fmt_scaled(3) specific flags.
++ */
++#define	FMT_SCALED_STRSIZE	7	/* minus sign, 4 digits, suffix, null byte */
++
++/*
++ * stub struct definitions.
++ */
++struct __sFILE;
++struct login_cap;
++struct passwd;
++struct termios;
++struct utmp;
++struct winsize;
++
++#ifdef __cplusplus
++extern "C" {
++#endif
++
++char   *fparseln(struct __sFILE *, size_t *, size_t *, const char[3], int);
++void	login(struct utmp *);
++int	login_tty(int);
++int	logout(const char *);
++void	logwtmp(const char *, const char *, const char *);
++int	opendev(char *, int, int, char **);
++int	pidfile(const char *);
++void	pw_setdir(const char *);
++char   *pw_file(const char *);
++int	pw_lock(int retries);
++int	pw_mkdb(char *, int);
++int	pw_abort(void);
++void	pw_init(void);
++void	pw_edit(int, const char *);
++void	pw_prompt(void);
++void	pw_copy(int, int, const struct passwd *, const struct passwd *);
++int	pw_scan(char *, struct passwd *, int *);
++void	pw_error(const char *, int, int);
++int	openpty(int *, int *, char *, struct termios *, struct winsize *);
++int	opendisk(const char *path, int flags, char *buf, size_t buflen,
++	    int iscooked);
++pid_t	forkpty(int *, char *, struct termios *, struct winsize *);
++int	getmaxpartitions(void);
++int	getrawpartition(void);
++void	login_fbtab(const char *, uid_t, gid_t);
++int	login_check_expire(struct __sFILE *, struct passwd *, char *, int);
++char   *readlabelfs(char *, int);
++const char *uu_lockerr(int _uu_lockresult);
++int     uu_lock(const char *_ttyname);
++int	uu_lock_txfr(const char *_ttyname, pid_t _pid);
++int     uu_unlock(const char *_ttyname);
++int	fmt_scaled(long long number, char *result);
++int	scan_scaled(char *scaled, long long *result);
++#ifdef __cplusplus
++}
++#endif
++
++#endif /* !_UTIL_H_ */
+-- 
+2.10.1
+
