@@ -34,14 +34,14 @@ src_prepare() {
 }
 
 src_configure() {
-	epatch "${FILESDIR}/musl-fix.patch"
+	#epatch "${FILESDIR}/musl-fix.patch"
 	econf $(use_enable static-libs static)
 }
 
 src_install() {
 	default
 
-	dodoc ChangeLog README.md TODO doc/notes/DEBUG doc/socks/{SOCKS5,socks-extensions.txt}
+	dodoc ChangeLog README.md doc/notes/DEBUG doc/socks/{SOCKS5,socks-extensions.txt}
 
 	#Remove libtool .la files
 	cd "${D}"/usr/$(get_libdir)/torsocks || die
