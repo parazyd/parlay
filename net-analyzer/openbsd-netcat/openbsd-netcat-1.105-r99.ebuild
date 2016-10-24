@@ -12,7 +12,7 @@ SRC_URI="http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd
 	http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_${PV}-7.debian.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-IUSE="elibc_Darwin"
+IUSE="elibc_Darwin static"
 
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x64-macos"
 
@@ -37,6 +37,10 @@ src_prepare() {
 }
 
 src_compile() {
+	if use static; then
+		CFLAGS="${CFLAGS} -static"
+		LDFLAGS="${LDFLAGS} -static"
+	fi
 	emake CC=$(tc-getCC) CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" || die
 }
 
