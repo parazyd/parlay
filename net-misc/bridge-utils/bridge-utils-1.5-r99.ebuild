@@ -30,6 +30,7 @@ get_headers() {
 
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-linux-3.8.patch
+	epatch "${FILESDIR}"/musl-headers.patch
 	eautoreconf
 }
 
