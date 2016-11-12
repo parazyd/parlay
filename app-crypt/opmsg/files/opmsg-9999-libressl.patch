@@ -1,0 +1,21 @@
+diff --git a/src/Makefile b/src/Makefile
+index ec0b3fb..ca4e38a 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -16,11 +16,11 @@ INC=
+ 
+ 
+ # LibreSSL setups, define your paths here
+-#INC+=-I/usr/local/libressl/include
+-#LIBS+=-L/usr/local/libressl/lib64
+-#LIBS+=-Wl,--rpath=/usr/local/libressl/lib64
+-#DEFS+=-DHAVE_BN_GENCB_NEW=0
+-#DEFS+=-DHAVE_LIBRESSL
++INC+=-I/usr/include/openssl
++LIBS+=-L/usr/lib
++LIBS+=-Wl,--rpath=/usr/lib
++DEFS+=-DHAVE_BN_GENCB_NEW=0
++DEFS+=-DHAVE_LIBRESSL
+ 
+ 
+ # BoringSSL. Be warned, BoringSSL creates incompatible
