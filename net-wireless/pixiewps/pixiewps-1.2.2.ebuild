@@ -4,15 +4,13 @@
 
 EAPI=6
 
-inherit git-r3
-
 DESCRIPTION="Bruteforce offline the WPS pin exploiting the low or non-existing entropy"
 HOMEPAGE="https://github.com/wiire/pixiewps"
-EGIT_REPO_URI="https://github.com/wiire/pixiewps.git"
+SRC_URI="https://github.com/wiire/pixiewps/archive/v${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="libressl"
 
 DEPEND="
