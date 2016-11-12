@@ -5,18 +5,17 @@
 EAPI=5
 
 AUTOTOOLS_IN_SOURCE_BUILD="1"
-inherit autotools-utils eutils git-r3
+inherit autotools-utils eutils
 
 DESCRIPTION="Utilise Pixie Dust Attack to find the correct WPS PIN."
 HOMEPAGE="https://github.com/t6x/reaver-wps-fork-t6x"
-EGIT_REPO_URI="https://github.com/t6x/reaver-wps-fork-t6x.git"
-#EGIT_COMMIT="6e60ee25e86ec798de2e23971b029d555e9dc398"
+SRC_URI="https://github.com/t6x/reaver-wps-fork-t6x/archive/v${PV}.tar.gz"
 
 ECONF_SOURCE="${S}/src"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="!net-wireless/reaver
