@@ -4,15 +4,15 @@
 
 EAPI=6
 
-inherit git-r3
+inherit eutils
 
 DESCRIPTION="opmsg message encryption"
 HOMEPAGE="https://github.com/stealth/opmsg"
-EGIT_REPO_URI="https://github.com/stealth/opmsg.git"
+SRC_URI="https://github.com/stealth/opmsg/archive/rel-${PV}s.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="libressl contrib static"
 
 DEPEND="
@@ -20,6 +20,8 @@ DEPEND="
 	libressl? ( dev-libs/libressl )
 "
 RDEPEND="${DEPEND}"
+
+S="${WORKDIR}/${PN}-rel-${PV}s"
 
 
 src_prepare() {
