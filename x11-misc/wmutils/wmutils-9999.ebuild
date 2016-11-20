@@ -21,4 +21,8 @@ RDEPEND="${DEPEND}"
 src_prepare() {
 	default
 	sed -e 's:^MANPREFIX.*:MANPREFIX = $(PREFIX)/share/man:' -i config.mk
+	mv wtf.c twf.c
+	mv man/wtf.1 man/twf.1
+	sed -e 's:wtf\.c:twf\.c:' -i Makefile
+	sed -e 's:wtf\.1:twf\.1:' -i man/Makefile
 }
