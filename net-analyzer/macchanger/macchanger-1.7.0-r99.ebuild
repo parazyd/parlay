@@ -2,7 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
+
+inherit eutils
 
 DESCRIPTION="Utility for viewing/manipulating the MAC address of network interfaces"
 OUI_DATE="20091029" # Generated with tools/IEEE_OUI.py in the source
@@ -14,7 +16,8 @@ KEYWORDS="amd64 arm ppc sparc x86"
 SLOT="0"
 
 src_configure() {
-	epatch "${FILESDIR}"/0001-fix-musl-build.patch
+	#epatch "${FILESDIR}"/0001-fix-musl-build.patch
+	epatch "${FILESDIR}"/0002-include-typesh.patch
 
 	# Shared data is installed below /lib, see Bug #57046
 	econf \
