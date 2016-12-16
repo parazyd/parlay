@@ -1,5 +1,5 @@
---- mupdf-1.9a-source/source/fitz/load-jpx.c.orig
-+++ mupdf-1.9a-source/source/fitz/load-jpx.c
+--- mupdf-1.10a-source/source/fitz/load-jpx.c.orig
++++ mupdf-1.10a-source/source/fitz/load-jpx.c
 @@ -1,15 +1,7 @@
  #include "mupdf/fitz.h"
  

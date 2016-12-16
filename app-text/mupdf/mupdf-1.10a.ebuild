@@ -11,7 +11,7 @@ HOMEPAGE="http://mupdf.com/"
 SRC_URI="http://git.ghostscript.com/?p=mupdf.git;a=snapshot;h=027860688eafc89ca3d57937a77a43a9bb96f590;sf=tgz -> ${P}.tar.gz"
 
 LICENSE="AGPL-3"
-MY_SOVER=1.9
+MY_SOVER=1.10
 SLOT="0/${MY_SOVER}"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="X vanilla +curl libressl opengl +openssl static static-libs"
@@ -64,16 +64,16 @@ src_prepare() {
 			"${FILESDIR}"/${PN}-1.5-openjpeg-2.1.patch
 	fi
 
-	sed -e "/^libdir=/s:/lib:/$(get_libdir):" \
-		-e "/^prefix=/s:=.*:=${EROOT}/usr:" \
-		-i platform/debian/${PN}.pc || die
+# sed -e "/^libdir=/s:/lib:/$(get_libdir):" \
+# -e "/^prefix=/s:=.*:=${EROOT}/usr:" \
+# -i platform/debian/${PN}.pc || die
 
 	use vanilla || epatch \
 		"${FILESDIR}"/${PN}-1.3-zoom-2.patch
 
-	#http://bugs.ghostscript.com/show_bug.cgi?id=693467
-	sed -e '/^\(Actions\|MimeType\)=/s:\(.*\):\1;:' \
-		-i platform/debian/${PN}.desktop || die
+# http://bugs.ghostscript.com/show_bug.cgi?id=693467
+# sed -e '/^\(Actions\|MimeType\)=/s:\(.*\):\1;:' \
+# -i platform/debian/${PN}.desktop || die
 
 	sed -e "1iOS = Linux" \
 		-e "1iCC = $(tc-getCC)" \
@@ -122,12 +122,12 @@ src_compile() {
 }
 
 src_install() {
-	if use X ; then
-		domenu platform/debian/${PN}.desktop
-		doicon platform/debian/${PN}.xpm
-	else
-		rm docs/man/${PN}.1
-	fi
+# if use X ; then
+# domenu platform/debian/${PN}.desktop
+# doicon platform/debian/${PN}.xpm
+# else
+# rm docs/man/${PN}.1
+# fi
 
 	emake install
 	dosym ${my_soname} /usr/$(get_libdir)/lib${PN}.so
@@ -141,7 +141,7 @@ src_install() {
 	use X && dosym ${PN}-x11 /usr/bin/${PN}
 
 	insinto /usr/$(get_libdir)/pkgconfig
-	doins platform/debian/${PN}.pc
+	#doins platform/debian/${PN}.pc
 
 	dodoc README docs/*.{txt,c}
 }
