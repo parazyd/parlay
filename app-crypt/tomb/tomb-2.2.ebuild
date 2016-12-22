@@ -11,8 +11,8 @@ SRC_URI="https://files.dyne.org/tomb/tomb-2.2.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
-IUSE="kdf gtk"
+KEYWORDS="alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86"
+IUSE="kdf gtk3"
 
 DEPEND="
 	dev-libs/libgcrypt
@@ -20,7 +20,7 @@ DEPEND="
 	app-admin/sudo
 	app-crypt/pinentry
 	app-crypt/gnupg
-	gtk? ( gnome-extra/zenity )
+	gtk3? ( gnome-extra/zenity )
 "
 
 RDEPEND="${DEPEND}"
@@ -42,7 +42,7 @@ src_install() {
 		dobin extras/kdf-keys/tomb-kdb-pbkdf2-gensalt
 		dobin extras/kdf-keys/tomb-kdb-pbkdf2-getiter
 	fi
-	if use gtk; then
+	if use gtk3; then
 		dobin extras/gtomb/gtomb
 	fi
 }
