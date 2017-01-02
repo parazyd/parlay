@@ -27,7 +27,7 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 
-DOCS=( doc/TODO.org README.md KNOWN_BUGS.md ChangeLog.md AUTHORS.md INSTALL.md )
+DOCS=( doc/TODO.org README.txt KNOWN_BUGS.txt ChangeLog.txt AUTHORS.txt INSTALL.txt COPYING.txt )
 
 src_compile() {
 	if use kdf; then
@@ -38,6 +38,8 @@ src_compile() {
 src_install() {
 	dobin tomb
 	doman doc/tomb.1
+	dodoc "${DOCS[@]}"
+
 	if use kdf; then
 		dobin extras/kdf-keys/tomb-kdb-hexencode
 		dobin extras/kdf-keys/tomb-kdb-pbkdf2
