@@ -7,7 +7,9 @@ inherit eutils
 
 DESCRIPTION="The Crypto Undertaker"
 HOMEPAGE="https://www.dyne.org/software/tomb"
-SRC_URI="https://files.dyne.org/tomb/tomb-2.2.tar.gz"
+SRC_URI="https://files.dyne.org/${PN}/Tomb-${PV}.tar.gz"
+
+S="${WORKDIR}/Tomb-${PV}"
 
 LICENSE="GPL-3+"
 SLOT="0"
@@ -25,7 +27,7 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 
-DOCS=( doc/TODO.org )
+DOCS=( doc/TODO.org README.md KNOWN_BUGS.md ChangeLog.md AUTHORS.md INSTALL.md )
 
 src_compile() {
 	if use kdf; then
@@ -42,6 +44,7 @@ src_install() {
 		dobin extras/kdf-keys/tomb-kdb-pbkdf2-gensalt
 		dobin extras/kdf-keys/tomb-kdb-pbkdf2-getiter
 	fi
+
 	if use gtk3; then
 		dobin extras/gtomb/gtomb
 	fi
