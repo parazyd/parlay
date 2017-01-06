@@ -6,29 +6,29 @@ Yet another Gentoo overlay
 ## Contents
 
 ```
+.
 ├── app-admin
 │   └── doas
 ├── app-crypt
 │   ├── opmsg
 │   ├── steghide
 │   └── tomb
-├── app-emulation
-│   └── qemu
 ├── app-laptop
 │   └── thinkfan
 ├── app-misc
-│   ├── figlet
 │   ├── tbt
+│   ├── whatmp3
 │   └── wipe
 ├── app-office
+│   ├── dia
 │   └── libreoffice
 ├── app-text
 │   └── mupdf
+├── dev-qt
+│   └── qtwebkit
 ├── dev-util
 │   ├── ltrace
 │   └── radare2
-├── media-libs
-│   └── fontconfig
 ├── metadata
 ├── net-analyzer
 │   ├── ettercap
