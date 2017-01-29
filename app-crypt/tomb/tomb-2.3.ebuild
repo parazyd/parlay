@@ -14,7 +14,7 @@ S="${WORKDIR}/Tomb-${PV}"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86"
-IUSE="kdf gtk3"
+IUSE="kdf gtk3 steghide"
 
 DEPEND="
 	dev-libs/libgcrypt
@@ -23,6 +23,7 @@ DEPEND="
 	app-crypt/pinentry
 	app-crypt/gnupg
 	gtk3? ( gnome-extra/zenity )
+	steghide? ( app-crypt/steghide )
 "
 
 RDEPEND="${DEPEND}"
