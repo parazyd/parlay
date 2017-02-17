@@ -5,8 +5,6 @@ Yet another Gentoo overlay
 
 ## Contents
 
-```
-.
 ├── app-admin
 │   └── doas
 ├── app-crypt
@@ -34,30 +32,29 @@ Yet another Gentoo overlay
 │   ├── ettercap
 │   ├── macchanger
 │   ├── openbsd-netcat
-│   ├── thc-ipv6
-│   └── wireshark
+│   └── thc-ipv6
 ├── net-dialup
 │   └── minicom
 ├── net-libs
+│   ├── libircclient
 │   └── webkit-gtk
 ├── net-misc
 │   ├── bridge-utils
-│   ├── socat
 │   └── telnet-bsd
+├── net-news
+│   └── snownews
 ├── net-proxy
 │   └── torsocks
 ├── net-wireless
 │   ├── aircrack-ng
 │   ├── pixiewps
 │   └── reaver-wps-fork-t6x
-├── profiles
 ├── sys-apps
 │   └── neversearch
-├── www-client
-│   └── elinks
 ├── x11-libs
 │   └── libwm
 └── x11-misc
     ├── lemonbar
+    ├── slstatus
     └── wmutils
 ```
