@@ -44,7 +44,7 @@ REQUIRED_USE="airdrop-ng? ( ${PYTHON_REQUIRED_USE} )
 		airgraph-ng? ( ${PYTHON_REQUIRED_USE} )"
 
 PATCHES=(
-	"${FILESDIR}/${P}-openssl.patch"
+	"${FILESDIR}/${P}-libressl.patch"
 )
 
 S="${WORKDIR}/${PN}-${MY_PV}"
