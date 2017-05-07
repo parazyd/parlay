@@ -43,8 +43,8 @@ src_install() {
 	cd src
 	dobin wash reaver
 
-	insinto "/etc/reaver"
-	doins reaver.db
+	#insinto "/etc/reaver"
+	#doins reaver.db
 
 	doman ../docs/reaver.1.gz
 	dodoc ../docs/README ../docs/README.REAVER ../docs/README.WASH
