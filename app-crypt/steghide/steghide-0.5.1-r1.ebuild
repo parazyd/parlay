@@ -9,8 +9,6 @@ inherit autotools eutils
 DESCRIPTION="A steganography program which hides data in various media files"
 HOMEPAGE="http://steghide.sourceforge.net"
 LICENSE="GPL-2"
-PKGNAME="steghide"
-S=${WORKDIR}/${PKGNAME}-${PV}
 SRC_URI="http://prdownloads.sourceforge.net/${PN}/${P}.tar.gz"
 KEYWORDS="~amd64 ~x86"
 
