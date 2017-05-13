@@ -19,7 +19,7 @@ IUSE="gtk ipv6 ncurses +plugins libressl"
 
 RDEPEND="dev-libs/libbsd
 	dev-libs/libpcre
-	!libressl? ( dev-libs/openssl )
+	!libressl? ( dev-libs/openssl:0 )
 	libressl? ( dev-libs/libressl )
 	net-libs/libnet:1.1
 	>=net-libs/libpcap-0.8.1
@@ -33,7 +33,7 @@ RDEPEND="dev-libs/libbsd
 		>=x11-libs/gtk+-2.2.2:2
 		>=x11-libs/pango-1.2.3
 	)
-	ncurses? ( >=sys-libs/ncurses-5.3 )
+	ncurses? ( sys-libs/ncurses:0 )
 	plugins? ( >=net-misc/curl-7.26.0 )"
 DEPEND="${RDEPEND}
 	sys-devel/flex
