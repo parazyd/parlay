@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="libressl contrib static"
 
 DEPEND="
-	!libressl? ( dev-libs/openssl )
+	!libressl? ( dev-libs/openssl:0 )
 	libressl? ( dev-libs/libressl )
 "
 RDEPEND="${DEPEND}"
