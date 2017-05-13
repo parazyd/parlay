@@ -20,9 +20,11 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
 IUSE="debug selinux test unwind"
 
-RDEPEND="dev-libs/elfutils
+RDEPEND="
+	dev-libs/elfutils
 	selinux? ( sys-libs/libselinux )
-	unwind? ( sys-libs/libunwind )"
+	unwind? ( sys-libs/libunwind )
+"
 DEPEND="${RDEPEND}
 	sys-libs/binutils-libs
 	test? ( dev-util/dejagnu )"
