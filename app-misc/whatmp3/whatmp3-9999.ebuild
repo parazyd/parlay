@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/RecursiveForest/whatmp3.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 arm arm64 x86"
 IUSE=""
 
 DEPEND="
