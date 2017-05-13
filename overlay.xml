@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
 <repo priority="10" status="unofficial">
-	<name>parazyd-overlay</name>
+	<name>parlay</name>
 	<description>Yet another Gentoo overlay!</description>
 	<homepage>https://parazyd.cf</homepage>
 	<owner>
 		<email>parazyd@dyne.org</email>
 		<name>parazyd</name>
 	</owner>
-	<source type="git">git://github.com/parazyd/parazyd-overlay.git</source>
-	<feed>https://github.com/parazyd/parazyd-overlay/commits/master.atom</feed>
+	<source type="git">git://github.com/parazyd/parlay.git</source>
+	<feed>https://github.com/parazyd/parlay/commits/master.atom</feed>
 </repo>
 </repositories>
