@@ -19,7 +19,7 @@ RDEPEND="
 	>=app-crypt/mhash-0.8.18-r1
 	>=dev-libs/libmcrypt-2.5.7
 	>=sys-libs/zlib-1.1.4-r2
-	virtual/jpeg
+	virtual/jpeg:0
 	"
 DEPEND="${RDEPEND}"
 
