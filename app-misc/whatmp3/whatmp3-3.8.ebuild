@@ -10,7 +10,7 @@ SRC_URI="https://github.com/RecursiveForest/${PN}/archive/v${PV}.tar.gz -> ${P}.
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 arm arm64 x86"
 IUSE=""
 
 DEPEND="
