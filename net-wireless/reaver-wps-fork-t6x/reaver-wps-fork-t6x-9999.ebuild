@@ -19,11 +19,13 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="!net-wireless/reaver
-        net-libs/libpcap
-		net-wireless/pixiewps
-		net-wireless/aircrack-ng
-		dev-db/sqlite:3"
+DEPEND="
+	!net-wireless/reaver
+	net-libs/libpcap
+	net-wireless/pixiewps
+	net-wireless/aircrack-ng
+	dev-db/sqlite:3
+"
 RDEPEND="${DEPEND}"
 
 #S="${WORKDIR}/${P}/src"

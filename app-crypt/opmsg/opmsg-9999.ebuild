@@ -21,7 +21,6 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
-
 src_prepare() {
 	default
 	use libressl && epatch "${FILESDIR}/${PN}-libressl.patch"

@@ -31,4 +31,3 @@ src_install() {
 	dobin pixiewps
 	dodoc ../README.md
 }
-

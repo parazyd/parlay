@@ -23,7 +23,6 @@ RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${PN}-rel-${PV}s"
 
-
 src_prepare() {
 	default
 	use libressl && epatch "${FILESDIR}/${PN}-libressl.patch"

@@ -15,9 +15,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE=""
 
 DEPEND="
-    media-libs/flac
-    media-sound/lame
-    net-p2p/mktorrent
+	media-libs/flac
+	media-sound/lame
+	net-p2p/mktorrent
 "
 RDEPEND="${DEPEND}"
 
