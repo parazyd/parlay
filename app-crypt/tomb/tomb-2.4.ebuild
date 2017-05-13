@@ -18,7 +18,7 @@ IUSE="kdf gtk3 steghide"
 
 DEPEND="
 	app-shells/zsh
-	dev-libs/libgcrypt
+	kdf? ( dev-libs/libgcrypt:0 )
 	sys-fs/cryptsetup
 	app-admin/sudo
 	app-crypt/pinentry
