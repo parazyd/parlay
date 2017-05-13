@@ -19,8 +19,8 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
 IUSE="debug selinux test unwind"
 
+#dev-libs/elfutils
 RDEPEND="
-	dev-libs/elfutils
 	selinux? ( sys-libs/libselinux )
 	unwind? ( sys-libs/libunwind )
 "
