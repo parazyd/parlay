@@ -13,7 +13,7 @@ EGIT_REPO_URI="https://github.com/stealth/opmsg.git"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS=""
-IUSE="libressl contrib static"
+IUSE="libressl tools static"
 
 DEPEND="
 	!libressl? ( dev-libs/openssl:0 )
@@ -30,13 +30,13 @@ src_prepare() {
 src_compile() {
 	cd src
 	emake
-	use contrib && emake contrib
+	use tools && emake contrib
 	cd -
 }
 
 src_install() {
 	dobin src/opmsg
-	use contrib && {
+	use tools && {
 		dobin src/opmux
 		dobin src/opcoin
 	}
