@@ -22,7 +22,6 @@ DEPEND="
 	app-crypt/pinentry
 	app-crypt/gnupg
 	tools? (
-		app-crypt/steghide
 		dev-libs/libgcrypt:0
 	)
 "
