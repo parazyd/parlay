@@ -1,10 +1,11 @@
-parazyd-overlay
-===============
+parlay
+======
 
 Yet another Gentoo overlay
 
 ## Contents
 
+```
 ├── app-admin
 │   └── doas
 ├── app-crypt
@@ -15,42 +16,29 @@ Yet another Gentoo overlay
 │   └── thinkfan
 ├── app-misc
 │   ├── tbt
-│   ├── whatmp3
-│   └── wipe
-├── app-office
-│   ├── dia
-│   └── libreoffice
-├── app-text
-│   └── mupdf
-├── dev-qt
-│   └── qtwebkit
+│   └── whatmp3
+├── dev-python
+│   └── pycoin
 ├── dev-util
-│   ├── ltrace
-│   └── radare2
+│   └── ltrace
 ├── metadata
 ├── net-analyzer
 │   ├── ettercap
 │   ├── macchanger
 │   ├── openbsd-netcat
 │   └── thc-ipv6
-├── net-dialup
-│   └── minicom
-├── net-libs
-│   ├── libircclient
-│   └── webkit-gtk
+├── net-dns
+│   └── dnscrypt-proxy
 ├── net-misc
 │   ├── bridge-utils
 │   └── telnet-bsd
-├── net-news
-│   └── snownews
 ├── net-proxy
-│   └── torsocks
 ├── net-wireless
 │   ├── aircrack-ng
 │   ├── pixiewps
 │   └── reaver-wps-fork-t6x
-├── sys-apps
-│   └── neversearch
+├── sys-kernel
+│   └── grsec-unofficial-sources
 ├── x11-libs
 │   └── libwm
 └── x11-misc
