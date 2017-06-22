@@ -17,8 +17,6 @@ Yet another Gentoo overlay
 ├── app-misc
 │   ├── tbt
 │   └── whatmp3
-├── dev-python
-│   └── pycoin
 ├── dev-util
 │   └── ltrace
 ├── metadata
