@@ -1,6 +1,6 @@
 language: python
 python:
-    - pypy
+    - "3.5"
 notifications:
     irc:
         channels:
