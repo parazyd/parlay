@@ -9,7 +9,6 @@ K_DEBLOB_AVAILABLE="1"
 inherit kernel-2
 detect_version
 
-
 DESCRIPTION="unofficial grsec kernel sources (kernel series ${KV_MAJOR}.${KV_MINOR})"
 HOMEPAGE="https://github.com/minipli/linux-unofficial_grsec/"
 IUSE="deblob"
