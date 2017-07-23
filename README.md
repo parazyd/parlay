@@ -1,6 +1,8 @@
 parlay
 ======
 
+[![Build Status](https://travis-ci.org/parazyd/parlay.svg?branch=master)](https://travis-ci.org/parazyd/parlay)
+
 Yet another Gentoo overlay
 
 ## Contents
@@ -36,10 +38,11 @@ Yet another Gentoo overlay
 │   ├── pixiewps
 │   └── reaver-wps-fork-t6x
 ├── sys-kernel
-│   └── grsec-unofficial-sources
+│   └── hardened-sources
 ├── x11-libs
 │   └── libwm
 └── x11-misc
+    ├── compton
     ├── lemonbar
     ├── slstatus
     └── wmutils
