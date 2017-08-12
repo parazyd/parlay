@@ -26,11 +26,8 @@ src_prepare() {
 		-e "s@/usr/X11R6/include@${EPREFIX}/usr/include/X11@" \
 		-e "s@/usr/X11R6/lib@${EPREFIX}/usr/lib@" \
 		-e "s@-I/usr/include@@" -e "s@-L/usr/lib@@" \
+		-e "s@/man@/share/man@" \
 		config.mk || die
-	sed -i \
-		-e '/@echo CC/d' \
-		-e 's|@${CC}|$(CC)|g' \
-		Makefile || die
 
 	restore_config config.h
 }
