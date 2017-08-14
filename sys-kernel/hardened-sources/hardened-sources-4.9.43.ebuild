@@ -17,7 +17,7 @@ KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 
 RDEPEND=">=sys-devel/gcc-4.5"
 
-GRSEC_DATE="20170723002624"
+GRSEC_DATE="20170813161148"
 GRSEC_BASE_URL="https://github.com/minipli/linux-unofficial_grsec/releases/download"
 GRSEC_VERS_URL="${GRSEC_BASE_URL}/v${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}-unofficial_grsec"
 GRSEC_FILE="v${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}-unofficial_grsec-${GRSEC_DATE}.diff"
