@@ -6,8 +6,8 @@ EAPI=6
 inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="lightweight status monitor for window managers which use WM_NAME (eg. dwm)"
-HOMEPAGE="https://github.com/drkhsh/slstatus"
-EGIT_REPO_URI="https://github.com/drkhsh/slstatus"
+HOMEPAGE="https://git.suckless.org/slstatus"
+EGIT_REPO_URI="https://git.suckless.org/slstatus"
 
 LICENSE="ISC"
 SLOT="0"
