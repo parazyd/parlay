@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
 "
 RDEPEND="
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/multi_key_dict[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
 "
