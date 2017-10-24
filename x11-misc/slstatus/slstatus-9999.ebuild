@@ -21,8 +21,8 @@ src_prepare() {
 	default
 
 	sed -i \
-		-e "/^CDFLAGS/{s|=|+=|g;s|-O. | |g}" \
-		-e "/^LDFLAGS/{s|=|+=|g;s|-s | |g}" \
+		-e "/^CFLAGS/{s|=|+=|;s|-O. | |g}" \
+		-e "/^LDFLAGS/{s|=|+=|g;s|-s$| |g}" \
 		-e "s@/usr/X11R6/include@${EPREFIX}/usr/include/X11@" \
 		-e "s@/usr/X11R6/lib@${EPREFIX}/usr/lib@" \
 		-e "s@-I/usr/include@@" -e "s@-L/usr/lib@@" \
