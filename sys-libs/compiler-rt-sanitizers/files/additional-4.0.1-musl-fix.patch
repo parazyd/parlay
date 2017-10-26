@@ -1,0 +1,24 @@
+diff --git a/lib/sanitizer_common/sanitizer_platform_limits_posix.cc b/lib/sanitizer_common/sanitizer_platform_limits_posix.cc
+index 245f856..1a09252 100644
+--- a/lib/sanitizer_common/sanitizer_platform_limits_posix.cc
++++ b/lib/sanitizer_common/sanitizer_platform_limits_posix.cc
+@@ -64,7 +64,7 @@
+ #include <malloc.h>
+ #include <mntent.h>
+ #include <netinet/ether.h>
+-#include <sys/sysinfo.h>
++// #include <sys/sysinfo.h>
+ #include <sys/vt.h>
+ #include <linux/cdrom.h>
+ #include <linux/fd.h>
+@@ -168,7 +168,10 @@ typedef struct user_fpregs elf_fpregset_t;
+ #include <linux/if_eql.h>
+ #include <linux/if_plip.h>
+ #include <linux/lp.h>
++#include <netinet/in.h>
++#define _LINUX_IN_H
+ #include <linux/mroute.h>
++#define _LINUX_IN6_H
+ #include <linux/mroute6.h>
+ #include <linux/scc.h>
+ #include <linux/serial.h>
