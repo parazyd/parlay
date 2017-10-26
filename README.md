@@ -8,8 +8,6 @@ Yet another Gentoo overlay
 ## Contents
 
 ```
-├── app-admin
-│   └── doas
 ├── app-crypt
 │   ├── opmsg
 │   ├── steghide
@@ -19,31 +17,31 @@ Yet another Gentoo overlay
 ├── app-misc
 │   ├── tbt
 │   └── whatmp3
+├── app-text
+│   └── smu
+├── dev-python
+│   ├── jsonrpclib
+│   ├── multi_key_dict
+│   ├── pbkdf2
+│   └── python-jenkins
 ├── dev-util
 │   └── ltrace
+├── media-gfx
+│   └── farbfeld
 ├── metadata
 ├── net-analyzer
 │   ├── ettercap
-│   ├── macchanger
-│   ├── openbsd-netcat
-│   └── thc-ipv6
+│   └── macchanger
 ├── net-dns
 │   └── dnscrypt-proxy
-├── net-misc
-│   ├── bridge-utils
-│   └── telnet-bsd
-├── net-proxy
-├── net-wireless
-│   ├── aircrack-ng
-│   ├── pixiewps
-│   └── reaver-wps-fork-t6x
 ├── sys-kernel
-│   └── hardened-sources
+│   └── minipli-sources
+├── sys-libs
+│   └── compiler-rt-sanitizers
 ├── x11-libs
 │   └── libwm
 └── x11-misc
     ├── compton
-    ├── lemonbar
     ├── slstatus
     └── wmutils
 ```
