@@ -15,10 +15,10 @@ SRC_URI="https://download.electrum.org/${PV}/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 LINGUAS="ar_SA bg_BG cs_CZ da_DK de_DE el_GR eo_UY es_ES fr_FR hu_HU hy_AM id_ID it_IT ja_JP ko_KR ky_KG lv_LV nb_NO nl_NL pl_PL pt_BR pt_PT ro_RO ru_RU sk_SK sl_SI ta_IN th_TH tr_TR vi_VN zh_CN"
 
-IUSE="audio_modem cli cosign digitalbitbox email greenaddress_it ncurses qrcode +qt5 sync ledger trezor trustedcoin_com vkb"
+IUSE="audio_modem cli cosign digitalbitbox email greenaddress_it ncurses qrcode +qt5 sync trustedcoin_com vkb"
 
 for lingua in ${LINGUAS}; do
 	IUSE+=" linguas_${lingua}"
@@ -33,8 +33,6 @@ REQUIRED_USE="
 	greenaddress_it? ( qt5 )
 	qrcode? ( qt5 )
 	sync? ( qt5 )
-	ledger? ( qt5 )
-	trezor? ( qt5 )
 	trustedcoin_com? ( qt5 )
 	vkb? ( qt5 )
 "
@@ -59,8 +57,6 @@ RDEPEND="
 	qt5? (
 		dev-python/PyQt5[${PYTHON_USEDEP}]
 	)
-	ledger? ( dev-python/btchip-python[${PYTHON_USEDEP}] )
-	trezor? ( dev-python/python-trezor[${PYTHON_USEDEP}] )
 	ncurses? ( dev-lang/python )
 "
 
@@ -125,8 +121,6 @@ src_prepare() {
 	sed -i 's/^\([[:space:]]*\)\(config_options\['\''cwd'\''\] = .*\)$/\1\2\n\1config_options.setdefault("gui", "'"${bestgui}"'")\n/' electrum || die
 
 	local plugin
-	# trezor requires python trezorlib module
-	# keepkey requires trezor
 	for plugin in  \
 		$(usex audio_modem     '' audio_modem          ) \
 		$(usex cosign          '' cosigner_pool        ) \
@@ -134,10 +128,7 @@ src_prepare() {
 		$(usex email           '' email_requests       ) \
 		$(usex greenaddress_it '' greenaddress_instant ) \
 		hw_wallet \
-		$(usex ledger          '' ledger               ) \
-		keepkey \
 		$(usex sync            '' labels               ) \
-		$(usex trezor          '' trezor               ) \
 		$(usex trustedcoin_com '' trustedcoin          ) \
 		$(usex vkb             '' virtualkeyboard      ) \
 	; do

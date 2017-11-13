@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -30,6 +30,6 @@ src_install() {
 	dodoc AUTHORS ChangeLog NEWS README
 
 	dodir /usr/bin
-	dosym /sbin/macchanger /usr/bin/macchanger
-	dosym /lib/macchanger /usr/share/macchanger
+	dosym sbin/macchanger /usr/bin/macchanger
+	dosym lib/macchanger /usr/share/macchanger
 }
