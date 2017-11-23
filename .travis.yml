@@ -1,15 +1,15 @@
 language: python
 python:
-    - "3.5"
+    - "3.6"
 notifications:
     irc:
         channels:
             - "irc.dyne.org#avo"
-        on_success: always  # options: [always|never|change] default: always
+        on_success: change  # options: [always|never|change] default: always
         on_failure: always  # options: [always|never|change] default: always
-        on_start: true      # default: false
+        on_start: false     # default: false
 env:
-    - PORTAGE_VER="2.3.8"
+    - PORTAGE_VER="2.3.16"
 before_install:
     - sudo apt-get -qq update
     - pip install lxml
@@ -26,7 +26,7 @@ before_script:
     - echo "portage::250:portage,travis" >> /etc/group
     - wget "https://www.gentoo.org/dtd/metadata.dtd" -O /usr/portage/distfiles/metadata.dtd
     - ln -s portage-portage-${PORTAGE_VER}/cnf/repos.conf /etc/portage/repos.conf
-    - ln -s /usr/portage/profiles/default/linux/amd64/13.0 /etc/portage/make.profile
+    - ln -s /usr/portage/profiles/default/linux/amd64/17.0 /etc/portage/make.profile
     - cd travis-overlay
 script:
     - ./../spinner.sh "python ../portage-portage-${PORTAGE_VER}/repoman/bin/repoman full -i -d"
