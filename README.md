@@ -19,11 +19,16 @@ Yet another Gentoo overlay
 │   └── whatmp3
 ├── app-text
 │   └── smu
+├── dev-lang
+│   └── go
 ├── dev-python
 │   ├── jsonrpclib
 │   ├── multi_key_dict
 │   ├── pbkdf2
-│   └── python-jenkins
+│   ├── python-jenkins
+│   └── tlslite
+├── dev-qt
+│   └── qtnetwork
 ├── dev-util
 │   └── ltrace
 ├── media-gfx
@@ -34,7 +39,10 @@ Yet another Gentoo overlay
 │   └── macchanger
 ├── net-dns
 │   └── dnscrypt-proxy
+├── net-misc
+│   └── electrum
 ├── sys-kernel
+│   ├── libre-sources
 │   └── minipli-sources
 ├── sys-libs
 │   └── compiler-rt-sanitizers
