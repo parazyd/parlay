@@ -19,6 +19,8 @@ Yet another Gentoo overlay
 │   └── whatmp3
 ├── app-text
 │   └── smu
+├── dev-embedded
+│   └── sunxi-tools
 ├── dev-lang
 │   └── go
 ├── dev-python
@@ -33,6 +35,8 @@ Yet another Gentoo overlay
 │   └── ltrace
 ├── media-gfx
 │   └── farbfeld
+├── media-sound
+│   └── mumble
 ├── metadata
 ├── net-analyzer
 │   ├── ettercap
