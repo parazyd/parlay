@@ -65,7 +65,7 @@ S="${WORKDIR}/${MY_P}"
 DOCS="RELEASE-NOTES"
 
 src_prepare() {
-	eapply "${FILESDIR}/2.8.0-no-user-root.patch"
+	eapply "${FILESDIR}/3.0.1-no-user-root.patch"
 
 	# Prevent icon from being installed in the wrong location
 	sed -i '/icons/d' setup.py || die
