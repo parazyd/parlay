@@ -1,6 +1,8 @@
---- ./setup.py.orig	2017-01-06 19:17:44.294137848 +0000
-+++ ./setup.py	2017-01-06 19:17:50.093161327 +0000
-@@ -23,12 +23,6 @@
+diff --git a/setup.py b/setup.py
+index 0cb92f4..4174055 100755
+--- a/setup.py
++++ b/setup.py
+@@ -21,12 +21,6 @@ if platform.system() in ['Linux', 'FreeBSD', 'DragonFly']:
      parser.add_argument('--root=', dest='root_path', metavar='dir', default='/')
      opts, _ = parser.parse_known_args(sys.argv[1:])
      usr_share = os.path.join(sys.prefix, "share")
@@ -12,4 +14,4 @@
 -            usr_share = os.path.expanduser('~/.local/share')
      data_files += [
          (os.path.join(usr_share, 'applications/'), ['electrum.desktop']),
-     ]
+         (os.path.join(usr_share, 'pixmaps/'), ['icons/electrum.png'])
