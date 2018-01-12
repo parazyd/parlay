@@ -7,7 +7,6 @@ Yet another Gentoo overlay
 
 ## Contents
 
-```
 ├── app-crypt
 │   ├── opmsg
 │   ├── steghide
@@ -43,8 +42,6 @@ Yet another Gentoo overlay
 │   └── macchanger
 ├── net-dns
 │   └── dnscrypt-proxy
-├── net-misc
-│   └── electrum
 ├── sys-kernel
 │   ├── libre-sources
 │   └── minipli-sources
