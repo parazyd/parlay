@@ -41,20 +41,20 @@ RDEPEND="
 		dbus? ( >=dev-qt/qtdbus-4.6:4 )
 	)
 	qt5? (
-		>=dev-qt/qtcore-5.1:5
-		>=dev-qt/qtgui-5.1:5
-		>=dev-qt/qtnetwork-5.1:5
-		>=dev-qt/qtopengl-5.1:5
-		>=dev-qt/qtsql-5.1:5[sqlite]
-		>=dev-qt/qtsvg-5.1:5
-		>=dev-qt/qttranslations-5.1:5
-		>=dev-qt/qtwidgets-5.1:5
-		>=dev-qt/qtx11extras-5.1:5
-		>=dev-qt/qtxml-5.1:5
-		>=dev-qt/qtxmlpatterns-5.1:5
-		>=dev-qt/linguist-tools-5.1:5
+		>=dev-qt/qtcore-5.9
+		>=dev-qt/qtgui-5.9
+		>=dev-qt/qtnetwork-5.9
+		>=dev-qt/qtopengl-5.9
+		>=dev-qt/qtsql-5.9[sqlite]
+		>=dev-qt/qtsvg-5.9
+		>=dev-qt/qttranslations-5.9
+		>=dev-qt/qtwidgets-5.9
+		>=dev-qt/qtx11extras-5.9
+		>=dev-qt/qtxml-5.9
+		>=dev-qt/qtxmlpatterns-5.9
+		>=dev-qt/linguist-tools-5.9
 		app-crypt/qca:2[qt5(+)]
-		dbus? ( >=dev-qt/qtdbus-5.1:5 )
+		dbus? ( >=dev-qt/qtdbus-5.9 )
 	)
 
 	>=dev-libs/boost-1.41.0
