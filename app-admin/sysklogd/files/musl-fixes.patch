@@ -1,0 +1,84 @@
+diff --git a/klogd.c b/klogd.c
+index 2bd331f..8e8e76b 100644
+--- a/klogd.c
++++ b/klogd.c
+@@ -262,9 +262,6 @@
+ #include <errno.h>
+ #include <sys/fcntl.h>
+ #include <sys/stat.h>
+-#if !defined(__GLIBC__)
+-#include <linux/time.h>
+-#endif /* __GLIBC__ */
+ #include <paths.h>
+ #include <stdlib.h>
+ #include <pwd.h>
+@@ -278,13 +275,8 @@
+ 
+ #define __LIBRARY__
+ #include <linux/unistd.h>
+-#if !defined(__GLIBC__)
+-# define __NR_ksyslog __NR_syslog
+-_syscall3(int,ksyslog,int, type, char *, buf, int, len);
+-#else
+ #include <sys/klog.h>
+ #define ksyslog klogctl
+-#endif
+ 
+ #define LOG_BUFFER_SIZE 4096
+ #define LOG_LINE_LENGTH 1000
+diff --git a/ksym_mod.c b/ksym_mod.c
+index 063f911..3a799be 100644
+--- a/ksym_mod.c
++++ b/ksym_mod.c
+@@ -113,12 +113,9 @@
+ #include <unistd.h>
+ #include <signal.h>
+ #include <errno.h>
+-#include <sys/fcntl.h>
++#include <fcntl.h>
+ #include <sys/stat.h>
+ #include "module.h"
+-#if !defined(__GLIBC__)
+-#include <linux/time.h>
+-#endif /* __GLIBC__ */
+ #include <paths.h>
+ #include <linux/version.h>
+ 
+diff --git a/pidfile.c b/pidfile.c
+index e0959a0..e688370 100644
+--- a/pidfile.c
++++ b/pidfile.c
+@@ -28,6 +28,7 @@
+ #include <unistd.h>
+ #include <sys/stat.h>
+ #include <sys/file.h>
++#include <fcntl.h>
+ #include <string.h>
+ #include <errno.h>
+ #include <signal.h>
+diff --git a/syslog.c b/syslog.c
+index 2d1ad38..98e339e 100644
+--- a/syslog.c
++++ b/syslog.c
+@@ -72,6 +72,7 @@ static char sccsid[] = "@(#)syslog.c	5.28 (Berkeley) 6/27/90";
+ #include <stdarg.h>
+ #include <paths.h>
+ #include <stdio.h>
++#include <fcntl.h>
+ 
+ #define	_PATH_LOGNAME	"/dev/log"
+ 
+diff --git a/syslogd.c b/syslogd.c
+index c22dda7..f6bb6bf 100644
+--- a/syslogd.c
++++ b/syslogd.c
+@@ -825,9 +825,7 @@ void doexit(int sig);
+ void init();
+ void cfline(char *line, register struct filed *f);
+ int decode(char *name, struct code *codetab);
+-#if defined(__GLIBC__)
+ #define dprintf mydprintf
+-#endif /* __GLIBC__ */
+ static void dprintf(char *, ...);
+ static void allocate_log(void);
+ void sighup_handler();
