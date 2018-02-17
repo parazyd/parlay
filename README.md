@@ -34,7 +34,6 @@ Yet another Gentoo overlay
 ├── net-analyzer
 │   └── macchanger
 ├── net-misc
-│   ├── electrum
 │   └── sacc
 ├── sys-kernel
 │   ├── libre-sources
