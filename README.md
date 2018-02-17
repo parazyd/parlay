@@ -34,7 +34,6 @@ Yet another Gentoo overlay
 ├── x11-libs
 │   └── libwm
 └── x11-misc
-    ├── compton
     ├── slstatus
     └── wmutils
 ```
