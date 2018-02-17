@@ -11,7 +11,7 @@ HOMEPAGE="https://www.gtk.org/"
 
 LICENSE="LGPL-2+"
 SLOT="3"
-IUSE="aqua broadway cloudprint colord cups examples +introspection test vim-syntax wayland +X xinerama"
+IUSE="atk-bridge aqua broadway cloudprint colord cups examples +introspection test vim-syntax wayland +X xinerama"
 REQUIRED_USE="
 	|| ( aqua wayland X )
 	xinerama? ( X )
@@ -48,7 +48,7 @@ COMMON_DEPEND="
 		>=x11-libs/libxkbcommon-0.2[${MULTILIB_USEDEP}]
 	)
 	X? (
-		>=app-accessibility/at-spi2-atk-2.5.3[${MULTILIB_USEDEP}]
+		atk-bridge? ( >=app-accessibility/at-spi2-atk-2.5.3[${MULTILIB_USEDEP}] )
 		x11-libs/libX11[${MULTILIB_USEDEP}]
 		>=x11-libs/libXi-1.3[${MULTILIB_USEDEP}]
 		x11-libs/libXext[${MULTILIB_USEDEP}]
@@ -129,6 +129,12 @@ src_prepare() {
 	# Fix broken autotools logic
 	eapply "${FILESDIR}"/${PN}-3.22.20-libcloudproviders-automagic.patch
 
+	# Use patches from BSD to make gtk3-atk-bridge a true option -
+	# This was intentionally removed by upstream, see
+	# https://mail.gnome.org/archives/commits-list/2012-June/msg03813.html
+	# This enables us to build gtk3 without the indirect dependency on dbus
+	eapply "${FILESDIR}"/${PN}-3.22.26-atk-bridge.patch
+
 	eautoreconf
 	gnome2_src_prepare
 }
@@ -153,6 +159,7 @@ multilib_src_configure() {
 		$(use_enable X xkb) \
 		$(use_enable X xrandr) \
 		$(use_enable xinerama) \
+		$(use_with atk-bridge) \
 		--disable-cloudproviders \
 		--disable-mir-backend \
 		--disable-papi \
