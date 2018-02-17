@@ -12,7 +12,7 @@ EGIT_REPO_URI="git://bitreich.org/sacc"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE="ncurses"
+IUSE="ncurses savedconfig"
 
 DEPEND="ncurses? ( sys-libs/ncurses:0 )"
 RDEPEND="${DEPEND}"
@@ -38,6 +38,6 @@ src_install() {
 }
 
 pkg_postinst() {
-    einfo "This ebuild has support for user defined configs"
-    einfo "Please read this ebuild for more details and re-emerge as needed"
+	einfo "This ebuild has support for user defined configs"
+	einfo "Please read this ebuild for more details and re-emerge as needed"
 }

@@ -1,6 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# ---
+
 # taken from mva's overlay (thx ng0)
 # added a commit hash to a predictable version --lynX
 # CAUTION: git submodules are not cryptographically protected,
