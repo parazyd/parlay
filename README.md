@@ -26,8 +26,6 @@ Yet another Gentoo overlay
 │   └── farbfeld
 ├── media-sound
 │   └── mumble
-├── net-analyzer
-│   └── macchanger
 ├── net-misc
 │   └── sacc
 ├── sys-kernel
