@@ -11,7 +11,6 @@ Yet another Gentoo overlay
 ├── app-admin
 │   └── sysklogd
 ├── app-crypt
-│   ├── steghide
 │   └── tomb
 ├── app-laptop
 │   └── thinkfan
@@ -27,7 +26,6 @@ Yet another Gentoo overlay
 │   └── farbfeld
 ├── media-sound
 │   └── mumble
-├── metadata
 ├── net-analyzer
 │   └── macchanger
 ├── net-misc
