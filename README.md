@@ -25,9 +25,7 @@ Yet another Gentoo overlay
 │   └── go
 ├── dev-python
 │   ├── jsonrpclib
-│   ├── multi_key_dict
 │   ├── pbkdf2
-│   └── python-jenkins
 ├── media-gfx
 │   └── farbfeld
 ├── media-sound
