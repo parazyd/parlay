@@ -23,9 +23,6 @@ Yet another Gentoo overlay
 │   └── sunxi-tools
 ├── dev-lang
 │   └── go
-├── dev-python
-│   ├── jsonrpclib
-│   ├── pbkdf2
 ├── media-gfx
 │   └── farbfeld
 ├── media-sound
