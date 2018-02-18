@@ -12,8 +12,6 @@ Yet another Gentoo overlay
 │   └── sysklogd
 ├── app-crypt
 │   └── tomb
-├── app-laptop
-│   └── thinkfan
 ├── app-misc
 │   └── whatmp3
 ├── app-text
