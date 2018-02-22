@@ -9,6 +9,7 @@ Yet another Gentoo overlay
 
 ```
 ├── app-admin
+│   ├── sup
 │   └── sysklogd
 ├── app-crypt
 │   └── tomb
@@ -30,6 +31,7 @@ Yet another Gentoo overlay
 │   ├── libre-sources
 │   └── minipli-sources
 ├── x11-libs
+│   ├── gtk+
 │   └── libwm
 └── x11-misc
     ├── slstatus
