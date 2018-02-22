@@ -7,7 +7,7 @@ inherit git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="saccomys, simple console gopher client"
 HOMEPAGE="gopher://bitreich.org/1/scm/sacc"
-EGIT_REPO_URI="git://bitreich.org/sacc"
+EGIT_REPO_URI="https://git.parazyd.org/sacc.git"
 
 LICENSE="ISC"
 SLOT="0"
