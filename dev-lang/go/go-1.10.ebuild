@@ -190,7 +190,7 @@ src_compile()
 	einfo "GOROOT_BOOTSTRAP is ${GOROOT_BOOTSTRAP}"
 
 	cd src
-	CGO_ENABLED=0 ./make.bash || die "build failed"
+	CGO_ENABLED=1 ./make.bash || die "build failed"
 }
 
 src_test()
