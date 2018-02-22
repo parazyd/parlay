@@ -23,8 +23,6 @@ GRSEC_VERS_URL="${GRSEC_BASE_URL}/v${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}-unofficia
 GRSEC_FILE="v${KV_MAJOR}.${KV_MINOR}.${KV_PATCH}-unofficial_grsec-${GRSEC_DATE}.diff"
 GRSEC_URI="${GRSEC_VERS_URL}/${GRSEC_FILE}"
 
-#EXTRAS_URI="https://pub.parazyd.cf/mirror/gentoo/patches/minipli-sources-extras.tar.gz"
-
 SRC_URI="${KERNEL_URI} ${GRSEC_URI}"
 
 UNIPATCH_LIST="${DISTDIR}/${GRSEC_FILE}"

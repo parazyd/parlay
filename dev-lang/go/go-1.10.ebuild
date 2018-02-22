@@ -11,7 +11,7 @@ MY_PV=${PV/_/}
 inherit toolchain-funcs
 
 #BOOTSTRAP_DIST="https://dev.gentoo.org/~williamh/dist"
-BOOTSTRAP_DIST="https://pub.parazyd.cf/mirror/gentoo/distfiles"
+BOOTSTRAP_DIST="https://parazyd.org/pub/mirror/gentoo/distfiles"
 BOOTSTRAP_VERSION="bootstrap-1.4.3"
 BOOTSTRAP_URI="
 amd64? ( ${BOOTSTRAP_DIST}/go-linux-amd64-${BOOTSTRAP_VERSION}.tbz )"

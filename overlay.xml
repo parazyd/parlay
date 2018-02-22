@@ -3,12 +3,12 @@
 <repo priority="10" status="unofficial">
 	<name>parlay</name>
 	<description>Yet another Gentoo overlay!</description>
-	<homepage>https://parazyd.cf</homepage>
+	<homepage>gopher://parazyd.org</homepage>
 	<owner>
 		<email>parazyd@dyne.org</email>
 		<name>parazyd</name>
 	</owner>
-	<source type="git">git://github.com/parazyd/parlay.git</source>
-	<feed>https://github.com/parazyd/parlay/commits/master.atom</feed>
+	<source type="git">https://git.parazyd.org/parlay.git</source>
+	<feed>https://parazyd.org/git/parlay/atom.xml</feed>
 </repo>
 </repositories>

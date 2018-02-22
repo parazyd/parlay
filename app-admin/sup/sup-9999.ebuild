@@ -6,8 +6,8 @@ EAPI=6
 inherit git-r3 savedconfig
 
 DESCRIPTION="small and secure tool for privilege escalation"
-HOMEPAGE="https://github.com/parazyd/sup/"
-EGIT_REPO_URI="https://github.com/parazyd/sup/"
+HOMEPAGE="https://parazyd.org/git/sup/"
+EGIT_REPO_URI="https://git.parazyd.org/sup.git"
 
 LICENSE="GPL-3+"
 SLOT="0"
