@@ -23,6 +23,8 @@ src_prepare() {
 	if use ncurses; then
 		echo "UI=ti" >> config.mk
 		echo "LIBS=-lcurses" >> config.mk
+	else
+		sed -e 's/LIBS=.*/UI=txt/' -i config.mk
 	fi
 
 	restore_config config.h
