@@ -10,7 +10,6 @@ Yet another Gentoo overlay
 ```
 ├── app-admin
 │   ├── sup
-│   └── sysklogd
 ├── app-crypt
 │   └── tomb
 ├── app-misc
