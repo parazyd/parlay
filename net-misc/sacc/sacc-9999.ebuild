@@ -12,7 +12,7 @@ EGIT_REPO_URI="https://git.parazyd.org/sacc.git"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE="ncurses savedconfig"
+IUSE="ncurses savedconfig static"
 
 DEPEND="ncurses? ( sys-libs/ncurses:0 )"
 RDEPEND="${DEPEND}"
@@ -25,6 +25,9 @@ src_prepare() {
 		echo "LIBS=-lcurses" >> config.mk
 	else
 		sed -e 's/LIBS=.*/UI=txt/' -i config.mk
+	fi
+	if use static; then
+		echo "LDFLAGS+=-static" >> config.mk
 	fi
 
 	restore_config config.h
