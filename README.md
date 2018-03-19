@@ -9,7 +9,7 @@ Yet another Gentoo overlay
 
 ```
 ├── app-admin
-│   ├── sup
+│   └── sup
 ├── app-crypt
 │   └── tomb
 ├── app-misc
@@ -20,8 +20,6 @@ Yet another Gentoo overlay
 │   └── sunxi-tools
 ├── dev-lang
 │   └── go
-├── media-gfx
-│   └── farbfeld
 ├── media-sound
 │   └── mumble
 ├── net-misc
