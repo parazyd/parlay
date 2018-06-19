@@ -40,6 +40,6 @@ src_install() {
 	dobin logfilter.py
 
 	cd ../docs
-	dodoc LICENSE README README.REAVER README.WASH
+	dodoc README README.REAVER README.WASH
 	doman reaver.1
 }
