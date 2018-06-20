@@ -182,7 +182,7 @@ IUSE="bash-completion doc libressl"
 COMMON_DEPEND="
 	libressl? ( dev-libs/libressl:0= )
 	!libressl? ( dev-libs/openssl:0= )
-	net-libs/http-parser:0/2.6.2
+	net-libs/http-parser:0/2.8.0
 	net-libs/libssh2:=
 	net-misc/curl:=[ssl]
 	sys-libs/zlib:=
