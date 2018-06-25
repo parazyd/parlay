@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -10,24 +10,36 @@ MY_PV=${PV/_/}
 
 inherit toolchain-funcs
 
-#BOOTSTRAP_DIST="https://dev.gentoo.org/~williamh/dist"
-BOOTSTRAP_DIST="https://parazyd.org/pub/mirror/gentoo/distfiles"
-BOOTSTRAP_VERSION="bootstrap-1.4.3"
+DESCRIPTION="A concurrent garbage collected and typesafe programming language"
+HOMEPAGE="https://golang.org"
+
+LICENSE="BSD"
+SLOT="0/${PV}"
+IUSE="gccgo elibc_musl"
+
+BOOTSTRAP_DIST="https://dev.gentoo.org/~williamh/dist"
+BOOTSTRAP_VERSION="bootstrap-1.8"
 BOOTSTRAP_URI="
-amd64? ( ${BOOTSTRAP_DIST}/go-linux-amd64-${BOOTSTRAP_VERSION}.tbz )"
-#arm? ( ${BOOTSTRAP_DIST}/go-linux-arm-${BOOTSTRAP_VERSION}.tbz )
-#arm64? ( ${BOOTSTRAP_DIST}/go-linux-arm64-${BOOTSTRAP_VERSION}.tbz )
-#ppc64? (
-#	${BOOTSTRAP_DIST}/go-linux-ppc64-${BOOTSTRAP_VERSION}.tbz
-#	${BOOTSTRAP_DIST}/go-linux-ppc64le-${BOOTSTRAP_VERSION}.tbz
-#)
-#s390? ( ${BOOTSTRAP_DIST}/go-linux-s390x-${BOOTSTRAP_VERSION}.tbz )
-#x86? ( ${BOOTSTRAP_DIST}/go-linux-386-${BOOTSTRAP_VERSION}.tbz )
-#amd64-fbsd? ( ${BOOTSTRAP_DIST}/go-freebsd-amd64-${BOOTSTRAP_VERSION}.tbz )
-#x86-fbsd? ( ${BOOTSTRAP_DIST}/go-freebsd-386-${BOOTSTRAP_VERSION}.tbz )
-#x64-macos? ( ${BOOTSTRAP_DIST}/go-darwin-amd64-${BOOTSTRAP_VERSION}.tbz )
-#x64-solaris? ( ${BOOTSTRAP_DIST}/go-solaris-amd64-${BOOTSTRAP_VERSION}.tbz )
-#"
+amd64? ( ${BOOTSTRAP_DIST}/go-linux-amd64-${BOOTSTRAP_VERSION}.tbz )
+arm? ( ${BOOTSTRAP_DIST}/go-linux-arm-${BOOTSTRAP_VERSION}.tbz )
+arm64? ( ${BOOTSTRAP_DIST}/go-linux-arm64-${BOOTSTRAP_VERSION}.tbz )
+ppc64? (
+	${BOOTSTRAP_DIST}/go-linux-ppc64-${BOOTSTRAP_VERSION}.tbz
+	${BOOTSTRAP_DIST}/go-linux-ppc64le-${BOOTSTRAP_VERSION}.tbz
+)
+s390? ( ${BOOTSTRAP_DIST}/go-linux-s390x-${BOOTSTRAP_VERSION}.tbz )
+x86? ( ${BOOTSTRAP_DIST}/go-linux-386-${BOOTSTRAP_VERSION}.tbz )
+amd64-fbsd? ( ${BOOTSTRAP_DIST}/go-freebsd-amd64-${BOOTSTRAP_VERSION}.tbz )
+x86-fbsd? ( ${BOOTSTRAP_DIST}/go-freebsd-386-${BOOTSTRAP_VERSION}.tbz )
+x64-macos? ( ${BOOTSTRAP_DIST}/go-darwin-amd64-${BOOTSTRAP_VERSION}.tbz )
+x64-solaris? ( ${BOOTSTRAP_DIST}/go-solaris-amd64-${BOOTSTRAP_VERSION}.tbz )
+"
+
+BOOTSTRAP_DIST_MUSL="https://parazyd.org/pub/mirror/gentoo/distfiles"
+BOOTSTRAP_VERSION_MUSL="bootstrap-1.4.3"
+BOOTSTRAP_URI_MUSL="
+amd64? ( ${BOOTSTRAP_DIST_MUSL}/go-linux-amd64-${BOOTSTRAP_VERSION_MUSL}.tbz )
+"
 
 case ${PV}  in
 *9999*)
@@ -40,7 +52,7 @@ case ${PV}  in
 	case ${PV} in
 	*_beta*|*_rc*) ;;
 	*)
-		KEYWORDS="-* amd64 ~arm ~arm64 ~ppc64 x86 ~amd64-fbsd ~x86-fbsd ~x64-macos ~x64-solaris"
+		KEYWORDS="-* ~amd64 ~arm ~arm64 ~ppc64 ~s390 ~x86 ~amd64-fbsd ~x86-fbsd ~x64-macos ~x64-solaris"
 		# The upstream tests fail under portage but pass if the build is
 		# run according to their documentation [1].
 		# I am restricting the tests on released versions until this is
@@ -50,14 +62,12 @@ case ${PV}  in
 		;;
 	esac
 esac
-SRC_URI+="!gccgo? ( ${BOOTSTRAP_URI} )"
-
-DESCRIPTION="A concurrent garbage collected and typesafe programming language"
-HOMEPAGE="https://golang.org"
-
-LICENSE="BSD"
-SLOT="0/${PV}"
-IUSE="gccgo"
+SRC_URI+="
+	!gccgo? (
+		!elibc_musl? ( ${BOOTSTRAP_URI} )
+		elibc_musl? ( ${BOOTSTRAP_URI_MUSL} )
+	)
+"
 
 DEPEND="gccgo? ( >=sys-devel/gcc-5[go] )"
 RDEPEND="!<dev-go/go-tools-0_pre20150902"
@@ -65,6 +75,7 @@ RDEPEND="!<dev-go/go-tools-0_pre20150902"
 # These test data objects have writable/executable stacks.
 QA_EXECSTACK="
 	usr/lib/go/src/debug/elf/testdata/*.obj
+	usr/lib/go/src/go/internal/gccgoimporter/testdata/escapeinfo.gox
 	usr/lib/go/src/go/internal/gccgoimporter/testdata/unicode.gox
 	usr/lib/go/src/go/internal/gccgoimporter/testdata/time.gox
 	"
