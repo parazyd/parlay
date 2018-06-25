@@ -30,8 +30,6 @@ dev-lang/
 └── go
 dev-util/
 └── cargo
-media-sound/
-└── mumble
 net-misc/
 └── sacc
 net-wireless/
