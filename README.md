@@ -28,8 +28,6 @@ dev-embedded/
 └── sunxi-tools
 dev-lang/
 └── go
-dev-util/
-└── cargo
 net-misc/
 └── sacc
 net-wireless/
