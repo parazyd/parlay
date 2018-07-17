@@ -17,7 +17,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
 	MY_PV=${PV/_/-}
-	SRC_URI="http://download.${PN}.org/${PN}-${MY_PV}.tar.gz"
+	SRC_URI="https://github.com/aircrack-ng/aircrack-ng/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~ppc ~x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 	S="${WORKDIR}/${PN}-${MY_PV}"
 fi
@@ -25,7 +25,8 @@ fi
 LICENSE="GPL-2"
 SLOT="0"
 
-IUSE="+airdrop-ng +airgraph-ng kernel_linux kernel_FreeBSD +netlink +pcre +sqlite +experimental libressl"
+IUSE="+airdrop-ng +airgraph-ng kernel_linux kernel_FreeBSD +netlink +pcre
++sqlite +experimental libressl"
 
 DEPEND="net-libs/libpcap
 	!libressl? ( dev-libs/openssl:0= )
@@ -61,7 +62,6 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch "${FILESDIR}"/aircrack-ng-1.2-no-force-stack-protector.patch
 	eapply_user
 	eautoreconf
 }
