@@ -1,0 +1,32 @@
+From 90268dc82de90c46555f4ff8e0b794a746e40545 Mon Sep 17 00:00:00 2001
+From: parazyd <parazyd@dyne.org>
+Date: Thu, 18 Oct 2018 09:50:10 +0200
+Subject: [PATCH 11/11] Avoid name conflicts with musl-libc
+
+---
+ src/llvm/include/llvm/Analysis/TargetLibraryInfo.def | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/src/llvm/include/llvm/Analysis/TargetLibraryInfo.def b/src/llvm/include/llvm/Analysis/TargetLibraryInfo.def
+index 24608af38..600c51ff1 100644
+--- a/src/llvm/include/llvm/Analysis/TargetLibraryInfo.def
++++ b/src/llvm/include/llvm/Analysis/TargetLibraryInfo.def
+@@ -27,6 +27,15 @@
+ #define TLI_DEFINE_STRING_INTERNAL(string_repr) string_repr,
+ #endif
+ 
++// avoid name conflicts with musl-libc
++#undef fopen64
++#undef fseeko64
++#undef ftello64
++#undef fstat64
++#undef lstat64
++#undef stat64
++#undef tmpfile64
++
+ /// void *new(unsigned int);
+ TLI_DEFINE_ENUM_INTERNAL(msvc_new_int)
+ TLI_DEFINE_STRING_INTERNAL("??2@YAPAXI@Z")
+-- 
+2.19.1
+
