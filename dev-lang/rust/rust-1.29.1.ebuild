@@ -49,7 +49,7 @@ LLVM_TARGET_USEDEPS=${ALL_LLVM_TARGETS[@]/%/?}
 
 LICENSE="|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4 UoI-NCSA"
 
-IUSE="cargo clippy cpu_flags_x86_sse2 debug doc +jemalloc libressl rls rustfmt wasm ${ALL_LLVM_TARGETS[*]}"
+IUSE="cargo clippy cpu_flags_x86_sse2 debug doc system-llvm +jemalloc libressl rls rustfmt wasm ${ALL_LLVM_TARGETS[*]}"
 
 RDEPEND=">=app-eselect/eselect-rust-0.3_pre20150425
 		jemalloc? ( dev-libs/jemalloc )
@@ -89,21 +89,20 @@ PATCHES=(
 	"${FILESDIR}/0011-Avoid-name-conflicts-with-musl-libc.patch"
 )
 
-	#"${FILESDIR}/0001-Require-static-native-libraries-when-linking-static-.patch"
-	#"${FILESDIR}/0006-Fix-rustdoc-for-cross-targets.patch"
-	#"${FILESDIR}/0009-Update-libc-to-0.2.43.patch"
-
 toml_usex() {
 	usex "$1" true false
 }
 
 pkg_setup() {
 	export RUST_BACKTRACE=1
-	llvm_pkg_setup
-	local llvm_config="$(get_llvm_prefix "$LLVM_MAX_SLOT")/bin/llvm-config"
 
-	export LLVM_LINK_SHARED=1
-	export RUSTFLAGS="$RUSTFLAGS -Lnative=$("$llvm_config" --libdir)"
+	if use system-llvm; then
+		llvm_pkg_setup
+		local llvm_config="$(get_llvm_prefix "$LLVM_MAX_SLOT")/bin/llvm-config"
+
+		export LLVM_LINK_SHARED=1
+		export RUSTFLAGS="$RUSTFLAGS -Lnative=$("$llvm_config" --libdir)"
+	fi
 
 	python-any-r1_pkg_setup
 }
