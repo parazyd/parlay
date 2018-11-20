@@ -3,7 +3,7 @@
 
 EAPI=6
 
-LLVM_MAX_SLOT=6
+LLVM_MAX_SLOT=7
 PYTHON_COMPAT=( python2_7 python3_{5,6} pypy )
 
 inherit llvm eapi7-ver multiprocessing multilib-build python-any-r1 toolchain-funcs
