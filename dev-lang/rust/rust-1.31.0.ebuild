@@ -22,11 +22,11 @@ else
 	KEYWORDS="amd64 ~arm64 x86"
 fi
 
-CHOST_amd64=x86_64-unknown-linux-musl
+CHOST_amd64=x86_64-gentoo-linux-musl
 CHOST_x86=i686-unknown-linux-gnu
 CHOST_arm64=aarch64-unknown-linux-gnu
 
-RUST_STAGE0_VERSION="1.$(($(ver_cut 2) - 1)).0"
+RUST_STAGE0_VERSION="1.$(($(ver_cut 2) - 1)).1"
 RUST_STAGE0_amd64="rust-${RUST_STAGE0_VERSION}-${CHOST_amd64}"
 RUST_STAGE0_x86="rust-${RUST_STAGE0_VERSION}-${CHOST_x86}"
 RUST_STAGE0_arm64="rust-${RUST_STAGE0_VERSION}-${CHOST_arm64}"
