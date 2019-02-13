@@ -1,0 +1,4 @@
+#
+# Parameters to be passed to tlstun
+#
+TLSTUN_ARGS="-c /etc/ssl/server.pem -k /etc/ssl/server-key.pem -l 127.0.0.1:7443 -f 127.0.0.1:72"
