@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stylish (stylish) font."
+DESCRIPTION="Google Fonts Stylish font"
 HOMEPAGE="https://fonts.google.com/specimen/Stylish"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

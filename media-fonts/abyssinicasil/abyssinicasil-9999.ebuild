@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Abyssinica SIL (abyssinicasil) font."
+DESCRIPTION="Google Fonts Abyssinica SIL font"
 HOMEPAGE="https://fonts.google.com/specimen/Abyssinica+SIL"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gemunu Libre (gemunulibre) font."
+DESCRIPTION="Google Fonts Gemunu Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Gemunu+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

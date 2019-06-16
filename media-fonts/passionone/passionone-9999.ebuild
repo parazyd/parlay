@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Passion One (passionone) font."
+DESCRIPTION="Google Fonts Passion One font"
 HOMEPAGE="https://fonts.google.com/specimen/Passion+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

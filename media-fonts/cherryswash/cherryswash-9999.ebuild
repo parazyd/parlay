@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cherry Swash (cherryswash) font."
+DESCRIPTION="Google Fonts Cherry Swash font"
 HOMEPAGE="https://fonts.google.com/specimen/Cherry+Swash"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

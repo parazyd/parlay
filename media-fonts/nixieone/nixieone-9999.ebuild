@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nixie One (nixieone) font."
+DESCRIPTION="Google Fonts Nixie One font"
 HOMEPAGE="https://fonts.google.com/specimen/Nixie+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

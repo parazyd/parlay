@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cinzel Decorative (cinzeldecorative) font."
+DESCRIPTION="Google Fonts Cinzel Decorative font"
 HOMEPAGE="https://fonts.google.com/specimen/Cinzel+Decorative"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kodchasan (kodchasan) font."
+DESCRIPTION="Google Fonts Kodchasan font"
 HOMEPAGE="https://fonts.google.com/specimen/Kodchasan"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

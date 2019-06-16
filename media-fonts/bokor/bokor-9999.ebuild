@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bokor (bokor) font."
+DESCRIPTION="Google Fonts Bokor font"
 HOMEPAGE="https://fonts.google.com/specimen/Bokor"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

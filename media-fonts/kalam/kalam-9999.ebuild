@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kalam (kalam) font."
+DESCRIPTION="Google Fonts Kalam font"
 HOMEPAGE="https://fonts.google.com/specimen/Kalam"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

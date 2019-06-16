@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Irish Grover (irishgrover) font."
+DESCRIPTION="Google Fonts Irish Grover font"
 HOMEPAGE="https://fonts.google.com/specimen/Irish+Grover"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

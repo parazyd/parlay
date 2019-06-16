@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mukta Mahee (muktamahee) font."
+DESCRIPTION="Google Fonts Mukta Mahee font"
 HOMEPAGE="https://fonts.google.com/specimen/Mukta+Mahee"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

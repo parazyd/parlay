@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' League Script (leaguescript) font."
+DESCRIPTION="Google Fonts League Script font"
 HOMEPAGE="https://fonts.google.com/specimen/League+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

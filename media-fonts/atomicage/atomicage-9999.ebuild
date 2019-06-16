@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Atomic Age (atomicage) font."
+DESCRIPTION="Google Fonts Atomic Age font"
 HOMEPAGE="https://fonts.google.com/specimen/Atomic+Age"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

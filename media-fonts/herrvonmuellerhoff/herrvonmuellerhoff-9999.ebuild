@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Herr Von Muellerhoff (herrvonmuellerhoff) font."
+DESCRIPTION="Google Fonts Herr Von Muellerhoff font"
 HOMEPAGE="https://fonts.google.com/specimen/Herr+Von+Muellerhoff"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Purple Purse (purplepurse) font."
+DESCRIPTION="Google Fonts Purple Purse font"
 HOMEPAGE="https://fonts.google.com/specimen/Purple+Purse"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

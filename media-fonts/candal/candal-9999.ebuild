@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Candal (candal) font."
+DESCRIPTION="Google Fonts Candal font"
 HOMEPAGE="https://fonts.google.com/specimen/Candal"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Alike (alike) font."
+DESCRIPTION="Google Fonts Alike font"
 HOMEPAGE="https://fonts.google.com/specimen/Alike"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Marvel (marvel) font."
+DESCRIPTION="Google Fonts Marvel font"
 HOMEPAGE="https://fonts.google.com/specimen/Marvel"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

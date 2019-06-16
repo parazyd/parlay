@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pridi (pridi) font."
+DESCRIPTION="Google Fonts Pridi font"
 HOMEPAGE="https://fonts.google.com/specimen/Pridi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

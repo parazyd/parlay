@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fira Sans Extra Condensed (firasansextracondensed) font."
+DESCRIPTION="Google Fonts Fira Sans Extra Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

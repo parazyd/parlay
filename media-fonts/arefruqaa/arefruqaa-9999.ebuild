@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Aref Ruqaa (arefruqaa) font."
+DESCRIPTION="Google Fonts Aref Ruqaa font"
 HOMEPAGE="https://fonts.google.com/specimen/Aref+Ruqaa"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

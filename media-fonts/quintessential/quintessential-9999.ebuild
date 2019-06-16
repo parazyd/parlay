@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Quintessential (quintessential) font."
+DESCRIPTION="Google Fonts Quintessential font"
 HOMEPAGE="https://fonts.google.com/specimen/Quintessential"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

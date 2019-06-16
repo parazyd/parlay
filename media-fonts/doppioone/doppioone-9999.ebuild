@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Doppio One (doppioone) font."
+DESCRIPTION="Google Fonts Doppio One font"
 HOMEPAGE="https://fonts.google.com/specimen/Doppio+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

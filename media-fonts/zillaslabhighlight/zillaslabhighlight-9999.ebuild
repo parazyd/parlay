@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Zilla Slab Highlight (zillaslabhighlight) font."
+DESCRIPTION="Google Fonts Zilla Slab Highlight font"
 HOMEPAGE="https://fonts.google.com/specimen/Zilla+Slab+Highlight"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

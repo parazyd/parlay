@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Red Hat Display (redhatdisplay) font."
+DESCRIPTION="Google Fonts Red Hat Display font"
 HOMEPAGE="https://fonts.google.com/specimen/Red+Hat+Display"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

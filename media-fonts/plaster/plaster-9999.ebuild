@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Plaster (plaster) font."
+DESCRIPTION="Google Fonts Plaster font"
 HOMEPAGE="https://fonts.google.com/specimen/Plaster"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

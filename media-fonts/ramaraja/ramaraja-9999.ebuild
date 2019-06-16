@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ramaraja (ramaraja) font."
+DESCRIPTION="Google Fonts Ramaraja font"
 HOMEPAGE="https://fonts.google.com/specimen/Ramaraja"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stalin One (stalinone) font."
+DESCRIPTION="Google Fonts Stalin One font"
 HOMEPAGE="https://fonts.google.com/specimen/Stalin+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

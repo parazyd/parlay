@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arimo (arimo) font."
+DESCRIPTION="Google Fonts Arimo font"
 HOMEPAGE="https://fonts.google.com/specimen/Arimo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

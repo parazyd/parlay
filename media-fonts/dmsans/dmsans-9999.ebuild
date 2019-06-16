@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' DM Sans (dmsans) font."
+DESCRIPTION="Google Fonts DM Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/DM+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

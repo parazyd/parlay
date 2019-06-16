@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kavoon (kavoon) font."
+DESCRIPTION="Google Fonts Kavoon font"
 HOMEPAGE="https://fonts.google.com/specimen/Kavoon"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

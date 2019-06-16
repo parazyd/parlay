@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Quattrocento (quattrocento) font."
+DESCRIPTION="Google Fonts Quattrocento font"
 HOMEPAGE="https://fonts.google.com/specimen/Quattrocento"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

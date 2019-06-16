@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sue Ellen Francisco (sueellenfrancisco) font."
+DESCRIPTION="Google Fonts Sue Ellen Francisco font"
 HOMEPAGE="https://fonts.google.com/specimen/Sue+Ellen+Francisco"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Macondo (macondo) font."
+DESCRIPTION="Google Fonts Macondo font"
 HOMEPAGE="https://fonts.google.com/specimen/Macondo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

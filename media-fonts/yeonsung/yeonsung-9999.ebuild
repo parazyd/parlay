@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yeon Sung (yeonsung) font."
+DESCRIPTION="Google Fonts Yeon Sung font"
 HOMEPAGE="https://fonts.google.com/specimen/Yeon+Sung"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

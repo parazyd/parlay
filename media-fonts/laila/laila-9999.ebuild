@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Laila (laila) font."
+DESCRIPTION="Google Fonts Laila font"
 HOMEPAGE="https://fonts.google.com/specimen/Laila"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

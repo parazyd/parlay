@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fanwood Text (fanwoodtext) font."
+DESCRIPTION="Google Fonts Fanwood Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Fanwood+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

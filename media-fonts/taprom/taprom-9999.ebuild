@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Taprom (taprom) font."
+DESCRIPTION="Google Fonts Taprom font"
 HOMEPAGE="https://fonts.google.com/specimen/Taprom"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

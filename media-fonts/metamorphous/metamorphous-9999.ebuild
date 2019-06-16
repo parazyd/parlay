@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Metamorphous (metamorphous) font."
+DESCRIPTION="Google Fonts Metamorphous font"
 HOMEPAGE="https://fonts.google.com/specimen/Metamorphous"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

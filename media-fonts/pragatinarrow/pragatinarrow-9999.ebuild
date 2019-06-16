@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pragati Narrow (pragatinarrow) font."
+DESCRIPTION="Google Fonts Pragati Narrow font"
 HOMEPAGE="https://fonts.google.com/specimen/Pragati+Narrow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

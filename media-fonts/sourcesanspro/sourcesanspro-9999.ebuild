@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Source Sans Pro (sourcesanspro) font."
+DESCRIPTION="Google Fonts Source Sans Pro font"
 HOMEPAGE="https://fonts.google.com/specimen/Source+Sans+Pro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

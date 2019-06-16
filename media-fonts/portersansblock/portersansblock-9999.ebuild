@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Porter Sans Block (portersansblock) font."
+DESCRIPTION="Google Fonts Porter Sans Block font"
 HOMEPAGE="https://fonts.google.com/specimen/Porter+Sans+Block"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

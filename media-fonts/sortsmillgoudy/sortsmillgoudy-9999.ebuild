@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sorts Mill Goudy (sortsmillgoudy) font."
+DESCRIPTION="Google Fonts Sorts Mill Goudy font"
 HOMEPAGE="https://fonts.google.com/specimen/Sorts+Mill+Goudy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

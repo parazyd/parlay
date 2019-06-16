@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stint Ultra Condensed (stintultracondensed) font."
+DESCRIPTION="Google Fonts Stint Ultra Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Stint+Ultra+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

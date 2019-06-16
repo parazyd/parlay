@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Coiny (coiny) font."
+DESCRIPTION="Google Fonts Coiny font"
 HOMEPAGE="https://fonts.google.com/specimen/Coiny"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

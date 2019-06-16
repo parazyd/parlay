@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' NATS (nats) font."
+DESCRIPTION="Google Fonts NATS font"
 HOMEPAGE="https://fonts.google.com/specimen/NATS"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

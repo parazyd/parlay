@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Qwigley (qwigley) font."
+DESCRIPTION="Google Fonts Qwigley font"
 HOMEPAGE="https://fonts.google.com/specimen/Qwigley"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

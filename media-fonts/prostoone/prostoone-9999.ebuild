@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Prosto One (prostoone) font."
+DESCRIPTION="Google Fonts Prosto One font"
 HOMEPAGE="https://fonts.google.com/specimen/Prosto+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

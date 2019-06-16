@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Reenie Beanie (reeniebeanie) font."
+DESCRIPTION="Google Fonts Reenie Beanie font"
 HOMEPAGE="https://fonts.google.com/specimen/Reenie+Beanie"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

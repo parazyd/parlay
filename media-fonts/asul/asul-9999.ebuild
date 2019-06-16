@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Asul (asul) font."
+DESCRIPTION="Google Fonts Asul font"
 HOMEPAGE="https://fonts.google.com/specimen/Asul"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

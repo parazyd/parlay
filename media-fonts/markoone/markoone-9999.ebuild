@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Marko One (markoone) font."
+DESCRIPTION="Google Fonts Marko One font"
 HOMEPAGE="https://fonts.google.com/specimen/Marko+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

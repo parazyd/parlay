@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Antic Didone (anticdidone) font."
+DESCRIPTION="Google Fonts Antic Didone font"
 HOMEPAGE="https://fonts.google.com/specimen/Antic+Didone"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

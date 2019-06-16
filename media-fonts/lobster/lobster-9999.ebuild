@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lobster (lobster) font."
+DESCRIPTION="Google Fonts Lobster font"
 HOMEPAGE="https://fonts.google.com/specimen/Lobster"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

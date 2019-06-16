@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Snippet (snippet) font."
+DESCRIPTION="Google Fonts Snippet font"
 HOMEPAGE="https://fonts.google.com/specimen/Snippet"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

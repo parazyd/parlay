@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nova Slim (novaslim) font."
+DESCRIPTION="Google Fonts Nova Slim font"
 HOMEPAGE="https://fonts.google.com/specimen/Nova+Slim"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

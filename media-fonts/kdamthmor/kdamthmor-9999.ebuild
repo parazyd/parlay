@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kdam Thmor (kdamthmor) font."
+DESCRIPTION="Google Fonts Kdam Thmor font"
 HOMEPAGE="https://fonts.google.com/specimen/Kdam+Thmor"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

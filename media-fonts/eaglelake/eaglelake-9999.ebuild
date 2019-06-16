@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Eagle Lake (eaglelake) font."
+DESCRIPTION="Google Fonts Eagle Lake font"
 HOMEPAGE="https://fonts.google.com/specimen/Eagle+Lake"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

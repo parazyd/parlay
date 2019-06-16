@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cagliostro (cagliostro) font."
+DESCRIPTION="Google Fonts Cagliostro font"
 HOMEPAGE="https://fonts.google.com/specimen/Cagliostro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

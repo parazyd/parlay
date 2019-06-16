@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Diplomata (diplomata) font."
+DESCRIPTION="Google Fonts Diplomata font"
 HOMEPAGE="https://fonts.google.com/specimen/Diplomata"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

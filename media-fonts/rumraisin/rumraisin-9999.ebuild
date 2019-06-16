@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rum Raisin (rumraisin) font."
+DESCRIPTION="Google Fonts Rum Raisin font"
 HOMEPAGE="https://fonts.google.com/specimen/Rum+Raisin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

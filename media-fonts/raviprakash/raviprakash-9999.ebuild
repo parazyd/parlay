@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ravi Prakash (raviprakash) font."
+DESCRIPTION="Google Fonts Ravi Prakash font"
 HOMEPAGE="https://fonts.google.com/specimen/Ravi+Prakash"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

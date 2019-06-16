@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Karla Tamil Upright (karlatamilupright) font."
+DESCRIPTION="Google Fonts Karla Tamil Upright font"
 HOMEPAGE="https://fonts.google.com/specimen/Karla+Tamil+Upright"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

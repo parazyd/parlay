@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dekko (dekko) font."
+DESCRIPTION="Google Fonts Dekko font"
 HOMEPAGE="https://fonts.google.com/specimen/Dekko"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

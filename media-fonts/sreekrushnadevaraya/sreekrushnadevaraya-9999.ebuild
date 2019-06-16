@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sree Krushnadevaraya (sreekrushnadevaraya) font."
+DESCRIPTION="Google Fonts Sree Krushnadevaraya font"
 HOMEPAGE="https://fonts.google.com/specimen/Sree+Krushnadevaraya"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

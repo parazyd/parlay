@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Oswald (oswald) font."
+DESCRIPTION="Google Fonts Oswald font"
 HOMEPAGE="https://fonts.google.com/specimen/Oswald"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

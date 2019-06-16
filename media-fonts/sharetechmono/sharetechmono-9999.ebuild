@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Share Tech Mono (sharetechmono) font."
+DESCRIPTION="Google Fonts Share Tech Mono font"
 HOMEPAGE="https://fonts.google.com/specimen/Share+Tech+Mono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

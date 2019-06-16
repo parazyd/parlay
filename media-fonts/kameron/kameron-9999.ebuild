@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kameron (kameron) font."
+DESCRIPTION="Google Fonts Kameron font"
 HOMEPAGE="https://fonts.google.com/specimen/Kameron"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

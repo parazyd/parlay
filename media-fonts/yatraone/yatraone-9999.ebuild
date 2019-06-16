@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yatra One (yatraone) font."
+DESCRIPTION="Google Fonts Yatra One font"
 HOMEPAGE="https://fonts.google.com/specimen/Yatra+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

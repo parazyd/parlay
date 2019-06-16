@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mrs Sheppards (mrssheppards) font."
+DESCRIPTION="Google Fonts Mrs Sheppards font"
 HOMEPAGE="https://fonts.google.com/specimen/Mrs+Sheppards"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

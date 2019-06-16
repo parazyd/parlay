@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ruslan Display (ruslandisplay) font."
+DESCRIPTION="Google Fonts Ruslan Display font"
 HOMEPAGE="https://fonts.google.com/specimen/Ruslan+Display"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

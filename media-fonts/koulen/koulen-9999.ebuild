@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Koulen (koulen) font."
+DESCRIPTION="Google Fonts Koulen font"
 HOMEPAGE="https://fonts.google.com/specimen/Koulen"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

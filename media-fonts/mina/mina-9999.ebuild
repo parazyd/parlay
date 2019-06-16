@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mina (mina) font."
+DESCRIPTION="Google Fonts Mina font"
 HOMEPAGE="https://fonts.google.com/specimen/Mina"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

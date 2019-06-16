@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' jsMath cmbx10 (jsmathcmbx10) font."
+DESCRIPTION="Google Fonts jsMath cmbx10 font"
 HOMEPAGE="https://fonts.google.com/specimen/jsMath+cmbx10"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

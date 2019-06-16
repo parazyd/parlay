@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Denk One (denkone) font."
+DESCRIPTION="Google Fonts Denk One font"
 HOMEPAGE="https://fonts.google.com/specimen/Denk+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

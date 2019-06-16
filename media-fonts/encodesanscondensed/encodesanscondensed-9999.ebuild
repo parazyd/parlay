@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Encode Sans Condensed (encodesanscondensed) font."
+DESCRIPTION="Google Fonts Encode Sans Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Encode+Sans+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Trykker (trykker) font."
+DESCRIPTION="Google Fonts Trykker font"
 HOMEPAGE="https://fonts.google.com/specimen/Trykker"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Atma (atma) font."
+DESCRIPTION="Google Fonts Atma font"
 HOMEPAGE="https://fonts.google.com/specimen/Atma"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

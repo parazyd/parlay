@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Manuale (manuale) font."
+DESCRIPTION="Google Fonts Manuale font"
 HOMEPAGE="https://fonts.google.com/specimen/Manuale"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

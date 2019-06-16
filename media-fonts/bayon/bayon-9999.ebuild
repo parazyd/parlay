@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bayon (bayon) font."
+DESCRIPTION="Google Fonts Bayon font"
 HOMEPAGE="https://fonts.google.com/specimen/Bayon"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

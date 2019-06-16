@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rambla (rambla) font."
+DESCRIPTION="Google Fonts Rambla font"
 HOMEPAGE="https://fonts.google.com/specimen/Rambla"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gaegu (gaegu) font."
+DESCRIPTION="Google Fonts Gaegu font"
 HOMEPAGE="https://fonts.google.com/specimen/Gaegu"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

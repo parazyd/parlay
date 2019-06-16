@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hammersmith One (hammersmithone) font."
+DESCRIPTION="Google Fonts Hammersmith One font"
 HOMEPAGE="https://fonts.google.com/specimen/Hammersmith+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

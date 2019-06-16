@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Annie Use Your Telescope (annieuseyourtelescope) font."
+DESCRIPTION="Google Fonts Annie Use Your Telescope font"
 HOMEPAGE="https://fonts.google.com/specimen/Annie+Use+Your+Telescope"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

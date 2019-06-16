@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Norican (norican) font."
+DESCRIPTION="Google Fonts Norican font"
 HOMEPAGE="https://fonts.google.com/specimen/Norican"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

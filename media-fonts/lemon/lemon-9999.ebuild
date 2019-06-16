@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lemon (lemon) font."
+DESCRIPTION="Google Fonts Lemon font"
 HOMEPAGE="https://fonts.google.com/specimen/Lemon"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

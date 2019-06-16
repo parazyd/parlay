@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Simonetta (simonetta) font."
+DESCRIPTION="Google Fonts Simonetta font"
 HOMEPAGE="https://fonts.google.com/specimen/Simonetta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

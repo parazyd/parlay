@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mirza (mirza) font."
+DESCRIPTION="Google Fonts Mirza font"
 HOMEPAGE="https://fonts.google.com/specimen/Mirza"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

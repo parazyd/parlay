@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Port Lligat Slab (portlligatslab) font."
+DESCRIPTION="Google Fonts Port Lligat Slab font"
 HOMEPAGE="https://fonts.google.com/specimen/Port+Lligat+Slab"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

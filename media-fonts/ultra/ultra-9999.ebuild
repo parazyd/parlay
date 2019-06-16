@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ultra (ultra) font."
+DESCRIPTION="Google Fonts Ultra font"
 HOMEPAGE="https://fonts.google.com/specimen/Ultra"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

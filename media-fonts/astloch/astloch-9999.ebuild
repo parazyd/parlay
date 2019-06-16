@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Astloch (astloch) font."
+DESCRIPTION="Google Fonts Astloch font"
 HOMEPAGE="https://fonts.google.com/specimen/Astloch"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

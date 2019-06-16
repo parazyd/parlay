@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Timmana (timmana) font."
+DESCRIPTION="Google Fonts Timmana font"
 HOMEPAGE="https://fonts.google.com/specimen/Timmana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

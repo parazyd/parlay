@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kadwa (kadwa) font."
+DESCRIPTION="Google Fonts Kadwa font"
 HOMEPAGE="https://fonts.google.com/specimen/Kadwa"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

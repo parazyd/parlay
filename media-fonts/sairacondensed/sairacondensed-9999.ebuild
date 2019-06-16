@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Saira Condensed (sairacondensed) font."
+DESCRIPTION="Google Fonts Saira Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Saira+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

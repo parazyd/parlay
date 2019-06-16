@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mada (mada) font."
+DESCRIPTION="Google Fonts Mada font"
 HOMEPAGE="https://fonts.google.com/specimen/Mada"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

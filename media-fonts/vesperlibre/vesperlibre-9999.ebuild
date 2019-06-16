@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Vesper Libre (vesperlibre) font."
+DESCRIPTION="Google Fonts Vesper Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Vesper+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

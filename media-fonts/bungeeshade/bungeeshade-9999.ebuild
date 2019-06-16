@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bungee Shade (bungeeshade) font."
+DESCRIPTION="Google Fonts Bungee Shade font"
 HOMEPAGE="https://fonts.google.com/specimen/Bungee+Shade"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

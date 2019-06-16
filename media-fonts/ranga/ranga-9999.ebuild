@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ranga (ranga) font."
+DESCRIPTION="Google Fonts Ranga font"
 HOMEPAGE="https://fonts.google.com/specimen/Ranga"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

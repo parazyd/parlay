@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Faustina (faustina) font."
+DESCRIPTION="Google Fonts Faustina font"
 HOMEPAGE="https://fonts.google.com/specimen/Faustina"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

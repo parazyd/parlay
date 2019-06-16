@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind (hind) font."
+DESCRIPTION="Google Fonts Hind font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

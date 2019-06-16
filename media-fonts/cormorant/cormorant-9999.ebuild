@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cormorant (cormorant) font."
+DESCRIPTION="Google Fonts Cormorant font"
 HOMEPAGE="https://fonts.google.com/specimen/Cormorant"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

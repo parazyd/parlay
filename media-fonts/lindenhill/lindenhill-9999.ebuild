@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Linden Hill (lindenhill) font."
+DESCRIPTION="Google Fonts Linden Hill font"
 HOMEPAGE="https://fonts.google.com/specimen/Linden+Hill"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

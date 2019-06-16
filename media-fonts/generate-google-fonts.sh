@@ -16,8 +16,9 @@ gitdir="$1"
 
 get_pretty_name() {
 	if ! [ -f "$1/METADATA.pb" ]; then
-		echo "error: Missing $1/METADATA.pb"
-		exit 1
+		#echo "error: Missing $1/METADATA.pb"
+		echo "$(basename "$1")"
+		return
 	fi
 	awk -F ': ' '/^name: / {print $2}' "$1/METADATA.pb" \
 		| tr -d '"' | tr ' ' '+'
@@ -85,7 +86,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' $(echo "$font_pretty" | tr '+' ' ') ($font) font."
+DESCRIPTION="Google Fonts $(echo "$font_pretty" | tr '+' ' ') font"
 HOMEPAGE="https://fonts.google.com/specimen/$font_pretty"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
@@ -107,7 +108,7 @@ src_install() {
 EOF
 
 	cat <<EOF > metadata.xml
-<?xml version"1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">

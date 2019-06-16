@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rakkas (rakkas) font."
+DESCRIPTION="Google Fonts Rakkas font"
 HOMEPAGE="https://fonts.google.com/specimen/Rakkas"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

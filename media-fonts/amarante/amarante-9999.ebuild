@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Amarante (amarante) font."
+DESCRIPTION="Google Fonts Amarante font"
 HOMEPAGE="https://fonts.google.com/specimen/Amarante"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

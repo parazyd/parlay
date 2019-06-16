@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' ABeeZee (abeezee) font."
+DESCRIPTION="Google Fonts ABeeZee font"
 HOMEPAGE="https://fonts.google.com/specimen/ABeeZee"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

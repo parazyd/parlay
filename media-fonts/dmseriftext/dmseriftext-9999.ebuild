@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' DM Serif Text (dmseriftext) font."
+DESCRIPTION="Google Fonts DM Serif Text font"
 HOMEPAGE="https://fonts.google.com/specimen/DM+Serif+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

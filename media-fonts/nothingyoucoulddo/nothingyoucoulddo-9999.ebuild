@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nothing You Could Do (nothingyoucoulddo) font."
+DESCRIPTION="Google Fonts Nothing You Could Do font"
 HOMEPAGE="https://fonts.google.com/specimen/Nothing+You+Could+Do"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

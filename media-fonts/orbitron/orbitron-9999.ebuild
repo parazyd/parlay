@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Orbitron (orbitron) font."
+DESCRIPTION="Google Fonts Orbitron font"
 HOMEPAGE="https://fonts.google.com/specimen/Orbitron"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

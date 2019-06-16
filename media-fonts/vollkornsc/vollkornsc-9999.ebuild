@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Vollkorn SC (vollkornsc) font."
+DESCRIPTION="Google Fonts Vollkorn SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Vollkorn+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

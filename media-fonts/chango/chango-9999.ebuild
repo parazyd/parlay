@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chango (chango) font."
+DESCRIPTION="Google Fonts Chango font"
 HOMEPAGE="https://fonts.google.com/specimen/Chango"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

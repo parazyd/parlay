@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Amaranth (amaranth) font."
+DESCRIPTION="Google Fonts Amaranth font"
 HOMEPAGE="https://fonts.google.com/specimen/Amaranth"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

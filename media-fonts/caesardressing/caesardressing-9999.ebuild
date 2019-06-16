@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Caesar Dressing (caesardressing) font."
+DESCRIPTION="Google Fonts Caesar Dressing font"
 HOMEPAGE="https://fonts.google.com/specimen/Caesar+Dressing"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

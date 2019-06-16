@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Coustard (coustard) font."
+DESCRIPTION="Google Fonts Coustard font"
 HOMEPAGE="https://fonts.google.com/specimen/Coustard"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

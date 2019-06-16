@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Freckle Face (freckleface) font."
+DESCRIPTION="Google Fonts Freckle Face font"
 HOMEPAGE="https://fonts.google.com/specimen/Freckle+Face"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

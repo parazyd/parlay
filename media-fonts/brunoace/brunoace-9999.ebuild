@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bruno Ace (brunoace) font."
+DESCRIPTION="Google Fonts Bruno Ace font"
 HOMEPAGE="https://fonts.google.com/specimen/Bruno+Ace"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

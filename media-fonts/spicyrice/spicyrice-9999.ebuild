@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Spicy Rice (spicyrice) font."
+DESCRIPTION="Google Fonts Spicy Rice font"
 HOMEPAGE="https://fonts.google.com/specimen/Spicy+Rice"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Karla (karla) font."
+DESCRIPTION="Google Fonts Karla font"
 HOMEPAGE="https://fonts.google.com/specimen/Karla"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

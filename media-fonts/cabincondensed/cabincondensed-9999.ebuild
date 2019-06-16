@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cabin Condensed (cabincondensed) font."
+DESCRIPTION="Google Fonts Cabin Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Cabin+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

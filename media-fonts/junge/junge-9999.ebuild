@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Junge (junge) font."
+DESCRIPTION="Google Fonts Junge font"
 HOMEPAGE="https://fonts.google.com/specimen/Junge"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

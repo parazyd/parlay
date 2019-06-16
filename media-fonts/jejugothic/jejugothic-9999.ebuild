@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/jejugothic//METADATA.pb (jejugothic) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/jejugothic//METADATA.pb"
+DESCRIPTION="Google Fonts jejugothic font"
+HOMEPAGE="https://fonts.google.com/specimen/jejugothic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

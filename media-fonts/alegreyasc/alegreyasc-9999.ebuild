@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Alegreya SC (alegreyasc) font."
+DESCRIPTION="Google Fonts Alegreya SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Alegreya+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

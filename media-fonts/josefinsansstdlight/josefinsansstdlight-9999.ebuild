@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Josefin Sans Std Light (josefinsansstdlight) font."
+DESCRIPTION="Google Fonts Josefin Sans Std Light font"
 HOMEPAGE="https://fonts.google.com/specimen/Josefin+Sans+Std+Light"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

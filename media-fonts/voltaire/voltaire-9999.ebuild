@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Voltaire (voltaire) font."
+DESCRIPTION="Google Fonts Voltaire font"
 HOMEPAGE="https://fonts.google.com/specimen/Voltaire"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

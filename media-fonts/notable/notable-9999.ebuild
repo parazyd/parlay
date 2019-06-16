@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Notable (notable) font."
+DESCRIPTION="Google Fonts Notable font"
 HOMEPAGE="https://fonts.google.com/specimen/Notable"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

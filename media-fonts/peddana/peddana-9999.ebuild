@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Peddana (peddana) font."
+DESCRIPTION="Google Fonts Peddana font"
 HOMEPAGE="https://fonts.google.com/specimen/Peddana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Siliguri (hindsiliguri) font."
+DESCRIPTION="Google Fonts Hind Siliguri font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Siliguri"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

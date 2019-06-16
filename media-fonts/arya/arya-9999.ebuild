@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arya (arya) font."
+DESCRIPTION="Google Fonts Arya font"
 HOMEPAGE="https://fonts.google.com/specimen/Arya"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

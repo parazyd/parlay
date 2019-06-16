@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yrsa (yrsa) font."
+DESCRIPTION="Google Fonts Yrsa font"
 HOMEPAGE="https://fonts.google.com/specimen/Yrsa"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

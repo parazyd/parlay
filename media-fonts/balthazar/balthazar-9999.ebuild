@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Balthazar (balthazar) font."
+DESCRIPTION="Google Fonts Balthazar font"
 HOMEPAGE="https://fonts.google.com/specimen/Balthazar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Raleway Dots (ralewaydots) font."
+DESCRIPTION="Google Fonts Raleway Dots font"
 HOMEPAGE="https://fonts.google.com/specimen/Raleway+Dots"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

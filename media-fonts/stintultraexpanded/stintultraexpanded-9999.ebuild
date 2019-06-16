@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stint Ultra Expanded (stintultraexpanded) font."
+DESCRIPTION="Google Fonts Stint Ultra Expanded font"
 HOMEPAGE="https://fonts.google.com/specimen/Stint+Ultra+Expanded"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

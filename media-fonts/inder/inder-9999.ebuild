@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Inder (inder) font."
+DESCRIPTION="Google Fonts Inder font"
 HOMEPAGE="https://fonts.google.com/specimen/Inder"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

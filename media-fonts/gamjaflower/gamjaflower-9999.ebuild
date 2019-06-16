@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gamja Flower (gamjaflower) font."
+DESCRIPTION="Google Fonts Gamja Flower font"
 HOMEPAGE="https://fonts.google.com/specimen/Gamja+Flower"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

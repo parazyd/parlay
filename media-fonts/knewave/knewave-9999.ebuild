@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Knewave (knewave) font."
+DESCRIPTION="Google Fonts Knewave font"
 HOMEPAGE="https://fonts.google.com/specimen/Knewave"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

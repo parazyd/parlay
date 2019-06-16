@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Federant (federant) font."
+DESCRIPTION="Google Fonts Federant font"
 HOMEPAGE="https://fonts.google.com/specimen/Federant"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

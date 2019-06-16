@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Princess Sofia (princesssofia) font."
+DESCRIPTION="Google Fonts Princess Sofia font"
 HOMEPAGE="https://fonts.google.com/specimen/Princess+Sofia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

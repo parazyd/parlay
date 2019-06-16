@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chonburi (chonburi) font."
+DESCRIPTION="Google Fonts Chonburi font"
 HOMEPAGE="https://fonts.google.com/specimen/Chonburi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

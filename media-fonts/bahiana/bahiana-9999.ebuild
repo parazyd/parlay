@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bahiana (bahiana) font."
+DESCRIPTION="Google Fonts Bahiana font"
 HOMEPAGE="https://fonts.google.com/specimen/Bahiana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

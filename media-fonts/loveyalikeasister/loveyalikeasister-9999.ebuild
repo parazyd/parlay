@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Love Ya Like A Sister (loveyalikeasister) font."
+DESCRIPTION="Google Fonts Love Ya Like A Sister font"
 HOMEPAGE="https://fonts.google.com/specimen/Love+Ya+Like+A+Sister"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

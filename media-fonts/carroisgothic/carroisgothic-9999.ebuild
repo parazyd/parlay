@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Carrois Gothic (carroisgothic) font."
+DESCRIPTION="Google Fonts Carrois Gothic font"
 HOMEPAGE="https://fonts.google.com/specimen/Carrois+Gothic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

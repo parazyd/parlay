@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Oxygen Mono (oxygenmono) font."
+DESCRIPTION="Google Fonts Oxygen Mono font"
 HOMEPAGE="https://fonts.google.com/specimen/Oxygen+Mono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' MaShanZheng (mashanzheng) font."
+DESCRIPTION="Google Fonts MaShanZheng font"
 HOMEPAGE="https://fonts.google.com/specimen/MaShanZheng"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

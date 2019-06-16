@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bentham (bentham) font."
+DESCRIPTION="Google Fonts Bentham font"
 HOMEPAGE="https://fonts.google.com/specimen/Bentham"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

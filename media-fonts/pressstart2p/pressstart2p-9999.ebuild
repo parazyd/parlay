@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Press Start 2P (pressstart2p) font."
+DESCRIPTION="Google Fonts Press Start 2P font"
 HOMEPAGE="https://fonts.google.com/specimen/Press+Start+2P"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

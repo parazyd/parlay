@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Phetsarath (phetsarath) font."
+DESCRIPTION="Google Fonts Phetsarath font"
 HOMEPAGE="https://fonts.google.com/specimen/Phetsarath"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

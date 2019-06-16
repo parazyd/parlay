@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Markazi Text (markazitext) font."
+DESCRIPTION="Google Fonts Markazi Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Markazi+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

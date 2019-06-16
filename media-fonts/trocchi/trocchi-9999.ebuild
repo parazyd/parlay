@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Trocchi (trocchi) font."
+DESCRIPTION="Google Fonts Trocchi font"
 HOMEPAGE="https://fonts.google.com/specimen/Trocchi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

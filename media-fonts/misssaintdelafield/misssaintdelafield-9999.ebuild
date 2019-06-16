@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miss Saint Delafield (misssaintdelafield) font."
+DESCRIPTION="Google Fonts Miss Saint Delafield font"
 HOMEPAGE="https://fonts.google.com/specimen/Miss+Saint+Delafield"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

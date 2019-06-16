@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Uncial Antiqua (uncialantiqua) font."
+DESCRIPTION="Google Fonts Uncial Antiqua font"
 HOMEPAGE="https://fonts.google.com/specimen/Uncial+Antiqua"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

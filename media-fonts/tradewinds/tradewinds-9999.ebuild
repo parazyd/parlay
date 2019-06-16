@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Trade Winds (tradewinds) font."
+DESCRIPTION="Google Fonts Trade Winds font"
 HOMEPAGE="https://fonts.google.com/specimen/Trade+Winds"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

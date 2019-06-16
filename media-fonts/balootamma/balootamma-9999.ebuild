@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Baloo Tamma (balootamma) font."
+DESCRIPTION="Google Fonts Baloo Tamma font"
 HOMEPAGE="https://fonts.google.com/specimen/Baloo+Tamma"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

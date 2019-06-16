@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gochi Hand (gochihand) font."
+DESCRIPTION="Google Fonts Gochi Hand font"
 HOMEPAGE="https://fonts.google.com/specimen/Gochi+Hand"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

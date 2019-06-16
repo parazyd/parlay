@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rubik Mono One (rubikmonoone) font."
+DESCRIPTION="Google Fonts Rubik Mono One font"
 HOMEPAGE="https://fonts.google.com/specimen/Rubik+Mono+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

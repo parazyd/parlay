@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kristi (kristi) font."
+DESCRIPTION="Google Fonts Kristi font"
 HOMEPAGE="https://fonts.google.com/specimen/Kristi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nunito Sans (nunitosans) font."
+DESCRIPTION="Google Fonts Nunito Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Nunito+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

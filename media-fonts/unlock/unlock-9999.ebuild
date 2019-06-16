@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Unlock (unlock) font."
+DESCRIPTION="Google Fonts Unlock font"
 HOMEPAGE="https://fonts.google.com/specimen/Unlock"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

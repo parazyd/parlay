@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Elsie Swash Caps (elsieswashcaps) font."
+DESCRIPTION="Google Fonts Elsie Swash Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Elsie+Swash+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

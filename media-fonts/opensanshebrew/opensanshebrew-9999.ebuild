@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/apache/opensanshebrew//METADATA.pb (opensanshebrew) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/apache/opensanshebrew//METADATA.pb"
+DESCRIPTION="Google Fonts opensanshebrew font"
+HOMEPAGE="https://fonts.google.com/specimen/opensanshebrew"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="Apache-2.0"

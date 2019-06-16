@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Karla Tamil Inclined (karlatamilinclined) font."
+DESCRIPTION="Google Fonts Karla Tamil Inclined font"
 HOMEPAGE="https://fonts.google.com/specimen/Karla+Tamil+Inclined"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

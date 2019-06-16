@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Abel (abel) font."
+DESCRIPTION="Google Fonts Abel font"
 HOMEPAGE="https://fonts.google.com/specimen/Abel"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

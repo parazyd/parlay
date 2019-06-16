@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hanalei Fill (hanaleifill) font."
+DESCRIPTION="Google Fonts Hanalei Fill font"
 HOMEPAGE="https://fonts.google.com/specimen/Hanalei+Fill"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

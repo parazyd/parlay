@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' PT Mono (ptmono) font."
+DESCRIPTION="Google Fonts PT Mono font"
 HOMEPAGE="https://fonts.google.com/specimen/PT+Mono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

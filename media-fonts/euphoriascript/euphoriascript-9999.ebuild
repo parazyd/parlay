@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Euphoria Script (euphoriascript) font."
+DESCRIPTION="Google Fonts Euphoria Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Euphoria+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

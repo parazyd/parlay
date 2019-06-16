@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Buda (buda) font."
+DESCRIPTION="Google Fonts Buda font"
 HOMEPAGE="https://fonts.google.com/specimen/Buda"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

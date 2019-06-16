@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/archivovfbeta//METADATA.pb (archivovfbeta) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/archivovfbeta//METADATA.pb"
+DESCRIPTION="Google Fonts archivovfbeta font"
+HOMEPAGE="https://fonts.google.com/specimen/archivovfbeta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' New Rocker (newrocker) font."
+DESCRIPTION="Google Fonts New Rocker font"
 HOMEPAGE="https://fonts.google.com/specimen/New+Rocker"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

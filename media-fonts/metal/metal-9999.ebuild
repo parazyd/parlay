@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Metal (metal) font."
+DESCRIPTION="Google Fonts Metal font"
 HOMEPAGE="https://fonts.google.com/specimen/Metal"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sanchez (sanchez) font."
+DESCRIPTION="Google Fonts Sanchez font"
 HOMEPAGE="https://fonts.google.com/specimen/Sanchez"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

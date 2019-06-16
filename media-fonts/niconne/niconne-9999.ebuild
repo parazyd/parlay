@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Niconne (niconne) font."
+DESCRIPTION="Google Fonts Niconne font"
 HOMEPAGE="https://fonts.google.com/specimen/Niconne"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

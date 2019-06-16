@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kotta One (kottaone) font."
+DESCRIPTION="Google Fonts Kotta One font"
 HOMEPAGE="https://fonts.google.com/specimen/Kotta+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

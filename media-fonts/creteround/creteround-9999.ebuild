@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Crete Round (creteround) font."
+DESCRIPTION="Google Fonts Crete Round font"
 HOMEPAGE="https://fonts.google.com/specimen/Crete+Round"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

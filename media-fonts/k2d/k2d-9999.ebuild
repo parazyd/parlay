@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' K2D (k2d) font."
+DESCRIPTION="Google Fonts K2D font"
 HOMEPAGE="https://fonts.google.com/specimen/K2D"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Noticia Text (noticiatext) font."
+DESCRIPTION="Google Fonts Noticia Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Noticia+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

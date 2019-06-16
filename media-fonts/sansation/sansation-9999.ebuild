@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sansation (sansation) font."
+DESCRIPTION="Google Fonts Sansation font"
 HOMEPAGE="https://fonts.google.com/specimen/Sansation"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

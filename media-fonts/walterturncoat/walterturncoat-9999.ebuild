@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Walter Turncoat (walterturncoat) font."
+DESCRIPTION="Google Fonts Walter Turncoat font"
 HOMEPAGE="https://fonts.google.com/specimen/Walter+Turncoat"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

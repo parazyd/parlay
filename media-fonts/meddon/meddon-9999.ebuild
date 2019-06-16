@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Meddon (meddon) font."
+DESCRIPTION="Google Fonts Meddon font"
 HOMEPAGE="https://fonts.google.com/specimen/Meddon"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

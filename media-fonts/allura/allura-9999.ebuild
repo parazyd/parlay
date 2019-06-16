@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Allura (allura) font."
+DESCRIPTION="Google Fonts Allura font"
 HOMEPAGE="https://fonts.google.com/specimen/Allura"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Julee (julee) font."
+DESCRIPTION="Google Fonts Julee font"
 HOMEPAGE="https://fonts.google.com/specimen/Julee"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

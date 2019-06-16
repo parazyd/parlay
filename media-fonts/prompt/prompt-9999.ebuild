@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Prompt (prompt) font."
+DESCRIPTION="Google Fonts Prompt font"
 HOMEPAGE="https://fonts.google.com/specimen/Prompt"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

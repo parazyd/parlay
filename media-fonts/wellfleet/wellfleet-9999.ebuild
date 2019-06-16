@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Wellfleet (wellfleet) font."
+DESCRIPTION="Google Fonts Wellfleet font"
 HOMEPAGE="https://fonts.google.com/specimen/Wellfleet"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

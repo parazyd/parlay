@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Redacted Script (redactedscript) font."
+DESCRIPTION="Google Fonts Redacted Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Redacted+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Barriecito (barriecito) font."
+DESCRIPTION="Google Fonts Barriecito font"
 HOMEPAGE="https://fonts.google.com/specimen/Barriecito"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

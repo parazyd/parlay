@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Limelight (limelight) font."
+DESCRIPTION="Google Fonts Limelight font"
 HOMEPAGE="https://fonts.google.com/specimen/Limelight"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

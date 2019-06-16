@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' VT323 (vt323) font."
+DESCRIPTION="Google Fonts VT323 font"
 HOMEPAGE="https://fonts.google.com/specimen/VT323"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

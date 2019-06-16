@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Jacques Francois Shadow (jacquesfrancoisshadow) font."
+DESCRIPTION="Google Fonts Jacques Francois Shadow font"
 HOMEPAGE="https://fonts.google.com/specimen/Jacques+Francois+Shadow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Over the Rainbow (overtherainbow) font."
+DESCRIPTION="Google Fonts Over the Rainbow font"
 HOMEPAGE="https://fonts.google.com/specimen/Over+the+Rainbow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

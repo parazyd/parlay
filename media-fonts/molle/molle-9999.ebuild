@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Molle (molle) font."
+DESCRIPTION="Google Fonts Molle font"
 HOMEPAGE="https://fonts.google.com/specimen/Molle"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

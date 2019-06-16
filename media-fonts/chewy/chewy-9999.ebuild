@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chewy (chewy) font."
+DESCRIPTION="Google Fonts Chewy font"
 HOMEPAGE="https://fonts.google.com/specimen/Chewy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

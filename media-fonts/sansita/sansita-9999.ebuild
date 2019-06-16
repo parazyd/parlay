@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sansita (sansita) font."
+DESCRIPTION="Google Fonts Sansita font"
 HOMEPAGE="https://fonts.google.com/specimen/Sansita"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

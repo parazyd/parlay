@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stalemate (stalemate) font."
+DESCRIPTION="Google Fonts Stalemate font"
 HOMEPAGE="https://fonts.google.com/specimen/Stalemate"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

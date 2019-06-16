@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Slabo 27px (slabo27px) font."
+DESCRIPTION="Google Fonts Slabo 27px font"
 HOMEPAGE="https://fonts.google.com/specimen/Slabo+27px"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kenia (kenia) font."
+DESCRIPTION="Google Fonts Kenia font"
 HOMEPAGE="https://fonts.google.com/specimen/Kenia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

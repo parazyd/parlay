@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' UnifrakturMaguntia (unifrakturmaguntia) font."
+DESCRIPTION="Google Fonts UnifrakturMaguntia font"
 HOMEPAGE="https://fonts.google.com/specimen/UnifrakturMaguntia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

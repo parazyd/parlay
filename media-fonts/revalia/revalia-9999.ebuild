@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Revalia (revalia) font."
+DESCRIPTION="Google Fonts Revalia font"
 HOMEPAGE="https://fonts.google.com/specimen/Revalia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

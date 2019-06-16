@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Poppins (poppins) font."
+DESCRIPTION="Google Fonts Poppins font"
 HOMEPAGE="https://fonts.google.com/specimen/Poppins"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

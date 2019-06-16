@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yantramanav (yantramanav) font."
+DESCRIPTION="Google Fonts Yantramanav font"
 HOMEPAGE="https://fonts.google.com/specimen/Yantramanav"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

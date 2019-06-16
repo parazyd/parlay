@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Montserrat (montserrat) font."
+DESCRIPTION="Google Fonts Montserrat font"
 HOMEPAGE="https://fonts.google.com/specimen/Montserrat"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

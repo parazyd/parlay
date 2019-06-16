@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gilda Display (gildadisplay) font."
+DESCRIPTION="Google Fonts Gilda Display font"
 HOMEPAGE="https://fonts.google.com/specimen/Gilda+Display"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

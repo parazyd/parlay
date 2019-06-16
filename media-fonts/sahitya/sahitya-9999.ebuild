@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sahitya (sahitya) font."
+DESCRIPTION="Google Fonts Sahitya font"
 HOMEPAGE="https://fonts.google.com/specimen/Sahitya"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

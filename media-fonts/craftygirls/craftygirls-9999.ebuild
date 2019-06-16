@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Crafty Girls (craftygirls) font."
+DESCRIPTION="Google Fonts Crafty Girls font"
 HOMEPAGE="https://fonts.google.com/specimen/Crafty+Girls"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

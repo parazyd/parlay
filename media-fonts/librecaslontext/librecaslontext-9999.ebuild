@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Libre Caslon Text (librecaslontext) font."
+DESCRIPTION="Google Fonts Libre Caslon Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Libre+Caslon+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

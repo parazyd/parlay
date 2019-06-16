@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Basic (basic) font."
+DESCRIPTION="Google Fonts Basic font"
 HOMEPAGE="https://fonts.google.com/specimen/Basic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

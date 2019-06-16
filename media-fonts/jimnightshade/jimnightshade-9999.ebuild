@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Jim Nightshade (jimnightshade) font."
+DESCRIPTION="Google Fonts Jim Nightshade font"
 HOMEPAGE="https://fonts.google.com/specimen/Jim+Nightshade"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

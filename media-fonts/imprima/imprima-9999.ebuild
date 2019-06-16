@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Imprima (imprima) font."
+DESCRIPTION="Google Fonts Imprima font"
 HOMEPAGE="https://fonts.google.com/specimen/Imprima"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

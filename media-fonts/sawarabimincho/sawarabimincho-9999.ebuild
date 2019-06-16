@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/sawarabimincho//METADATA.pb (sawarabimincho) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/sawarabimincho//METADATA.pb"
+DESCRIPTION="Google Fonts sawarabimincho font"
+HOMEPAGE="https://fonts.google.com/specimen/sawarabimincho"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

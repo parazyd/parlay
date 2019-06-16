@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Englebert (englebert) font."
+DESCRIPTION="Google Fonts Englebert font"
 HOMEPAGE="https://fonts.google.com/specimen/Englebert"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

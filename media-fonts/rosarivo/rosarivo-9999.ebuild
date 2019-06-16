@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rosarivo (rosarivo) font."
+DESCRIPTION="Google Fonts Rosarivo font"
 HOMEPAGE="https://fonts.google.com/specimen/Rosarivo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

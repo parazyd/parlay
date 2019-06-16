@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Maiden Orange (maidenorange) font."
+DESCRIPTION="Google Fonts Maiden Orange font"
 HOMEPAGE="https://fonts.google.com/specimen/Maiden+Orange"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

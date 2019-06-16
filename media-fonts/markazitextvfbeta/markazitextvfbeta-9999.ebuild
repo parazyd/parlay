@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/markazitextvfbeta//METADATA.pb (markazitextvfbeta) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/markazitextvfbeta//METADATA.pb"
+DESCRIPTION="Google Fonts markazitextvfbeta font"
+HOMEPAGE="https://fonts.google.com/specimen/markazitextvfbeta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

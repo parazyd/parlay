@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Libre Baskerville (librebaskerville) font."
+DESCRIPTION="Google Fonts Libre Baskerville font"
 HOMEPAGE="https://fonts.google.com/specimen/Libre+Baskerville"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

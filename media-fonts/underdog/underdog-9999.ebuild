@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Underdog (underdog) font."
+DESCRIPTION="Google Fonts Underdog font"
 HOMEPAGE="https://fonts.google.com/specimen/Underdog"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

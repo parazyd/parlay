@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dokdo (dokdo) font."
+DESCRIPTION="Google Fonts Dokdo font"
 HOMEPAGE="https://fonts.google.com/specimen/Dokdo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

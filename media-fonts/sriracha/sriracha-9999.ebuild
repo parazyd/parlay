@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sriracha (sriracha) font."
+DESCRIPTION="Google Fonts Sriracha font"
 HOMEPAGE="https://fonts.google.com/specimen/Sriracha"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

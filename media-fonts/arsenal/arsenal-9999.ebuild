@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arsenal (arsenal) font."
+DESCRIPTION="Google Fonts Arsenal font"
 HOMEPAGE="https://fonts.google.com/specimen/Arsenal"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

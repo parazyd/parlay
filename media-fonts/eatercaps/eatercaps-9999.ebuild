@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Eater Caps (eatercaps) font."
+DESCRIPTION="Google Fonts Eater Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Eater+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

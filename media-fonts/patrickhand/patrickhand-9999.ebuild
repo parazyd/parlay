@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Patrick Hand (patrickhand) font."
+DESCRIPTION="Google Fonts Patrick Hand font"
 HOMEPAGE="https://fonts.google.com/specimen/Patrick+Hand"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

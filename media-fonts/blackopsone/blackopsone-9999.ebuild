@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Black Ops One (blackopsone) font."
+DESCRIPTION="Google Fonts Black Ops One font"
 HOMEPAGE="https://fonts.google.com/specimen/Black+Ops+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

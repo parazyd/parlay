@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' GFS Didot (gfsdidot) font."
+DESCRIPTION="Google Fonts GFS Didot font"
 HOMEPAGE="https://fonts.google.com/specimen/GFS+Didot"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

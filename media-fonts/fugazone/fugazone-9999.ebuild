@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fugaz One (fugazone) font."
+DESCRIPTION="Google Fonts Fugaz One font"
 HOMEPAGE="https://fonts.google.com/specimen/Fugaz+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

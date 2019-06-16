@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Syncopate (syncopate) font."
+DESCRIPTION="Google Fonts Syncopate font"
 HOMEPAGE="https://fonts.google.com/specimen/Syncopate"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

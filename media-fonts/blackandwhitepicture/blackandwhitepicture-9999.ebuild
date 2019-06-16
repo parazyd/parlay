@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Black And White Picture (blackandwhitepicture) font."
+DESCRIPTION="Google Fonts Black And White Picture font"
 HOMEPAGE="https://fonts.google.com/specimen/Black+And+White+Picture"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

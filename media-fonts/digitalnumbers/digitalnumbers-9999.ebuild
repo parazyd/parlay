@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Digital Numbers (digitalnumbers) font."
+DESCRIPTION="Google Fonts Digital Numbers font"
 HOMEPAGE="https://fonts.google.com/specimen/Digital+Numbers"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

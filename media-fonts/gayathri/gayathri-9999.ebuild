@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gayathri (gayathri) font."
+DESCRIPTION="Google Fonts Gayathri font"
 HOMEPAGE="https://fonts.google.com/specimen/Gayathri"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

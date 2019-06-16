@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sunflower (sunflower) font."
+DESCRIPTION="Google Fonts Sunflower font"
 HOMEPAGE="https://fonts.google.com/specimen/Sunflower"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

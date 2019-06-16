@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Butterfly Kids (butterflykids) font."
+DESCRIPTION="Google Fonts Butterfly Kids font"
 HOMEPAGE="https://fonts.google.com/specimen/Butterfly+Kids"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

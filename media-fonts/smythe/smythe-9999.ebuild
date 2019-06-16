@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Smythe (smythe) font."
+DESCRIPTION="Google Fonts Smythe font"
 HOMEPAGE="https://fonts.google.com/specimen/Smythe"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

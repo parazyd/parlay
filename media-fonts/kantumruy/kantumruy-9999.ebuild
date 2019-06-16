@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kantumruy (kantumruy) font."
+DESCRIPTION="Google Fonts Kantumruy font"
 HOMEPAGE="https://fonts.google.com/specimen/Kantumruy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

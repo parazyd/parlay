@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' PT Sans Narrow (ptsansnarrow) font."
+DESCRIPTION="Google Fonts PT Sans Narrow font"
 HOMEPAGE="https://fonts.google.com/specimen/PT+Sans+Narrow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

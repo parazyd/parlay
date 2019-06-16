@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Taviraj (taviraj) font."
+DESCRIPTION="Google Fonts Taviraj font"
 HOMEPAGE="https://fonts.google.com/specimen/Taviraj"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

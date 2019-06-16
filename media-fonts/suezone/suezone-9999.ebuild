@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Suez One (suezone) font."
+DESCRIPTION="Google Fonts Suez One font"
 HOMEPAGE="https://fonts.google.com/specimen/Suez+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

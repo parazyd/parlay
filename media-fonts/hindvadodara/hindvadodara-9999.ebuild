@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Vadodara (hindvadodara) font."
+DESCRIPTION="Google Fonts Hind Vadodara font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Vadodara"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

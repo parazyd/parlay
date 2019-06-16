@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Strong (strong) font."
+DESCRIPTION="Google Fonts Strong font"
 HOMEPAGE="https://fonts.google.com/specimen/Strong"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

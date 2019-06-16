@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pontano Sans (pontanosans) font."
+DESCRIPTION="Google Fonts Pontano Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Pontano+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

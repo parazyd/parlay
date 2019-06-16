@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Amatic SC (amaticsc) font."
+DESCRIPTION="Google Fonts Amatic SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Amatic+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' IM Fell Great Primer (imfellgreatprimer) font."
+DESCRIPTION="Google Fonts IM Fell Great Primer font"
 HOMEPAGE="https://fonts.google.com/specimen/IM+Fell+Great+Primer"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

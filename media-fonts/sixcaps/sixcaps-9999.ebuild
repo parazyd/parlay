@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Six Caps (sixcaps) font."
+DESCRIPTION="Google Fonts Six Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Six+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

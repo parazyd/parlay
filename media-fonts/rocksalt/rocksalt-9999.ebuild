@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rock Salt (rocksalt) font."
+DESCRIPTION="Google Fonts Rock Salt font"
 HOMEPAGE="https://fonts.google.com/specimen/Rock+Salt"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

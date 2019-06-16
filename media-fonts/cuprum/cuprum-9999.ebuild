@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cuprum (cuprum) font."
+DESCRIPTION="Google Fonts Cuprum font"
 HOMEPAGE="https://fonts.google.com/specimen/Cuprum"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

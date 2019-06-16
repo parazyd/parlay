@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Belgrano (belgrano) font."
+DESCRIPTION="Google Fonts Belgrano font"
 HOMEPAGE="https://fonts.google.com/specimen/Belgrano"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

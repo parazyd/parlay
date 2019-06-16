@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Athiti (athiti) font."
+DESCRIPTION="Google Fonts Athiti font"
 HOMEPAGE="https://fonts.google.com/specimen/Athiti"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

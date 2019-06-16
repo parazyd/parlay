@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Crushed (crushed) font."
+DESCRIPTION="Google Fonts Crushed font"
 HOMEPAGE="https://fonts.google.com/specimen/Crushed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

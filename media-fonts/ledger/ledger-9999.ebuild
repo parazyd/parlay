@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ledger (ledger) font."
+DESCRIPTION="Google Fonts Ledger font"
 HOMEPAGE="https://fonts.google.com/specimen/Ledger"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

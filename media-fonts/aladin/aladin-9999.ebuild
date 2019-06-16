@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Aladin (aladin) font."
+DESCRIPTION="Google Fonts Aladin font"
 HOMEPAGE="https://fonts.google.com/specimen/Aladin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

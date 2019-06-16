@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Wallpoet (wallpoet) font."
+DESCRIPTION="Google Fonts Wallpoet font"
 HOMEPAGE="https://fonts.google.com/specimen/Wallpoet"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

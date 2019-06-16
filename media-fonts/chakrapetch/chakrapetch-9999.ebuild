@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chakra Petch (chakrapetch) font."
+DESCRIPTION="Google Fonts Chakra Petch font"
 HOMEPAGE="https://fonts.google.com/specimen/Chakra+Petch"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

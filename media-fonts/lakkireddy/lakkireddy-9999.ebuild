@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lakki Reddy (lakkireddy) font."
+DESCRIPTION="Google Fonts Lakki Reddy font"
 HOMEPAGE="https://fonts.google.com/specimen/Lakki+Reddy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fruktur (fruktur) font."
+DESCRIPTION="Google Fonts Fruktur font"
 HOMEPAGE="https://fonts.google.com/specimen/Fruktur"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

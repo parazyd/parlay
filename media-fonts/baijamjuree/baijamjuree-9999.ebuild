@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bai Jamjuree (baijamjuree) font."
+DESCRIPTION="Google Fonts Bai Jamjuree font"
 HOMEPAGE="https://fonts.google.com/specimen/Bai+Jamjuree"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

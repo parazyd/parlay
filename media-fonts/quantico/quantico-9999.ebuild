@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Quantico (quantico) font."
+DESCRIPTION="Google Fonts Quantico font"
 HOMEPAGE="https://fonts.google.com/specimen/Quantico"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

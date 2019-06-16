@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lilita One (lilitaone) font."
+DESCRIPTION="Google Fonts Lilita One font"
 HOMEPAGE="https://fonts.google.com/specimen/Lilita+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lateef (lateef) font."
+DESCRIPTION="Google Fonts Lateef font"
 HOMEPAGE="https://fonts.google.com/specimen/Lateef"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arizonia (arizonia) font."
+DESCRIPTION="Google Fonts Arizonia font"
 HOMEPAGE="https://fonts.google.com/specimen/Arizonia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kranky (kranky) font."
+DESCRIPTION="Google Fonts Kranky font"
 HOMEPAGE="https://fonts.google.com/specimen/Kranky"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

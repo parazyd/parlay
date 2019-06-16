@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Audiowide (audiowide) font."
+DESCRIPTION="Google Fonts Audiowide font"
 HOMEPAGE="https://fonts.google.com/specimen/Audiowide"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Allerta (allerta) font."
+DESCRIPTION="Google Fonts Allerta font"
 HOMEPAGE="https://fonts.google.com/specimen/Allerta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

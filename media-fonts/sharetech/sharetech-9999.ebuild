@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Share Tech (sharetech) font."
+DESCRIPTION="Google Fonts Share Tech font"
 HOMEPAGE="https://fonts.google.com/specimen/Share+Tech"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

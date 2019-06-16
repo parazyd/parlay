@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Playfair Display SC (playfairdisplaysc) font."
+DESCRIPTION="Google Fonts Playfair Display SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Playfair+Display+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

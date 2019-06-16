@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Meie Script (meiescript) font."
+DESCRIPTION="Google Fonts Meie Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Meie+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

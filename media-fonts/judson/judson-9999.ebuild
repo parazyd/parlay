@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Judson (judson) font."
+DESCRIPTION="Google Fonts Judson font"
 HOMEPAGE="https://fonts.google.com/specimen/Judson"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

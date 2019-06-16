@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Concert One (concertone) font."
+DESCRIPTION="Google Fonts Concert One font"
 HOMEPAGE="https://fonts.google.com/specimen/Concert+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

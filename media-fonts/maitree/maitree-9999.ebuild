@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Maitree (maitree) font."
+DESCRIPTION="Google Fonts Maitree font"
 HOMEPAGE="https://fonts.google.com/specimen/Maitree"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

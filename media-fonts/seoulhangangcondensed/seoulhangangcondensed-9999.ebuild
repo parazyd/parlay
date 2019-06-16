@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/seoulhangangcondensed//METADATA.pb (seoulhangangcondensed) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/seoulhangangcondensed//METADATA.pb"
+DESCRIPTION="Google Fonts seoulhangangcondensed font"
+HOMEPAGE="https://fonts.google.com/specimen/seoulhangangcondensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

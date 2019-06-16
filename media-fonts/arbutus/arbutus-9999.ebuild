@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arbutus (arbutus) font."
+DESCRIPTION="Google Fonts Arbutus font"
 HOMEPAGE="https://fonts.google.com/specimen/Arbutus"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

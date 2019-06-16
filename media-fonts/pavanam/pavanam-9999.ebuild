@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pavanam (pavanam) font."
+DESCRIPTION="Google Fonts Pavanam font"
 HOMEPAGE="https://fonts.google.com/specimen/Pavanam"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

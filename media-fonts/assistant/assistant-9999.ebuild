@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Assistant (assistant) font."
+DESCRIPTION="Google Fonts Assistant font"
 HOMEPAGE="https://fonts.google.com/specimen/Assistant"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

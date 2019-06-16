@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' error: Missing /home/parazyd/src/fonts/ofl/notosanstamil//METADATA.pb (notosanstamil) font."
-HOMEPAGE="https://fonts.google.com/specimen/error: Missing /home/parazyd/src/fonts/ofl/notosanstamil//METADATA.pb"
+DESCRIPTION="Google Fonts notosanstamil font"
+HOMEPAGE="https://fonts.google.com/specimen/notosanstamil"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

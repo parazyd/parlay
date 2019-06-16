@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Skranji (skranji) font."
+DESCRIPTION="Google Fonts Skranji font"
 HOMEPAGE="https://fonts.google.com/specimen/Skranji"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

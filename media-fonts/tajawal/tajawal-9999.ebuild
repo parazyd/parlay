@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Tajawal (tajawal) font."
+DESCRIPTION="Google Fonts Tajawal font"
 HOMEPAGE="https://fonts.google.com/specimen/Tajawal"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

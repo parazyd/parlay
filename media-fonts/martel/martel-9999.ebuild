@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Martel (martel) font."
+DESCRIPTION="Google Fonts Martel font"
 HOMEPAGE="https://fonts.google.com/specimen/Martel"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

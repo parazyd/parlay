@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Geostar (geostar) font."
+DESCRIPTION="Google Fonts Geostar font"
 HOMEPAGE="https://fonts.google.com/specimen/Geostar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

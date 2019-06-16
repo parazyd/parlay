@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sevillana (sevillana) font."
+DESCRIPTION="Google Fonts Sevillana font"
 HOMEPAGE="https://fonts.google.com/specimen/Sevillana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

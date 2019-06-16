@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rokkitt (rokkitt) font."
+DESCRIPTION="Google Fonts Rokkitt font"
 HOMEPAGE="https://fonts.google.com/specimen/Rokkitt"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

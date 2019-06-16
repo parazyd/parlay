@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Habibi (habibi) font."
+DESCRIPTION="Google Fonts Habibi font"
 HOMEPAGE="https://fonts.google.com/specimen/Habibi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

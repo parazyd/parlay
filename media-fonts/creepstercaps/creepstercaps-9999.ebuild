@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Creepster Caps (creepstercaps) font."
+DESCRIPTION="Google Fonts Creepster Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Creepster+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

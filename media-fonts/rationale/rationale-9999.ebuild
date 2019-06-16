@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rationale (rationale) font."
+DESCRIPTION="Google Fonts Rationale font"
 HOMEPAGE="https://fonts.google.com/specimen/Rationale"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

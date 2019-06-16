@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Meera Inimai (meerainimai) font."
+DESCRIPTION="Google Fonts Meera Inimai font"
 HOMEPAGE="https://fonts.google.com/specimen/Meera+Inimai"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

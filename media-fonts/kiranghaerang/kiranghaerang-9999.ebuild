@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kirang Haerang (kiranghaerang) font."
+DESCRIPTION="Google Fonts Kirang Haerang font"
 HOMEPAGE="https://fonts.google.com/specimen/Kirang+Haerang"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

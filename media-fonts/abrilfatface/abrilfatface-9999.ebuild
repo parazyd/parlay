@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Abril Fatface (abrilfatface) font."
+DESCRIPTION="Google Fonts Abril Fatface font"
 HOMEPAGE="https://fonts.google.com/specimen/Abril+Fatface"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

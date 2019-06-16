@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' IBM Plex Sans (ibmplexsans) font."
+DESCRIPTION="Google Fonts IBM Plex Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/IBM+Plex+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

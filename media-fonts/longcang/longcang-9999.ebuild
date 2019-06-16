@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' LongCang (longcang) font."
+DESCRIPTION="Google Fonts LongCang font"
 HOMEPAGE="https://fonts.google.com/specimen/LongCang"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

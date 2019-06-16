@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mr Dafoe (mrdafoe) font."
+DESCRIPTION="Google Fonts Mr Dafoe font"
 HOMEPAGE="https://fonts.google.com/specimen/Mr+Dafoe"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

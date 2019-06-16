@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Carme (carme) font."
+DESCRIPTION="Google Fonts Carme font"
 HOMEPAGE="https://fonts.google.com/specimen/Carme"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

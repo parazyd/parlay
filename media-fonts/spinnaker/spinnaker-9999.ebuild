@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Spinnaker (spinnaker) font."
+DESCRIPTION="Google Fonts Spinnaker font"
 HOMEPAGE="https://fonts.google.com/specimen/Spinnaker"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

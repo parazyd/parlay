@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Neucha (neucha) font."
+DESCRIPTION="Google Fonts Neucha font"
 HOMEPAGE="https://fonts.google.com/specimen/Neucha"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

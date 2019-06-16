@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bad Script (badscript) font."
+DESCRIPTION="Google Fonts Bad Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Bad+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

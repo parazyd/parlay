@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Just Me Again Down Here (justmeagaindownhere) font."
+DESCRIPTION="Google Fonts Just Me Again Down Here font"
 HOMEPAGE="https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

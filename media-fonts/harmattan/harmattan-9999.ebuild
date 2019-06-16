@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Harmattan (harmattan) font."
+DESCRIPTION="Google Fonts Harmattan font"
 HOMEPAGE="https://fonts.google.com/specimen/Harmattan"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

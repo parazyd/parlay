@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Titan One (titanone) font."
+DESCRIPTION="Google Fonts Titan One font"
 HOMEPAGE="https://fonts.google.com/specimen/Titan+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

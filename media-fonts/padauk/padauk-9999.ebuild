@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Padauk (padauk) font."
+DESCRIPTION="Google Fonts Padauk font"
 HOMEPAGE="https://fonts.google.com/specimen/Padauk"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Biryani (biryani) font."
+DESCRIPTION="Google Fonts Biryani font"
 HOMEPAGE="https://fonts.google.com/specimen/Biryani"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' ZCOOL XiaoWei (zcoolxiaowei) font."
+DESCRIPTION="Google Fonts ZCOOL XiaoWei font"
 HOMEPAGE="https://fonts.google.com/specimen/ZCOOL+XiaoWei"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

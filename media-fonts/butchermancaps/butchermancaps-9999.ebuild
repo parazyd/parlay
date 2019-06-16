@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Butcherman Caps (butchermancaps) font."
+DESCRIPTION="Google Fonts Butcherman Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Butcherman+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

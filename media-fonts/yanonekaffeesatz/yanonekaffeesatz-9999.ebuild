@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yanone Kaffeesatz (yanonekaffeesatz) font."
+DESCRIPTION="Google Fonts Yanone Kaffeesatz font"
 HOMEPAGE="https://fonts.google.com/specimen/Yanone+Kaffeesatz"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

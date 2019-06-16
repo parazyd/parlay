@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' IM Fell DW Pica SC (imfelldwpicasc) font."
+DESCRIPTION="Google Fonts IM Fell DW Pica SC font"
 HOMEPAGE="https://fonts.google.com/specimen/IM+Fell+DW+Pica+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

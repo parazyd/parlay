@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Akronim (akronim) font."
+DESCRIPTION="Google Fonts Akronim font"
 HOMEPAGE="https://fonts.google.com/specimen/Akronim"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

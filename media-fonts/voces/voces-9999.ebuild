@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Voces (voces) font."
+DESCRIPTION="Google Fonts Voces font"
 HOMEPAGE="https://fonts.google.com/specimen/Voces"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

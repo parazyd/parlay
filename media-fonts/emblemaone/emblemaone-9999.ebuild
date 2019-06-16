@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Emblema One (emblemaone) font."
+DESCRIPTION="Google Fonts Emblema One font"
 HOMEPAGE="https://fonts.google.com/specimen/Emblema+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

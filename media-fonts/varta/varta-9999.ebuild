@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Varta (varta) font."
+DESCRIPTION="Google Fonts Varta font"
 HOMEPAGE="https://fonts.google.com/specimen/Varta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

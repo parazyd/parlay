@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' B612 (b612) font."
+DESCRIPTION="Google Fonts B612 font"
 HOMEPAGE="https://fonts.google.com/specimen/B612"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

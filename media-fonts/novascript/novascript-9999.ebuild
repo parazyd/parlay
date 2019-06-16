@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nova Script (novascript) font."
+DESCRIPTION="Google Fonts Nova Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Nova+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

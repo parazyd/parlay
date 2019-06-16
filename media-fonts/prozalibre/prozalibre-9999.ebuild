@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Proza Libre (prozalibre) font."
+DESCRIPTION="Google Fonts Proza Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Proza+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

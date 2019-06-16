@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Damion (damion) font."
+DESCRIPTION="Google Fonts Damion font"
 HOMEPAGE="https://fonts.google.com/specimen/Damion"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

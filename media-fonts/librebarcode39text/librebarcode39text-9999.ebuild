@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Libre Barcode 39 Text (librebarcode39text) font."
+DESCRIPTION="Google Fonts Libre Barcode 39 Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Libre+Barcode+39+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

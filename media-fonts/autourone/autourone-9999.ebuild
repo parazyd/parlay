@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Autour One (autourone) font."
+DESCRIPTION="Google Fonts Autour One font"
 HOMEPAGE="https://fonts.google.com/specimen/Autour+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

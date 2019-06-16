@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bowlby One SC (bowlbyonesc) font."
+DESCRIPTION="Google Fonts Bowlby One SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Bowlby+One+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

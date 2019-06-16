@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ewert (ewert) font."
+DESCRIPTION="Google Fonts Ewert font"
 HOMEPAGE="https://fonts.google.com/specimen/Ewert"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

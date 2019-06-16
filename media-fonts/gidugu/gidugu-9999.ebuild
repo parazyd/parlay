@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gidugu (gidugu) font."
+DESCRIPTION="Google Fonts Gidugu font"
 HOMEPAGE="https://fonts.google.com/specimen/Gidugu"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

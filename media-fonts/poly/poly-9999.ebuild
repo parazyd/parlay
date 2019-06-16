@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Poly (poly) font."
+DESCRIPTION="Google Fonts Poly font"
 HOMEPAGE="https://fonts.google.com/specimen/Poly"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

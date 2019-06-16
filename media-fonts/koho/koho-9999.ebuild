@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' KoHo (koho) font."
+DESCRIPTION="Google Fonts KoHo font"
 HOMEPAGE="https://fonts.google.com/specimen/KoHo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

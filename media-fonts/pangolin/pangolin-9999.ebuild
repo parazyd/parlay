@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pangolin (pangolin) font."
+DESCRIPTION="Google Fonts Pangolin font"
 HOMEPAGE="https://fonts.google.com/specimen/Pangolin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

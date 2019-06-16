@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hi Melody (himelody) font."
+DESCRIPTION="Google Fonts Hi Melody font"
 HOMEPAGE="https://fonts.google.com/specimen/Hi+Melody"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

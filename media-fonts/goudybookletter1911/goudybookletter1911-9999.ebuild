@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Goudy Bookletter 1911 (goudybookletter1911) font."
+DESCRIPTION="Google Fonts Goudy Bookletter 1911 font"
 HOMEPAGE="https://fonts.google.com/specimen/Goudy+Bookletter+1911"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

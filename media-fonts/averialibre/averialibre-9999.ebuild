@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Averia Libre (averialibre) font."
+DESCRIPTION="Google Fonts Averia Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Averia+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

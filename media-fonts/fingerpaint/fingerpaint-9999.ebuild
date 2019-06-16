@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Finger Paint (fingerpaint) font."
+DESCRIPTION="Google Fonts Finger Paint font"
 HOMEPAGE="https://fonts.google.com/specimen/Finger+Paint"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

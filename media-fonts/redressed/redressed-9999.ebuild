@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Redressed (redressed) font."
+DESCRIPTION="Google Fonts Redressed font"
 HOMEPAGE="https://fonts.google.com/specimen/Redressed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

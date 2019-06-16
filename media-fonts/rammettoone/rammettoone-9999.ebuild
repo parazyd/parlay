@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rammetto One (rammettoone) font."
+DESCRIPTION="Google Fonts Rammetto One font"
 HOMEPAGE="https://fonts.google.com/specimen/Rammetto+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

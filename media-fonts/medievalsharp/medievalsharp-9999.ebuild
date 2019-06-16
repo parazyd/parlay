@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' MedievalSharp (medievalsharp) font."
+DESCRIPTION="Google Fonts MedievalSharp font"
 HOMEPAGE="https://fonts.google.com/specimen/MedievalSharp"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

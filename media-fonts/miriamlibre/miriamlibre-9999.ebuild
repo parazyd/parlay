@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miriam Libre (miriamlibre) font."
+DESCRIPTION="Google Fonts Miriam Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Miriam+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

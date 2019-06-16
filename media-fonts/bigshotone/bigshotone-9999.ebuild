@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bigshot One (bigshotone) font."
+DESCRIPTION="Google Fonts Bigshot One font"
 HOMEPAGE="https://fonts.google.com/specimen/Bigshot+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bungee Hairline (bungeehairline) font."
+DESCRIPTION="Google Fonts Bungee Hairline font"
 HOMEPAGE="https://fonts.google.com/specimen/Bungee+Hairline"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

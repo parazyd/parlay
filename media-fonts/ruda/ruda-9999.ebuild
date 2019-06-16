@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ruda (ruda) font."
+DESCRIPTION="Google Fonts Ruda font"
 HOMEPAGE="https://fonts.google.com/specimen/Ruda"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

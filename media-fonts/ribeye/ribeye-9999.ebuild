@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ribeye (ribeye) font."
+DESCRIPTION="Google Fonts Ribeye font"
 HOMEPAGE="https://fonts.google.com/specimen/Ribeye"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

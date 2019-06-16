@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chau Philomene One (chauphilomeneone) font."
+DESCRIPTION="Google Fonts Chau Philomene One font"
 HOMEPAGE="https://fonts.google.com/specimen/Chau+Philomene+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

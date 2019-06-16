@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Glass Antiqua (glassantiqua) font."
+DESCRIPTION="Google Fonts Glass Antiqua font"
 HOMEPAGE="https://fonts.google.com/specimen/Glass+Antiqua"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

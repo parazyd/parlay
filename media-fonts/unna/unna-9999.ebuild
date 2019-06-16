@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Unna (unna) font."
+DESCRIPTION="Google Fonts Unna font"
 HOMEPAGE="https://fonts.google.com/specimen/Unna"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

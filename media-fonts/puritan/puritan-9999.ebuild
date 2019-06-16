@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Puritan (puritan) font."
+DESCRIPTION="Google Fonts Puritan font"
 HOMEPAGE="https://fonts.google.com/specimen/Puritan"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

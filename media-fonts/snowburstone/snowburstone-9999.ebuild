@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Snowburst One (snowburstone) font."
+DESCRIPTION="Google Fonts Snowburst One font"
 HOMEPAGE="https://fonts.google.com/specimen/Snowburst+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

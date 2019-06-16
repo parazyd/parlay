@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Average (average) font."
+DESCRIPTION="Google Fonts Average font"
 HOMEPAGE="https://fonts.google.com/specimen/Average"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

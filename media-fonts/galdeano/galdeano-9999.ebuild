@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Galdeano (galdeano) font."
+DESCRIPTION="Google Fonts Galdeano font"
 HOMEPAGE="https://fonts.google.com/specimen/Galdeano"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

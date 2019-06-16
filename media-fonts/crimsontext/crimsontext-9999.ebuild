@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Crimson Text (crimsontext) font."
+DESCRIPTION="Google Fonts Crimson Text font"
 HOMEPAGE="https://fonts.google.com/specimen/Crimson+Text"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

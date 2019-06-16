@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Macondo Swash Caps (macondoswashcaps) font."
+DESCRIPTION="Google Fonts Macondo Swash Caps font"
 HOMEPAGE="https://fonts.google.com/specimen/Macondo+Swash+Caps"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

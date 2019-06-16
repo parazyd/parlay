@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lohit Bengali (lohitbengali) font."
+DESCRIPTION="Google Fonts Lohit Bengali font"
 HOMEPAGE="https://fonts.google.com/specimen/Lohit+Bengali"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

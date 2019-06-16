@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Felipa (felipa) font."
+DESCRIPTION="Google Fonts Felipa font"
 HOMEPAGE="https://fonts.google.com/specimen/Felipa"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

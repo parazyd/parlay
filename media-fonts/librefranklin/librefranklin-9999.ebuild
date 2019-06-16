@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Libre Franklin (librefranklin) font."
+DESCRIPTION="Google Fonts Libre Franklin font"
 HOMEPAGE="https://fonts.google.com/specimen/Libre+Franklin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

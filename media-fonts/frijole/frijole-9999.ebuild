@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Frijole (frijole) font."
+DESCRIPTION="Google Fonts Frijole font"
 HOMEPAGE="https://fonts.google.com/specimen/Frijole"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

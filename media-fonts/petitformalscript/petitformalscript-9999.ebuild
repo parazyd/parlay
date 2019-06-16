@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Petit Formal Script (petitformalscript) font."
+DESCRIPTION="Google Fonts Petit Formal Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Petit+Formal+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

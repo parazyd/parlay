@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Staatliches (staatliches) font."
+DESCRIPTION="Google Fonts Staatliches font"
 HOMEPAGE="https://fonts.google.com/specimen/Staatliches"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

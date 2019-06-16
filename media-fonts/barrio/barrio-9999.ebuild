@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Barrio (barrio) font."
+DESCRIPTION="Google Fonts Barrio font"
 HOMEPAGE="https://fonts.google.com/specimen/Barrio"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

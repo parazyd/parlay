@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Peralta (peralta) font."
+DESCRIPTION="Google Fonts Peralta font"
 HOMEPAGE="https://fonts.google.com/specimen/Peralta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

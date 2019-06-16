@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Warnes (warnes) font."
+DESCRIPTION="Google Fonts Warnes font"
 HOMEPAGE="https://fonts.google.com/specimen/Warnes"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

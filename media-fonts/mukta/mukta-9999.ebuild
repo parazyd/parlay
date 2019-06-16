@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mukta (mukta) font."
+DESCRIPTION="Google Fonts Mukta font"
 HOMEPAGE="https://fonts.google.com/specimen/Mukta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

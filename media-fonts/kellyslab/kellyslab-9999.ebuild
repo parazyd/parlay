@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kelly Slab (kellyslab) font."
+DESCRIPTION="Google Fonts Kelly Slab font"
 HOMEPAGE="https://fonts.google.com/specimen/Kelly+Slab"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Londrina Solid (londrinasolid) font."
+DESCRIPTION="Google Fonts Londrina Solid font"
 HOMEPAGE="https://fonts.google.com/specimen/Londrina+Solid"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gravitas One (gravitasone) font."
+DESCRIPTION="Google Fonts Gravitas One font"
 HOMEPAGE="https://fonts.google.com/specimen/Gravitas+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

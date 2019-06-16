@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Milonga (milonga) font."
+DESCRIPTION="Google Fonts Milonga font"
 HOMEPAGE="https://fonts.google.com/specimen/Milonga"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

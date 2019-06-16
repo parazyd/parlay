@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Kochi (hindkochi) font."
+DESCRIPTION="Google Fonts Hind Kochi font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Kochi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

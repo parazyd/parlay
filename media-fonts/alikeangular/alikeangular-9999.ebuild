@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Alike Angular (alikeangular) font."
+DESCRIPTION="Google Fonts Alike Angular font"
 HOMEPAGE="https://fonts.google.com/specimen/Alike+Angular"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

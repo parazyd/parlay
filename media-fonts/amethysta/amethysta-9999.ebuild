@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Amethysta (amethysta) font."
+DESCRIPTION="Google Fonts Amethysta font"
 HOMEPAGE="https://fonts.google.com/specimen/Amethysta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

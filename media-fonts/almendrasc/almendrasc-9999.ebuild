@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Almendra SC (almendrasc) font."
+DESCRIPTION="Google Fonts Almendra SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Almendra+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Codystar (codystar) font."
+DESCRIPTION="Google Fonts Codystar font"
 HOMEPAGE="https://fonts.google.com/specimen/Codystar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

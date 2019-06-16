@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Crimson Pro (crimsonpro) font."
+DESCRIPTION="Google Fonts Crimson Pro font"
 HOMEPAGE="https://fonts.google.com/specimen/Crimson+Pro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

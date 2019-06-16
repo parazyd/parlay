@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Paprika (paprika) font."
+DESCRIPTION="Google Fonts Paprika font"
 HOMEPAGE="https://fonts.google.com/specimen/Paprika"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

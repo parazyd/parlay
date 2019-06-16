@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miniver (miniver) font."
+DESCRIPTION="Google Fonts Miniver font"
 HOMEPAGE="https://fonts.google.com/specimen/Miniver"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

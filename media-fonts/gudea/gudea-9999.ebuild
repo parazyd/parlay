@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gudea (gudea) font."
+DESCRIPTION="Google Fonts Gudea font"
 HOMEPAGE="https://fonts.google.com/specimen/Gudea"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Srisakdi (srisakdi) font."
+DESCRIPTION="Google Fonts Srisakdi font"
 HOMEPAGE="https://fonts.google.com/specimen/Srisakdi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

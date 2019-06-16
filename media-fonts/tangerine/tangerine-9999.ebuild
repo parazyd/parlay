@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Tangerine (tangerine) font."
+DESCRIPTION="Google Fonts Tangerine font"
 HOMEPAGE="https://fonts.google.com/specimen/Tangerine"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

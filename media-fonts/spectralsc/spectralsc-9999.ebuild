@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Spectral SC (spectralsc) font."
+DESCRIPTION="Google Fonts Spectral SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Spectral+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

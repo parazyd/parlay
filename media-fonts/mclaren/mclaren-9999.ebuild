@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' McLaren (mclaren) font."
+DESCRIPTION="Google Fonts McLaren font"
 HOMEPAGE="https://fonts.google.com/specimen/McLaren"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

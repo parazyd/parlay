@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Colombo (hindcolombo) font."
+DESCRIPTION="Google Fonts Hind Colombo font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Colombo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

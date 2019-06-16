@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Waiting for the Sunrise (waitingforthesunrise) font."
+DESCRIPTION="Google Fonts Waiting for the Sunrise font"
 HOMEPAGE="https://fonts.google.com/specimen/Waiting+for+the+Sunrise"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

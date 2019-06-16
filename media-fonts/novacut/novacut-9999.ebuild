@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nova Cut (novacut) font."
+DESCRIPTION="Google Fonts Nova Cut font"
 HOMEPAGE="https://fonts.google.com/specimen/Nova+Cut"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

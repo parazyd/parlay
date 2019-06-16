@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Metal Mania (metalmania) font."
+DESCRIPTION="Google Fonts Metal Mania font"
 HOMEPAGE="https://fonts.google.com/specimen/Metal+Mania"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

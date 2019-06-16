@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Caudex (caudex) font."
+DESCRIPTION="Google Fonts Caudex font"
 HOMEPAGE="https://fonts.google.com/specimen/Caudex"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

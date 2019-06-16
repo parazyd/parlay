@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' GFS Neohellenic (gfsneohellenic) font."
+DESCRIPTION="Google Fonts GFS Neohellenic font"
 HOMEPAGE="https://fonts.google.com/specimen/GFS+Neohellenic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

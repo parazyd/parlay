@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Delius (delius) font."
+DESCRIPTION="Google Fonts Delius font"
 HOMEPAGE="https://fonts.google.com/specimen/Delius"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

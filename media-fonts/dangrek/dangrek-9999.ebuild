@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dangrek (dangrek) font."
+DESCRIPTION="Google Fonts Dangrek font"
 HOMEPAGE="https://fonts.google.com/specimen/Dangrek"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

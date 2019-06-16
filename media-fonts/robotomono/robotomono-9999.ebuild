@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Roboto Mono (robotomono) font."
+DESCRIPTION="Google Fonts Roboto Mono font"
 HOMEPAGE="https://fonts.google.com/specimen/Roboto+Mono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

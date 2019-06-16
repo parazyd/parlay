@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chilanka (chilanka) font."
+DESCRIPTION="Google Fonts Chilanka font"
 HOMEPAGE="https://fonts.google.com/specimen/Chilanka"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

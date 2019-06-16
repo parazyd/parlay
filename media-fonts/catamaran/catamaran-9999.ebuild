@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Catamaran (catamaran) font."
+DESCRIPTION="Google Fonts Catamaran font"
 HOMEPAGE="https://fonts.google.com/specimen/Catamaran"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

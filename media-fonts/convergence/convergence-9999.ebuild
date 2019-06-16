@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Convergence (convergence) font."
+DESCRIPTION="Google Fonts Convergence font"
 HOMEPAGE="https://fonts.google.com/specimen/Convergence"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

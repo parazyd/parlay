@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Prociono (prociono) font."
+DESCRIPTION="Google Fonts Prociono font"
 HOMEPAGE="https://fonts.google.com/specimen/Prociono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Medula One (medulaone) font."
+DESCRIPTION="Google Fonts Medula One font"
 HOMEPAGE="https://fonts.google.com/specimen/Medula+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

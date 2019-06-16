@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gugi (gugi) font."
+DESCRIPTION="Google Fonts Gugi font"
 HOMEPAGE="https://fonts.google.com/specimen/Gugi"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

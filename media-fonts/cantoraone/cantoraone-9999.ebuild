@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cantora One (cantoraone) font."
+DESCRIPTION="Google Fonts Cantora One font"
 HOMEPAGE="https://fonts.google.com/specimen/Cantora+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

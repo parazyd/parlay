@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nanum Gothic Coding (nanumgothiccoding) font."
+DESCRIPTION="Google Fonts Nanum Gothic Coding font"
 HOMEPAGE="https://fonts.google.com/specimen/Nanum+Gothic+Coding"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

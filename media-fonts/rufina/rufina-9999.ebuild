@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rufina (rufina) font."
+DESCRIPTION="Google Fonts Rufina font"
 HOMEPAGE="https://fonts.google.com/specimen/Rufina"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sarabun (sarabun) font."
+DESCRIPTION="Google Fonts Sarabun font"
 HOMEPAGE="https://fonts.google.com/specimen/Sarabun"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

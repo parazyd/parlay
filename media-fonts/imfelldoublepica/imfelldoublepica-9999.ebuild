@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' IM Fell Double Pica (imfelldoublepica) font."
+DESCRIPTION="Google Fonts IM Fell Double Pica font"
 HOMEPAGE="https://fonts.google.com/specimen/IM+Fell+Double+Pica"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

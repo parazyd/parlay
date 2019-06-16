@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Exo 2 (exo2) font."
+DESCRIPTION="Google Fonts Exo 2 font"
 HOMEPAGE="https://fonts.google.com/specimen/Exo+2"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sitara (sitara) font."
+DESCRIPTION="Google Fonts Sitara font"
 HOMEPAGE="https://fonts.google.com/specimen/Sitara"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

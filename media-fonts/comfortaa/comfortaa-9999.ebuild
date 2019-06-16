@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Comfortaa (comfortaa) font."
+DESCRIPTION="Google Fonts Comfortaa font"
 HOMEPAGE="https://fonts.google.com/specimen/Comfortaa"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

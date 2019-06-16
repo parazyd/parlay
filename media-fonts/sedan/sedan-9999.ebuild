@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sedan (sedan) font."
+DESCRIPTION="Google Fonts Sedan font"
 HOMEPAGE="https://fonts.google.com/specimen/Sedan"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

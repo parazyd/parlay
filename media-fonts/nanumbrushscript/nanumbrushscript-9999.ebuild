@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nanum Brush Script (nanumbrushscript) font."
+DESCRIPTION="Google Fonts Nanum Brush Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Nanum+Brush+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

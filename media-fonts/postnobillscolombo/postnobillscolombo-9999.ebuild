@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Post No Bills Colombo (postnobillscolombo) font."
+DESCRIPTION="Google Fonts Post No Bills Colombo font"
 HOMEPAGE="https://fonts.google.com/specimen/Post+No+Bills+Colombo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

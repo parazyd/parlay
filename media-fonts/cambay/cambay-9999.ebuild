@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cambay (cambay) font."
+DESCRIPTION="Google Fonts Cambay font"
 HOMEPAGE="https://fonts.google.com/specimen/Cambay"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

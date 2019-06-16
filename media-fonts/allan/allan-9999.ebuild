@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Allan (allan) font."
+DESCRIPTION="Google Fonts Allan font"
 HOMEPAGE="https://fonts.google.com/specimen/Allan"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

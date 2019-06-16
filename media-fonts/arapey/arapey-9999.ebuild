@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Arapey (arapey) font."
+DESCRIPTION="Google Fonts Arapey font"
 HOMEPAGE="https://fonts.google.com/specimen/Arapey"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

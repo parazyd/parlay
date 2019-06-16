@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bubblegum Sans (bubblegumsans) font."
+DESCRIPTION="Google Fonts Bubblegum Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Bubblegum+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

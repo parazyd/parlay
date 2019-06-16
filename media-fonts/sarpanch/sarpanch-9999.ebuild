@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sarpanch (sarpanch) font."
+DESCRIPTION="Google Fonts Sarpanch font"
 HOMEPAGE="https://fonts.google.com/specimen/Sarpanch"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

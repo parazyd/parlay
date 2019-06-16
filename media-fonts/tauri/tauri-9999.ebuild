@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Tauri (tauri) font."
+DESCRIPTION="Google Fonts Tauri font"
 HOMEPAGE="https://fonts.google.com/specimen/Tauri"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

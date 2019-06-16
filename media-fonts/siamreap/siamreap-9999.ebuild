@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Siamreap (siamreap) font."
+DESCRIPTION="Google Fonts Siamreap font"
 HOMEPAGE="https://fonts.google.com/specimen/Siamreap"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

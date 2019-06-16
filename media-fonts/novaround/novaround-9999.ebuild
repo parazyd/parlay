@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nova Round (novaround) font."
+DESCRIPTION="Google Fonts Nova Round font"
 HOMEPAGE="https://fonts.google.com/specimen/Nova+Round"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

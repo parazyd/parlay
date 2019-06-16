@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mountains of Christmas (mountainsofchristmas) font."
+DESCRIPTION="Google Fonts Mountains of Christmas font"
 HOMEPAGE="https://fonts.google.com/specimen/Mountains+of+Christmas"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

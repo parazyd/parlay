@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mali (mali) font."
+DESCRIPTION="Google Fonts Mali font"
 HOMEPAGE="https://fonts.google.com/specimen/Mali"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

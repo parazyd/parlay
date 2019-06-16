@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' The Girl Next Door (thegirlnextdoor) font."
+DESCRIPTION="Google Fonts The Girl Next Door font"
 HOMEPAGE="https://fonts.google.com/specimen/The+Girl+Next+Door"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

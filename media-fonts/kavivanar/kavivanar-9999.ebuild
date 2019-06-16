@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kavivanar (kavivanar) font."
+DESCRIPTION="Google Fonts Kavivanar font"
 HOMEPAGE="https://fonts.google.com/specimen/Kavivanar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Post No Bills Jaffna (postnobillsjaffna) font."
+DESCRIPTION="Google Fonts Post No Bills Jaffna font"
 HOMEPAGE="https://fonts.google.com/specimen/Post+No+Bills+Jaffna"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

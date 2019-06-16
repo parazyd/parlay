@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Tenali Ramakrishna (tenaliramakrishna) font."
+DESCRIPTION="Google Fonts Tenali Ramakrishna font"
 HOMEPAGE="https://fonts.google.com/specimen/Tenali+Ramakrishna"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rozha One (rozhaone) font."
+DESCRIPTION="Google Fonts Rozha One font"
 HOMEPAGE="https://fonts.google.com/specimen/Rozha+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

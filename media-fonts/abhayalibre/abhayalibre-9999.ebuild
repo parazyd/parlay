@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Abhaya Libre (abhayalibre) font."
+DESCRIPTION="Google Fonts Abhaya Libre font"
 HOMEPAGE="https://fonts.google.com/specimen/Abhaya+Libre"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

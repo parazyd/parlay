@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Overpass Mono (overpassmono) font."
+DESCRIPTION="Google Fonts Overpass Mono font"
 HOMEPAGE="https://fonts.google.com/specimen/Overpass+Mono"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

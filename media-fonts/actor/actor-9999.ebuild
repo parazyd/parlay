@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Actor (actor) font."
+DESCRIPTION="Google Fonts Actor font"
 HOMEPAGE="https://fonts.google.com/specimen/Actor"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

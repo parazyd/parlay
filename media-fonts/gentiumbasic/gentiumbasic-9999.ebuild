@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gentium Basic (gentiumbasic) font."
+DESCRIPTION="Google Fonts Gentium Basic font"
 HOMEPAGE="https://fonts.google.com/specimen/Gentium+Basic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Major Mono Display (majormonodisplay) font."
+DESCRIPTION="Google Fonts Major Mono Display font"
 HOMEPAGE="https://fonts.google.com/specimen/Major+Mono+Display"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dancing Script (dancingscript) font."
+DESCRIPTION="Google Fonts Dancing Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Dancing+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

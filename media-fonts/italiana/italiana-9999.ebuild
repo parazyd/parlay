@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Italiana (italiana) font."
+DESCRIPTION="Google Fonts Italiana font"
 HOMEPAGE="https://fonts.google.com/specimen/Italiana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

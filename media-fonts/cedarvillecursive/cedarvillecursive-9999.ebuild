@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cedarville Cursive (cedarvillecursive) font."
+DESCRIPTION="Google Fonts Cedarville Cursive font"
 HOMEPAGE="https://fonts.google.com/specimen/Cedarville+Cursive"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

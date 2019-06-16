@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Caveat Brush (caveatbrush) font."
+DESCRIPTION="Google Fonts Caveat Brush font"
 HOMEPAGE="https://fonts.google.com/specimen/Caveat+Brush"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

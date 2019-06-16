@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Domine (domine) font."
+DESCRIPTION="Google Fonts Domine font"
 HOMEPAGE="https://fonts.google.com/specimen/Domine"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

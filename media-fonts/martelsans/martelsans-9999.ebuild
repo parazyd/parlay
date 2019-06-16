@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Martel Sans (martelsans) font."
+DESCRIPTION="Google Fonts Martel Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Martel+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

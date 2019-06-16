@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' News Cycle (newscycle) font."
+DESCRIPTION="Google Fonts News Cycle font"
 HOMEPAGE="https://fonts.google.com/specimen/News+Cycle"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

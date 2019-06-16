@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Merriweather Sans (merriweathersans) font."
+DESCRIPTION="Google Fonts Merriweather Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Merriweather+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

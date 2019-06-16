@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Work Sans (worksans) font."
+DESCRIPTION="Google Fonts Work Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Work+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

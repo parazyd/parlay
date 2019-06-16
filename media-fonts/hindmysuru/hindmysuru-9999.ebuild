@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Mysuru (hindmysuru) font."
+DESCRIPTION="Google Fonts Hind Mysuru font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Mysuru"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

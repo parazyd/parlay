@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Brawler (brawler) font."
+DESCRIPTION="Google Fonts Brawler font"
 HOMEPAGE="https://fonts.google.com/specimen/Brawler"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' El Messiri (elmessiri) font."
+DESCRIPTION="Google Fonts El Messiri font"
 HOMEPAGE="https://fonts.google.com/specimen/El+Messiri"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

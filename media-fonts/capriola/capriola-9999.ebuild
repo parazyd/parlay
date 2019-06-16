@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Capriola (capriola) font."
+DESCRIPTION="Google Fonts Capriola font"
 HOMEPAGE="https://fonts.google.com/specimen/Capriola"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Duru Sans (durusans) font."
+DESCRIPTION="Google Fonts Duru Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Duru+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Terminal Dosis Light (terminaldosislight) font."
+DESCRIPTION="Google Fonts Terminal Dosis Light font"
 HOMEPAGE="https://fonts.google.com/specimen/Terminal+Dosis+Light"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

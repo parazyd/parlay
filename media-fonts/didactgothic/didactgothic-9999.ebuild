@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Didact Gothic (didactgothic) font."
+DESCRIPTION="Google Fonts Didact Gothic font"
 HOMEPAGE="https://fonts.google.com/specimen/Didact+Gothic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

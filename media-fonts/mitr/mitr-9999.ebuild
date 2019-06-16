@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mitr (mitr) font."
+DESCRIPTION="Google Fonts Mitr font"
 HOMEPAGE="https://fonts.google.com/specimen/Mitr"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

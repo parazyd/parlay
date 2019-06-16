@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Unkempt (unkempt) font."
+DESCRIPTION="Google Fonts Unkempt font"
 HOMEPAGE="https://fonts.google.com/specimen/Unkempt"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

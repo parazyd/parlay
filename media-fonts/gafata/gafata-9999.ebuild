@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gafata (gafata) font."
+DESCRIPTION="Google Fonts Gafata font"
 HOMEPAGE="https://fonts.google.com/specimen/Gafata"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

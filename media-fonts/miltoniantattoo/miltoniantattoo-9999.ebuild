@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miltonian Tattoo (miltoniantattoo) font."
+DESCRIPTION="Google Fonts Miltonian Tattoo font"
 HOMEPAGE="https://fonts.google.com/specimen/Miltonian+Tattoo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mako (mako) font."
+DESCRIPTION="Google Fonts Mako font"
 HOMEPAGE="https://fonts.google.com/specimen/Mako"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

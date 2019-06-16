@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gothic A1 (gothica1) font."
+DESCRIPTION="Google Fonts Gothic A1 font"
 HOMEPAGE="https://fonts.google.com/specimen/Gothic+A1"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

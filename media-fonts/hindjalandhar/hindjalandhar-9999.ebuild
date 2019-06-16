@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Jalandhar (hindjalandhar) font."
+DESCRIPTION="Google Fonts Hind Jalandhar font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Jalandhar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

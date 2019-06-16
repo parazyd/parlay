@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Solway (solway) font."
+DESCRIPTION="Google Fonts Solway font"
 HOMEPAGE="https://fonts.google.com/specimen/Solway"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

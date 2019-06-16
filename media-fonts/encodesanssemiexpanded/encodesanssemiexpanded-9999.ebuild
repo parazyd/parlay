@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Encode Sans Semi Expanded (encodesanssemiexpanded) font."
+DESCRIPTION="Google Fonts Encode Sans Semi Expanded font"
 HOMEPAGE="https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

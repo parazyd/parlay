@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Baloo Bhai (baloobhai) font."
+DESCRIPTION="Google Fonts Baloo Bhai font"
 HOMEPAGE="https://fonts.google.com/specimen/Baloo+Bhai"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

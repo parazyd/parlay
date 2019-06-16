@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Russo One (russoone) font."
+DESCRIPTION="Google Fonts Russo One font"
 HOMEPAGE="https://fonts.google.com/specimen/Russo+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

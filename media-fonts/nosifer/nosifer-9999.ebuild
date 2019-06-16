@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nosifer (nosifer) font."
+DESCRIPTION="Google Fonts Nosifer font"
 HOMEPAGE="https://fonts.google.com/specimen/Nosifer"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

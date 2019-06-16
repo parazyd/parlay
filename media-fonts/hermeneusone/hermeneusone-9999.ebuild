@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hermeneus One (hermeneusone) font."
+DESCRIPTION="Google Fonts Hermeneus One font"
 HOMEPAGE="https://fonts.google.com/specimen/Hermeneus+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

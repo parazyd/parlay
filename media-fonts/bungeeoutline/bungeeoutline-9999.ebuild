@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bungee Outline (bungeeoutline) font."
+DESCRIPTION="Google Fonts Bungee Outline font"
 HOMEPAGE="https://fonts.google.com/specimen/Bungee+Outline"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

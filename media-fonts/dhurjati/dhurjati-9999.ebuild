@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dhurjati (dhurjati) font."
+DESCRIPTION="Google Fonts Dhurjati font"
 HOMEPAGE="https://fonts.google.com/specimen/Dhurjati"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

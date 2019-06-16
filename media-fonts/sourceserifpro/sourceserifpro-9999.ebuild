@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Source Serif Pro (sourceserifpro) font."
+DESCRIPTION="Google Fonts Source Serif Pro font"
 HOMEPAGE="https://fonts.google.com/specimen/Source+Serif+Pro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

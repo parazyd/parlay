@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Vast Shadow (vastshadow) font."
+DESCRIPTION="Google Fonts Vast Shadow font"
 HOMEPAGE="https://fonts.google.com/specimen/Vast+Shadow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

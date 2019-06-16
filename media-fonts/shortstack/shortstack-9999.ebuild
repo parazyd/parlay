@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Short Stack (shortstack) font."
+DESCRIPTION="Google Fonts Short Stack font"
 HOMEPAGE="https://fonts.google.com/specimen/Short+Stack"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

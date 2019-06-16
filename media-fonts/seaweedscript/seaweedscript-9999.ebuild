@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Seaweed Script (seaweedscript) font."
+DESCRIPTION="Google Fonts Seaweed Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Seaweed+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

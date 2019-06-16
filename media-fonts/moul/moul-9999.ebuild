@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Moul (moul) font."
+DESCRIPTION="Google Fonts Moul font"
 HOMEPAGE="https://fonts.google.com/specimen/Moul"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

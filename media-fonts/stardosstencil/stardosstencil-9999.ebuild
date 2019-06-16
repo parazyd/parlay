@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stardos Stencil (stardosstencil) font."
+DESCRIPTION="Google Fonts Stardos Stencil font"
 HOMEPAGE="https://fonts.google.com/specimen/Stardos+Stencil"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

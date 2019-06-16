@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Battambang (battambang) font."
+DESCRIPTION="Google Fonts Battambang font"
 HOMEPAGE="https://fonts.google.com/specimen/Battambang"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

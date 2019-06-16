@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Adobe Blank (adobeblank) font."
+DESCRIPTION="Google Fonts Adobe Blank font"
 HOMEPAGE="https://fonts.google.com/specimen/Adobe+Blank"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

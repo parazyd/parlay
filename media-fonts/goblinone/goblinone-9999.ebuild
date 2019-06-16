@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Goblin One (goblinone) font."
+DESCRIPTION="Google Fonts Goblin One font"
 HOMEPAGE="https://fonts.google.com/specimen/Goblin+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

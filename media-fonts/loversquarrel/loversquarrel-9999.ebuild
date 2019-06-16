@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lovers Quarrel (loversquarrel) font."
+DESCRIPTION="Google Fonts Lovers Quarrel font"
 HOMEPAGE="https://fonts.google.com/specimen/Lovers+Quarrel"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Germania One (germaniaone) font."
+DESCRIPTION="Google Fonts Germania One font"
 HOMEPAGE="https://fonts.google.com/specimen/Germania+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

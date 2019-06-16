@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Satisfy (satisfy) font."
+DESCRIPTION="Google Fonts Satisfy font"
 HOMEPAGE="https://fonts.google.com/specimen/Satisfy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

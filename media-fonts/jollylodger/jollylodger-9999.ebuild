@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Jolly Lodger (jollylodger) font."
+DESCRIPTION="Google Fonts Jolly Lodger font"
 HOMEPAGE="https://fonts.google.com/specimen/Jolly+Lodger"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

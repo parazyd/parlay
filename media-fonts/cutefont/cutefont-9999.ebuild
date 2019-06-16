@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cute Font (cutefont) font."
+DESCRIPTION="Google Fonts Cute Font font"
 HOMEPAGE="https://fonts.google.com/specimen/Cute+Font"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

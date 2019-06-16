@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sofadi One (sofadione) font."
+DESCRIPTION="Google Fonts Sofadi One font"
 HOMEPAGE="https://fonts.google.com/specimen/Sofadi+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

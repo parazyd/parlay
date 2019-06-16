@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Krub (krub) font."
+DESCRIPTION="Google Fonts Krub font"
 HOMEPAGE="https://fonts.google.com/specimen/Krub"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

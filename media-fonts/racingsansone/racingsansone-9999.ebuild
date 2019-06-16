@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Racing Sans One (racingsansone) font."
+DESCRIPTION="Google Fonts Racing Sans One font"
 HOMEPAGE="https://fonts.google.com/specimen/Racing+Sans+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

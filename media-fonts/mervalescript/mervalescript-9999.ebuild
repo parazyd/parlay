@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mervale Script (mervalescript) font."
+DESCRIPTION="Google Fonts Mervale Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Mervale+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

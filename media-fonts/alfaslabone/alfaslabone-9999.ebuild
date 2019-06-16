@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Alfa Slab One (alfaslabone) font."
+DESCRIPTION="Google Fonts Alfa Slab One font"
 HOMEPAGE="https://fonts.google.com/specimen/Alfa+Slab+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

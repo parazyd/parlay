@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lancelot (lancelot) font."
+DESCRIPTION="Google Fonts Lancelot font"
 HOMEPAGE="https://fonts.google.com/specimen/Lancelot"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

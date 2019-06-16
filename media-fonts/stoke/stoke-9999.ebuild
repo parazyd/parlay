@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Stoke (stoke) font."
+DESCRIPTION="Google Fonts Stoke font"
 HOMEPAGE="https://fonts.google.com/specimen/Stoke"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

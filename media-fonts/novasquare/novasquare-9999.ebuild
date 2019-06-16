@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Nova Square (novasquare) font."
+DESCRIPTION="Google Fonts Nova Square font"
 HOMEPAGE="https://fonts.google.com/specimen/Nova+Square"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

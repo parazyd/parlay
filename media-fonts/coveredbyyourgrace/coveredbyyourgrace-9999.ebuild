@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Covered By Your Grace (coveredbyyourgrace) font."
+DESCRIPTION="Google Fonts Covered By Your Grace font"
 HOMEPAGE="https://fonts.google.com/specimen/Covered+By+Your+Grace"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

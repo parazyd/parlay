@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sura (sura) font."
+DESCRIPTION="Google Fonts Sura font"
 HOMEPAGE="https://fonts.google.com/specimen/Sura"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Flamenco (flamenco) font."
+DESCRIPTION="Google Fonts Flamenco font"
 HOMEPAGE="https://fonts.google.com/specimen/Flamenco"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

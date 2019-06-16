@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Boogaloo (boogaloo) font."
+DESCRIPTION="Google Fonts Boogaloo font"
 HOMEPAGE="https://fonts.google.com/specimen/Boogaloo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

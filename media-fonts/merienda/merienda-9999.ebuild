@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Merienda (merienda) font."
+DESCRIPTION="Google Fonts Merienda font"
 HOMEPAGE="https://fonts.google.com/specimen/Merienda"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

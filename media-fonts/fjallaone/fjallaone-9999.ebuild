@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fjalla One (fjallaone) font."
+DESCRIPTION="Google Fonts Fjalla One font"
 HOMEPAGE="https://fonts.google.com/specimen/Fjalla+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

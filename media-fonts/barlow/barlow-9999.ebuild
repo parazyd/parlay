@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Barlow (barlow) font."
+DESCRIPTION="Google Fonts Barlow font"
 HOMEPAGE="https://fonts.google.com/specimen/Barlow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

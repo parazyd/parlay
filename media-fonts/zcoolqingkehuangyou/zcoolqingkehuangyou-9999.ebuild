@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' ZCOOL QingKe HuangYou (zcoolqingkehuangyou) font."
+DESCRIPTION="Google Fonts ZCOOL QingKe HuangYou font"
 HOMEPAGE="https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

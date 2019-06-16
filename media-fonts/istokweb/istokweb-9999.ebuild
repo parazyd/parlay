@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Istok Web (istokweb) font."
+DESCRIPTION="Google Fonts Istok Web font"
 HOMEPAGE="https://fonts.google.com/specimen/Istok+Web"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

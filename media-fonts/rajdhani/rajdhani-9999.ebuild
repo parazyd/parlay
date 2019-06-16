@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rajdhani (rajdhani) font."
+DESCRIPTION="Google Fonts Rajdhani font"
 HOMEPAGE="https://fonts.google.com/specimen/Rajdhani"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

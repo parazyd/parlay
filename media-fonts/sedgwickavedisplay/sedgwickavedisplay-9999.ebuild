@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sedgwick Ave Display (sedgwickavedisplay) font."
+DESCRIPTION="Google Fonts Sedgwick Ave Display font"
 HOMEPAGE="https://fonts.google.com/specimen/Sedgwick+Ave+Display"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

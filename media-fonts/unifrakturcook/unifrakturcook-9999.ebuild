@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' UnifrakturCook (unifrakturcook) font."
+DESCRIPTION="Google Fonts UnifrakturCook font"
 HOMEPAGE="https://fonts.google.com/specimen/UnifrakturCook"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

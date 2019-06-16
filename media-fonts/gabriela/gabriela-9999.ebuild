@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gabriela (gabriela) font."
+DESCRIPTION="Google Fonts Gabriela font"
 HOMEPAGE="https://fonts.google.com/specimen/Gabriela"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

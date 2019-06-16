@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sofia (sofia) font."
+DESCRIPTION="Google Fonts Sofia font"
 HOMEPAGE="https://fonts.google.com/specimen/Sofia"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

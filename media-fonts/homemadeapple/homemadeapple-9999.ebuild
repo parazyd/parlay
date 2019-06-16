@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Homemade Apple (homemadeapple) font."
+DESCRIPTION="Google Fonts Homemade Apple font"
 HOMEPAGE="https://fonts.google.com/specimen/Homemade+Apple"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

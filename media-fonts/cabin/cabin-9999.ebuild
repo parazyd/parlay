@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cabin (cabin) font."
+DESCRIPTION="Google Fonts Cabin font"
 HOMEPAGE="https://fonts.google.com/specimen/Cabin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

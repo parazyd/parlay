@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Barlow Semi Condensed (barlowsemicondensed) font."
+DESCRIPTION="Google Fonts Barlow Semi Condensed font"
 HOMEPAGE="https://fonts.google.com/specimen/Barlow+Semi+Condensed"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

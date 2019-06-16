@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sumana (sumana) font."
+DESCRIPTION="Google Fonts Sumana font"
 HOMEPAGE="https://fonts.google.com/specimen/Sumana"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

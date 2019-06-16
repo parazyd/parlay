@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Shadows Into Light (shadowsintolight) font."
+DESCRIPTION="Google Fonts Shadows Into Light font"
 HOMEPAGE="https://fonts.google.com/specimen/Shadows+Into+Light"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

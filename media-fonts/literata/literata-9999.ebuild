@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Literata (literata) font."
+DESCRIPTION="Google Fonts Literata font"
 HOMEPAGE="https://fonts.google.com/specimen/Literata"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

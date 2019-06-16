@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Anaheim (anaheim) font."
+DESCRIPTION="Google Fonts Anaheim font"
 HOMEPAGE="https://fonts.google.com/specimen/Anaheim"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

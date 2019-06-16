@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fredericka the Great (frederickathegreat) font."
+DESCRIPTION="Google Fonts Fredericka the Great font"
 HOMEPAGE="https://fonts.google.com/specimen/Fredericka+the+Great"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

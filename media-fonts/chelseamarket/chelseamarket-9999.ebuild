@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chelsea Market (chelseamarket) font."
+DESCRIPTION="Google Fonts Chelsea Market font"
 HOMEPAGE="https://fonts.google.com/specimen/Chelsea+Market"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

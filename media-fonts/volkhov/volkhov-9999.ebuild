@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Volkhov (volkhov) font."
+DESCRIPTION="Google Fonts Volkhov font"
 HOMEPAGE="https://fonts.google.com/specimen/Volkhov"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

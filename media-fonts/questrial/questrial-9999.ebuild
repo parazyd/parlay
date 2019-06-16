@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Questrial (questrial) font."
+DESCRIPTION="Google Fonts Questrial font"
 HOMEPAGE="https://fonts.google.com/specimen/Questrial"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

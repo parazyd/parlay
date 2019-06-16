@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Permanent Marker (permanentmarker) font."
+DESCRIPTION="Google Fonts Permanent Marker font"
 HOMEPAGE="https://fonts.google.com/specimen/Permanent+Marker"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Iceland (iceland) font."
+DESCRIPTION="Google Fonts Iceland font"
 HOMEPAGE="https://fonts.google.com/specimen/Iceland"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

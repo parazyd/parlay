@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mallanna (mallanna) font."
+DESCRIPTION="Google Fonts Mallanna font"
 HOMEPAGE="https://fonts.google.com/specimen/Mallanna"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

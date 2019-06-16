@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fascinate Inline (fascinateinline) font."
+DESCRIPTION="Google Fonts Fascinate Inline font"
 HOMEPAGE="https://fonts.google.com/specimen/Fascinate+Inline"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

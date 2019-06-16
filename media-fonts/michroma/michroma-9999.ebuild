@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Michroma (michroma) font."
+DESCRIPTION="Google Fonts Michroma font"
 HOMEPAGE="https://fonts.google.com/specimen/Michroma"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

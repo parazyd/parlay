@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Thabit (thabit) font."
+DESCRIPTION="Google Fonts Thabit font"
 HOMEPAGE="https://fonts.google.com/specimen/Thabit"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

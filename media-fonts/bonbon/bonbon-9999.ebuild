@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bonbon (bonbon) font."
+DESCRIPTION="Google Fonts Bonbon font"
 HOMEPAGE="https://fonts.google.com/specimen/Bonbon"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

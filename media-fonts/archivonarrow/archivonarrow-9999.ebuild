@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Archivo Narrow (archivonarrow) font."
+DESCRIPTION="Google Fonts Archivo Narrow font"
 HOMEPAGE="https://fonts.google.com/specimen/Archivo+Narrow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

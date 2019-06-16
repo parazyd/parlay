@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Gloria Hallelujah (gloriahallelujah) font."
+DESCRIPTION="Google Fonts Gloria Hallelujah font"
 HOMEPAGE="https://fonts.google.com/specimen/Gloria+Hallelujah"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

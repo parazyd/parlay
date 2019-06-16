@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mystery Quest (mysteryquest) font."
+DESCRIPTION="Google Fonts Mystery Quest font"
 HOMEPAGE="https://fonts.google.com/specimen/Mystery+Quest"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

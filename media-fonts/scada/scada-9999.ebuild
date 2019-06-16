@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Scada (scada) font."
+DESCRIPTION="Google Fonts Scada font"
 HOMEPAGE="https://fonts.google.com/specimen/Scada"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

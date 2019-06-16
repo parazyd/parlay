@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Griffy (griffy) font."
+DESCRIPTION="Google Fonts Griffy font"
 HOMEPAGE="https://fonts.google.com/specimen/Griffy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

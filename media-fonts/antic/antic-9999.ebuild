@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Antic (antic) font."
+DESCRIPTION="Google Fonts Antic font"
 HOMEPAGE="https://fonts.google.com/specimen/Antic"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Suwannaphum (suwannaphum) font."
+DESCRIPTION="Google Fonts Suwannaphum font"
 HOMEPAGE="https://fonts.google.com/specimen/Suwannaphum"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

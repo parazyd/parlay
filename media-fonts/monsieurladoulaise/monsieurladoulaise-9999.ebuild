@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Monsieur La Doulaise (monsieurladoulaise) font."
+DESCRIPTION="Google Fonts Monsieur La Doulaise font"
 HOMEPAGE="https://fonts.google.com/specimen/Monsieur+La+Doulaise"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

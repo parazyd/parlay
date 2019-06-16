@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Yinmar (yinmar) font."
+DESCRIPTION="Google Fonts Yinmar font"
 HOMEPAGE="https://fonts.google.com/specimen/Yinmar"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

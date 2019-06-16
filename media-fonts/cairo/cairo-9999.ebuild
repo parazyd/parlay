@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cairo (cairo) font."
+DESCRIPTION="Google Fonts Cairo font"
 HOMEPAGE="https://fonts.google.com/specimen/Cairo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

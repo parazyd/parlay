@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Mate (mate) font."
+DESCRIPTION="Google Fonts Mate font"
 HOMEPAGE="https://fonts.google.com/specimen/Mate"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

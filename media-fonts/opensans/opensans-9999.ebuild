@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Open Sans (opensans) font."
+DESCRIPTION="Google Fonts Open Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Open+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

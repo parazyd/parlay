@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Marcellus SC (marcellussc) font."
+DESCRIPTION="Google Fonts Marcellus SC font"
 HOMEPAGE="https://fonts.google.com/specimen/Marcellus+SC"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

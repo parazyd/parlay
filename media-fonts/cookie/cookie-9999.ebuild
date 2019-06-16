@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cookie (cookie) font."
+DESCRIPTION="Google Fonts Cookie font"
 HOMEPAGE="https://fonts.google.com/specimen/Cookie"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

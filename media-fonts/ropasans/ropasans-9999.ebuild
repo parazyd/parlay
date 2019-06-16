@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ropa Sans (ropasans) font."
+DESCRIPTION="Google Fonts Ropa Sans font"
 HOMEPAGE="https://fonts.google.com/specimen/Ropa+Sans"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

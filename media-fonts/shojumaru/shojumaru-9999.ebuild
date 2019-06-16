@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Shojumaru (shojumaru) font."
+DESCRIPTION="Google Fonts Shojumaru font"
 HOMEPAGE="https://fonts.google.com/specimen/Shojumaru"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

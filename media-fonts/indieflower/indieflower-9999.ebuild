@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Indie Flower (indieflower) font."
+DESCRIPTION="Google Fonts Indie Flower font"
 HOMEPAGE="https://fonts.google.com/specimen/Indie+Flower"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

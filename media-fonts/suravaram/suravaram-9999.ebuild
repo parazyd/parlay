@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Suravaram (suravaram) font."
+DESCRIPTION="Google Fonts Suravaram font"
 HOMEPAGE="https://fonts.google.com/specimen/Suravaram"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

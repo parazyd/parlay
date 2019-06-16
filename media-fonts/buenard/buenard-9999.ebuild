@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Buenard (buenard) font."
+DESCRIPTION="Google Fonts Buenard font"
 HOMEPAGE="https://fonts.google.com/specimen/Buenard"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

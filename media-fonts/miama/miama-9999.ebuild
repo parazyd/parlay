@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miama (miama) font."
+DESCRIPTION="Google Fonts Miama font"
 HOMEPAGE="https://fonts.google.com/specimen/Miama"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

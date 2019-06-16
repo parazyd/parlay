@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Hind Guntur (hindguntur) font."
+DESCRIPTION="Google Fonts Hind Guntur font"
 HOMEPAGE="https://fonts.google.com/specimen/Hind+Guntur"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

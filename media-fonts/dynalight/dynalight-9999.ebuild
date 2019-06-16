@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Dynalight (dynalight) font."
+DESCRIPTION="Google Fonts Dynalight font"
 HOMEPAGE="https://fonts.google.com/specimen/Dynalight"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

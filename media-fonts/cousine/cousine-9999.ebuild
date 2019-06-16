@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cousine (cousine) font."
+DESCRIPTION="Google Fonts Cousine font"
 HOMEPAGE="https://fonts.google.com/specimen/Cousine"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

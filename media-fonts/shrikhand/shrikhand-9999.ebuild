@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Shrikhand (shrikhand) font."
+DESCRIPTION="Google Fonts Shrikhand font"
 HOMEPAGE="https://fonts.google.com/specimen/Shrikhand"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

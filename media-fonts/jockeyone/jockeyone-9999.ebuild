@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Jockey One (jockeyone) font."
+DESCRIPTION="Google Fonts Jockey One font"
 HOMEPAGE="https://fonts.google.com/specimen/Jockey+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

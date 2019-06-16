@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Anonymous Pro (anonymouspro) font."
+DESCRIPTION="Google Fonts Anonymous Pro font"
 HOMEPAGE="https://fonts.google.com/specimen/Anonymous+Pro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

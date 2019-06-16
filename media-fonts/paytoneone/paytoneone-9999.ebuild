@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Paytone One (paytoneone) font."
+DESCRIPTION="Google Fonts Paytone One font"
 HOMEPAGE="https://fonts.google.com/specimen/Paytone+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

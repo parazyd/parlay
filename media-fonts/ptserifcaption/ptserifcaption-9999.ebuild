@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' PT Serif Caption (ptserifcaption) font."
+DESCRIPTION="Google Fonts PT Serif Caption font"
 HOMEPAGE="https://fonts.google.com/specimen/PT+Serif+Caption"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

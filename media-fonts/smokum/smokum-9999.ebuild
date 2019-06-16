@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Smokum (smokum) font."
+DESCRIPTION="Google Fonts Smokum font"
 HOMEPAGE="https://fonts.google.com/specimen/Smokum"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

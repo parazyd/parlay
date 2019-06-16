@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Orienta (orienta) font."
+DESCRIPTION="Google Fonts Orienta font"
 HOMEPAGE="https://fonts.google.com/specimen/Orienta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

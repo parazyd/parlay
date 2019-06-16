@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Thasadith (thasadith) font."
+DESCRIPTION="Google Fonts Thasadith font"
 HOMEPAGE="https://fonts.google.com/specimen/Thasadith"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kaushan Script (kaushanscript) font."
+DESCRIPTION="Google Fonts Kaushan Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Kaushan+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Overlock (overlock) font."
+DESCRIPTION="Google Fonts Overlock font"
 HOMEPAGE="https://fonts.google.com/specimen/Overlock"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

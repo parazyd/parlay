@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Inknut Antiqua (inknutantiqua) font."
+DESCRIPTION="Google Fonts Inknut Antiqua font"
 HOMEPAGE="https://fonts.google.com/specimen/Inknut+Antiqua"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

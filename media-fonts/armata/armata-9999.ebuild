@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Armata (armata) font."
+DESCRIPTION="Google Fonts Armata font"
 HOMEPAGE="https://fonts.google.com/specimen/Armata"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

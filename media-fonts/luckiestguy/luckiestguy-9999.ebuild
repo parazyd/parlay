@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Luckiest Guy (luckiestguy) font."
+DESCRIPTION="Google Fonts Luckiest Guy font"
 HOMEPAGE="https://fonts.google.com/specimen/Luckiest+Guy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

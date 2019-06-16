@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Manjari (manjari) font."
+DESCRIPTION="Google Fonts Manjari font"
 HOMEPAGE="https://fonts.google.com/specimen/Manjari"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Fontdiner Swanky (fontdinerswanky) font."
+DESCRIPTION="Google Fonts Fontdiner Swanky font"
 HOMEPAGE="https://fonts.google.com/specimen/Fontdiner+Swanky"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

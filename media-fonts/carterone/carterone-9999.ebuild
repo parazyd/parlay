@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Carter One (carterone) font."
+DESCRIPTION="Google Fonts Carter One font"
 HOMEPAGE="https://fonts.google.com/specimen/Carter+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Secular One (secularone) font."
+DESCRIPTION="Google Fonts Secular One font"
 HOMEPAGE="https://fonts.google.com/specimen/Secular+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

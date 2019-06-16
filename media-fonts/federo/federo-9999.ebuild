@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Federo (federo) font."
+DESCRIPTION="Google Fonts Federo font"
 HOMEPAGE="https://fonts.google.com/specimen/Federo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Tuffy (tuffy) font."
+DESCRIPTION="Google Fonts Tuffy font"
 HOMEPAGE="https://fonts.google.com/specimen/Tuffy"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

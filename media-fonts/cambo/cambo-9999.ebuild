@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Cambo (cambo) font."
+DESCRIPTION="Google Fonts Cambo font"
 HOMEPAGE="https://fonts.google.com/specimen/Cambo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

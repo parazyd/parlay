@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Scheherazade (scheherazade) font."
+DESCRIPTION="Google Fonts Scheherazade font"
 HOMEPAGE="https://fonts.google.com/specimen/Scheherazade"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

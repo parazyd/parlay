@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Bigelow Rules (bigelowrules) font."
+DESCRIPTION="Google Fonts Bigelow Rules font"
 HOMEPAGE="https://fonts.google.com/specimen/Bigelow+Rules"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sacramento (sacramento) font."
+DESCRIPTION="Google Fonts Sacramento font"
 HOMEPAGE="https://fonts.google.com/specimen/Sacramento"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

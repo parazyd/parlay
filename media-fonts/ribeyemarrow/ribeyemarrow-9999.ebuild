@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Ribeye Marrow (ribeyemarrow) font."
+DESCRIPTION="Google Fonts Ribeye Marrow font"
 HOMEPAGE="https://fonts.google.com/specimen/Ribeye+Marrow"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

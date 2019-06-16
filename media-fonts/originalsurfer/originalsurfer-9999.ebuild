@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Original Surfer (originalsurfer) font."
+DESCRIPTION="Google Fonts Original Surfer font"
 HOMEPAGE="https://fonts.google.com/specimen/Original+Surfer"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

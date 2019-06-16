@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Rouge Script (rougescript) font."
+DESCRIPTION="Google Fonts Rouge Script font"
 HOMEPAGE="https://fonts.google.com/specimen/Rouge+Script"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

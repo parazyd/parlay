@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Poller One (pollerone) font."
+DESCRIPTION="Google Fonts Poller One font"
 HOMEPAGE="https://fonts.google.com/specimen/Poller+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Kite One (kiteone) font."
+DESCRIPTION="Google Fonts Kite One font"
 HOMEPAGE="https://fonts.google.com/specimen/Kite+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

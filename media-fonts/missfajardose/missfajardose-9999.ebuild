@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Miss Fajardose (missfajardose) font."
+DESCRIPTION="Google Fonts Miss Fajardose font"
 HOMEPAGE="https://fonts.google.com/specimen/Miss+Fajardose"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

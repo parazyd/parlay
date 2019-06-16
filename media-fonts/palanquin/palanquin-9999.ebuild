@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Palanquin (palanquin) font."
+DESCRIPTION="Google Fonts Palanquin font"
 HOMEPAGE="https://fonts.google.com/specimen/Palanquin"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

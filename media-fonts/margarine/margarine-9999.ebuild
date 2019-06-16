@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Margarine (margarine) font."
+DESCRIPTION="Google Fonts Margarine font"
 HOMEPAGE="https://fonts.google.com/specimen/Margarine"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Enriqueta (enriqueta) font."
+DESCRIPTION="Google Fonts Enriqueta font"
 HOMEPAGE="https://fonts.google.com/specimen/Enriqueta"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Copse (copse) font."
+DESCRIPTION="Google Fonts Copse font"
 HOMEPAGE="https://fonts.google.com/specimen/Copse"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

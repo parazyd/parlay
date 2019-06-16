@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Odor Mean Chey (odormeanchey) font."
+DESCRIPTION="Google Fonts Odor Mean Chey font"
 HOMEPAGE="https://fonts.google.com/specimen/Odor+Mean+Chey"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

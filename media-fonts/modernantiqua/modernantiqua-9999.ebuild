@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Modern Antiqua (modernantiqua) font."
+DESCRIPTION="Google Fonts Modern Antiqua font"
 HOMEPAGE="https://fonts.google.com/specimen/Modern+Antiqua"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

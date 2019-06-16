@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Pushster (pushster) font."
+DESCRIPTION="Google Fonts Pushster font"
 HOMEPAGE="https://fonts.google.com/specimen/Pushster"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

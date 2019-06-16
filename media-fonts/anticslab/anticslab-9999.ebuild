@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Antic Slab (anticslab) font."
+DESCRIPTION="Google Fonts Antic Slab font"
 HOMEPAGE="https://fonts.google.com/specimen/Antic+Slab"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

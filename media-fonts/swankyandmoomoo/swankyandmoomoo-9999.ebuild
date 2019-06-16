@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Swanky and Moo Moo (swankyandmoomoo) font."
+DESCRIPTION="Google Fonts Swanky and Moo Moo font"
 HOMEPAGE="https://fonts.google.com/specimen/Swanky+and+Moo+Moo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

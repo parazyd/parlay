@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Glegoo (glegoo) font."
+DESCRIPTION="Google Fonts Glegoo font"
 HOMEPAGE="https://fonts.google.com/specimen/Glegoo"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

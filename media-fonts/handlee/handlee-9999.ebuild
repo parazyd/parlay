@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Handlee (handlee) font."
+DESCRIPTION="Google Fonts Handlee font"
 HOMEPAGE="https://fonts.google.com/specimen/Handlee"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

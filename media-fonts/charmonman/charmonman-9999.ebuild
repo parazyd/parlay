@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Charmonman (charmonman) font."
+DESCRIPTION="Google Fonts Charmonman font"
 HOMEPAGE="https://fonts.google.com/specimen/Charmonman"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

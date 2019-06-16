@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lemonada (lemonada) font."
+DESCRIPTION="Google Fonts Lemonada font"
 HOMEPAGE="https://fonts.google.com/specimen/Lemonada"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

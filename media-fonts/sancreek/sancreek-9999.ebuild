@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Sancreek (sancreek) font."
+DESCRIPTION="Google Fonts Sancreek font"
 HOMEPAGE="https://fonts.google.com/specimen/Sancreek"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

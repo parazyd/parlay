@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Faster One (fasterone) font."
+DESCRIPTION="Google Fonts Faster One font"
 HOMEPAGE="https://fonts.google.com/specimen/Faster+One"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

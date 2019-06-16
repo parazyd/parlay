@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Maven Pro (mavenpro) font."
+DESCRIPTION="Google Fonts Maven Pro font"
 HOMEPAGE="https://fonts.google.com/specimen/Maven+Pro"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

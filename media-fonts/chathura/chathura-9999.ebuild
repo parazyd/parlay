@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Chathura (chathura) font."
+DESCRIPTION="Google Fonts Chathura font"
 HOMEPAGE="https://fonts.google.com/specimen/Chathura"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

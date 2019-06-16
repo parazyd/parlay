@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Piedra (piedra) font."
+DESCRIPTION="Google Fonts Piedra font"
 HOMEPAGE="https://fonts.google.com/specimen/Piedra"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

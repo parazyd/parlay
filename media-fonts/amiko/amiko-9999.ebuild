@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Amiko (amiko) font."
+DESCRIPTION="Google Fonts Amiko font"
 HOMEPAGE="https://fonts.google.com/specimen/Amiko"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

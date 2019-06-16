@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lora (lora) font."
+DESCRIPTION="Google Fonts Lora font"
 HOMEPAGE="https://fonts.google.com/specimen/Lora"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

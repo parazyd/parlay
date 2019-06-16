@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Lohit Tamil (lohittamil) font."
+DESCRIPTION="Google Fonts Lohit Tamil font"
 HOMEPAGE="https://fonts.google.com/specimen/Lohit+Tamil"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

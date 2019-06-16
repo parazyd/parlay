@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Monoton (monoton) font."
+DESCRIPTION="Google Fonts Monoton font"
 HOMEPAGE="https://fonts.google.com/specimen/Monoton"
 EGIT_REPO_URI="https://github.com/google/fonts"
 

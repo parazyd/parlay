@@ -5,7 +5,7 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts' Quando (quando) font."
+DESCRIPTION="Google Fonts Quando font"
 HOMEPAGE="https://fonts.google.com/specimen/Quando"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
