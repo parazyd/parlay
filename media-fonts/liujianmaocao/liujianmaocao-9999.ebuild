@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts LiuJianMaoCao font"
-HOMEPAGE="https://fonts.google.com/specimen/LiuJianMaoCao"
+DESCRIPTION="Google Fonts Liu Jian Mao Cao font"
+HOMEPAGE="https://fonts.google.com/specimen/Liu+Jian+Mao+Cao"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"

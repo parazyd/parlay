@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts Long Cang font"
-HOMEPAGE="https://fonts.google.com/specimen/Long+Cang"
+DESCRIPTION="Google Fonts Lacquer font"
+HOMEPAGE="https://fonts.google.com/specimen/Lacquer"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"
@@ -22,5 +22,5 @@ RESTRICT="binchecks strip"
 FONT_SUFFIX="ttf"
 
 src_install() {
-	FONT_S="$WORKDIR/${P}/ofl/longcang" font_src_install
+	FONT_S="$WORKDIR/${P}/ofl/lacquer" font_src_install
 }

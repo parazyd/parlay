@@ -5,8 +5,8 @@ EAPI=6
 
 inherit font git-r3
 
-DESCRIPTION="Google Fonts ZhiMangXing font"
-HOMEPAGE="https://fonts.google.com/specimen/ZhiMangXing"
+DESCRIPTION="Google Fonts Zhi Mang Xing font"
+HOMEPAGE="https://fonts.google.com/specimen/Zhi+Mang+Xing"
 EGIT_REPO_URI="https://github.com/google/fonts"
 
 LICENSE="OFL-1.1"
