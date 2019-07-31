@@ -42,37 +42,16 @@ for i in "$gitdir/apache/"*/ "$gitdir/ofl/"*/; do
 		;;
 	esac
 
-	# command ls -1 ~/src/fonts/apache ~/src/fonts/ofl /usr/portage/media-fonts \
-	# 	| sort > fonts.sorted
-	# uniq fonts.sorted > fonts.uniq
-	# diff fonts.uniq fonts.sorted | grep '^> '
-	skip="andika
-		cantarell
-		cardo
-		exo
-		inconsolata
-		jomolhari
-		khmer
-		nunito
-		roboto
-		signika
-		viga
-		vollkorn"
-
-	# Avoid what is already in portage.
-	s=0
-	for j in $skip; do
-		if [ "$j" = "$font" ]; then
-			s=1
-			break
-		fi
-	done
-	if [ "$s" = 1 ]; then
+	if [ -d "/usr/portage/media-fonts/$font" ]; then
 		echo "Skipping: $shlicense/$font"
 		continue
 	fi
 
+	existed=0
 	echo "Generating: $shlicense/$font"
+	if [ -d "$font" ]; then
+		existed=1
+	fi
 	mkdir -p "$font"
 	cd "$font" || exit 1
 
@@ -117,6 +96,8 @@ EOF
 </pkgmetadata>
 EOF
 
-	ebuild "${font}-9999.ebuild" digest
+	if [ "$existed" = 1 ]; then
+		ebuild "${font}-9999.ebuild" digest
+	fi
 	cd - >/dev/null
 done
