@@ -6,8 +6,8 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="Scripts and ways to present point files"
-HOMEPAGE="http://git.r-36.net/pointtools"
-EGIT_REPO_URI="http://git.r-36.net/pointtools"
+HOMEPAGE="gopher://bitreich.org/1/scm/pointtools/log.gph"
+EGIT_REPO_URI="git://bitreich.org/pointtools"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -18,6 +18,7 @@ DEPEND="app-text/utf8expr"
 RDEPEND=""
 
 src_install() {
-	dobin bin/md2point bin/point2pdf
-	dodoc README.md examples/hello/*
+	dobin bin/md2point bin/point2pdf bin/dir2point
+	dodoc README.md
+	dodoc -r examples
 }
