@@ -1,4 +1,4 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -17,8 +17,10 @@ IUSE=""
 DEPEND="app-text/utf8expr"
 RDEPEND=""
 
+PATCHES=( "${FILESDIR}/makefile-fix.patch" )
+
 src_install() {
-	dobin bin/md2point bin/point2pdf bin/dir2point
+	emake install
 	dodoc README.md
 	dodoc -r examples
 }
