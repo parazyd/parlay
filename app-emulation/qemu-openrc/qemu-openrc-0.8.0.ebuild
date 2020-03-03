@@ -3,8 +3,6 @@
 
 EAPI=7
 
-inherit user
-
 DESCRIPTION="OpenRC init script for QEMU/KVM"
 HOMEPAGE="https://github.com/jirutka/qemu-openrc"
 
@@ -15,16 +13,14 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	app-emulation/qemu
-	net-misc/socat"
+	net-misc/socat
+	acct-user/qemu
+	acct-group/qemu
+"
 
 src_install() {
 	dobin qemush
 	newinitd qemu.initd qemu
 	newconfd qemu.confd qemu
 	dodoc README.adoc
-}
-
-pkg_setup() {
-	enewgroup qemu
-	enewuser qemu -1 -1 /var/lib/qemu qemu,kvm
 }
