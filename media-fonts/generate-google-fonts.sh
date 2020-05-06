@@ -96,7 +96,7 @@ EOF
 </pkgmetadata>
 EOF
 
-	if [ "$existed" = 1 ]; then
+	if [ "$existed" = 0 ]; then
 		ebuild "${font}-9999.ebuild" digest
 	fi
 	cd - >/dev/null
