@@ -23,6 +23,7 @@ src_prepare() {
 	sed -i \
 		-e "/^CDFLAGS/{s|=|+=|g;s|-O. | |g}" \
 		-e "/^LDFLAGS/{s|=|+=|g;s|-s | |g}" \
+		-e "s@^LIBS = .*@& -ltinfow@" \
 		-e "s@-I/usr/include@@" -e "s@-L/usr/lib@@" \
 		config.mk || die
 
