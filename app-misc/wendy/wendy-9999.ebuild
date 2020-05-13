@@ -23,6 +23,7 @@ src_prepare() {
 	sed -i \
 		-e "/^CFLAGS/{s|=|+=|;s|-O. | |g}" \
 		-e "/^LDFLAGS/{s|=|+=|g;s|-s$| |g}" \
+		-e 's@MANDIR =.*@MANDIR = $(PREFIX)/share/man@' \
 		config.mk || die
 }
 
