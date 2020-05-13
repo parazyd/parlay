@@ -1,6 +1,8 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
+# https://data.gpo.zugaina.org/pentoo/net-analyzer/bettercap/
+
 EAPI=7
 
 # go mod vendor && grep "# g" ./vendor/modules.txt | sort
