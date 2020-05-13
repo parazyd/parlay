@@ -27,7 +27,7 @@ src_prepare() {
 }
 
 src_compile() {
-	emake all
+	emake wendy
 }
 
 src_install() {
