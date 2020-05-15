@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3 savedconfig
+inherit git-r3 epatch
 
 DESCRIPTION="Gopher/HTTP/HTTPS file grabber"
 HOMEPAGE="https://git.codemadness.org/hurl/"
