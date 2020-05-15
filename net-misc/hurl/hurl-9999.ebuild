@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3 epatch
+inherit git-r3
 
 DESCRIPTION="Gopher/HTTP/HTTPS file grabber"
 HOMEPAGE="https://git.codemadness.org/hurl/"
@@ -17,10 +17,7 @@ IUSE=""
 DEPEND="dev-libs/libressl dev-libs/libbsd"
 RDEPEND=""
 
-src_prepare() {
-	default
-	epatch "${FILESDIR}/linux.patch"
-}
+PATCHES=( "${FILESDIR}/linux.patch" )
 
 src_compile() {
 	emake all
