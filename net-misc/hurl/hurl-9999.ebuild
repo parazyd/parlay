@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="net-misc/libressl dev-libs/libbsd"
+DEPEND="dev-libs/libressl dev-libs/libbsd"
 RDEPEND=""
 
 src_prepare() {
