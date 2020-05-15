@@ -9,7 +9,7 @@ DESCRIPTION="Gopher/HTTP/HTTPS file grabber"
 HOMEPAGE="https://git.codemadness.org/hurl/"
 EGIT_REPO_URI="git://git.codemadness.org/hurl"
 
-LICENSE="GPL-3+"
+LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
 IUSE=""
