@@ -22,7 +22,7 @@ src_prepare() {
 
 	if use ncurses; then
 		echo "UI=ti" >> config.mk
-		echo "LIBS=-lcurses" >> config.mk
+		echo "LIBS=-lncurses -ltinfow" >> config.mk
 	else
 		sed -e 's/LIBS=.*/UI=txt/' -i config.mk
 	fi
