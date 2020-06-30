@@ -1,7 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
+inherit java-pkg-2
 
 GRADLE_DEP_VER="20191226"
 
@@ -12,7 +13,7 @@ SRC_URI="https://github.com/NationalSecurityAgency/${PN}/archive/Ghidra_${PV}_bu
 	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/android4me/AXMLPrinter2.jar
 	https://sourceforge.net/projects/catacombae/files/HFSExplorer/0.21/hfsexplorer-0_21-bin.zip
 	mirror://sourceforge/yajsw/yajsw/yajsw-stable-12.12.zip
-	http://www.eclipse.org/downloads/download.php?r=1&protocol=https&file=/tools/cdt/releases/8.6/cdt-8.6.0.zip
+	https://www.eclipse.org/downloads/download.php?r=1&protocol=https&file=/tools/cdt/releases/8.6/cdt-8.6.0.zip
 	mirror://sourceforge/project/pydev/pydev/PyDev%206.3.1/PyDev%206.3.1.zip -> PyDev-6.3.1.zip
 	https://dev.pentoo.ch/~blshkv/distfiles/${PN}-dependencies-${GRADLE_DEP_VER}.tar.gz"
 # run: pentoo/scripts/gradle_dependencies.py from "${S}" directory to generate dependencies
@@ -22,9 +23,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND=">=virtual/jre-1.8:*"
+#java-pkg-2 sets java based on RDEPEND so the java slot in rdepend is used to build
+RDEPEND="virtual/jre:11"
 DEPEND="${RDEPEND}
-	>=virtual/jdk-11:*
+	virtual/jdk:11
 	dev-java/gradle-bin:5.2.1
 	sys-devel/bison
 	dev-java/jflex
@@ -64,12 +66,6 @@ src_prepare() {
 	sed -i "s|S_DIR|${S}|g" .gradle/init.d/repos.gradle || die "(12) sed failed"
 	#remove build date so we can unpack dist.zip later
 	sed -i "s|_\${rootProject.BUILD_DATE_SHORT}||g" gradle/root/distribution.gradle || die "(13) sed failed"
-
-	if [[ -z "$(eselect java-vm show system | grep '11')"  ]]; then
-		eerror "JDK 11 is not installed or not selected. Please run the following:"
-		eerror "eselect java-vm set system <jdk-11>"
-		die
-	fi
 
 	#9.1 workaround
 	ln -s ./.gradle/flatRepo ./flatRepo
