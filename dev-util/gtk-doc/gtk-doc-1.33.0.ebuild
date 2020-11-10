@@ -52,6 +52,7 @@ src_prepare() {
 	eapply "${FILESDIR}"/${PN}-1.8-emacs-keybindings.patch
 
 	gnome2_src_prepare
+	eautoreconf
 }
 
 src_configure() {
