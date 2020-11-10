@@ -1,0 +1,19 @@
+diff --git a/tools/gtk-doc.el b/tools/gtk-doc.el
+index b038671..aeb7f9e 100644
+--- a/tools/gtk-doc.el
++++ b/tools/gtk-doc.el
+@@ -273,7 +273,7 @@ Only C/C++ function types are properly supported currently."
+ 
+ ;; set global binding for this key (follows the format for
+ ;;   creating a changelog entry ...)
+-(global-set-key "\C-x4h"  'gtk-doc-insert)
++;;(global-set-key "\C-x4h"  'gtk-doc-insert)
+ 
+ 
+ ;; Define another function for inserting a section header.
+@@ -291,4 +291,4 @@ Only C/C++ function types are properly supported currently."
+ 	  " */\n"))
+ 
+ ;; Set the key binding.
+-(global-set-key "\C-x4s" 'gtk-doc-insert-section)
++;;(global-set-key "\C-x4s" 'gtk-doc-insert-section)
