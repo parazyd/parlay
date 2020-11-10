@@ -4,7 +4,7 @@
 EAPI=6
 PYTHON_COMPAT=( python3_{6,7} )
 
-inherit eutils elisp-common gnome2 python-single-r1 readme.gentoo-r1
+inherit autotools eutils elisp-common gnome2 python-single-r1 readme.gentoo-r1
 
 DESCRIPTION="GTK+ Documentation Generator"
 HOMEPAGE="https://www.gtk.org/gtk-doc/"
