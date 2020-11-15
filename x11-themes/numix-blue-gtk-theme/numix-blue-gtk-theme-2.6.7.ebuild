@@ -45,4 +45,3 @@ src_compile() {
 src_install() {
 	default
 }
-

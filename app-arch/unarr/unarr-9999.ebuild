@@ -19,7 +19,7 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 PATCHES=(
-	${FILESDIR}/rar-get-name.patch
-	${FILESDIR}/tar-get-name.patch
-	${FILESDIR}/zip-get-name.patch
+	"${FILESDIR}/rar-get-name.patch"
+	"${FILESDIR}/tar-get-name.patch"
+	"${FILESDIR}/zip-get-name.patch"
 )

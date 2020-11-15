@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8,9} )
 
 inherit autotools eutils elisp-common gnome2 python-single-r1 readme.gentoo-r1
 
@@ -17,7 +17,6 @@ IUSE="debug doc emacs"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
-	${PYTHON_DEPS}
 	>=dev-libs/glib-2.6:2
 	dev-libs/libxslt
 	>=dev-libs/libxml2-2.3.6:2
