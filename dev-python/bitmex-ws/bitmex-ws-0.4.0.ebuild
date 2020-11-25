@@ -6,7 +6,7 @@ EAPI=7
 PYTHON_COMPAT=( python3_{7,8,9} )
 inherit distutils-r1
 
-DESCRIPTION="This module is for generating random, valid web user agents"
+DESCRIPTION="Sample adapter for connecting to the BitMEX Websocket API"
 HOMEPAGE="https://pypi.org/project/bitmex-ws/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
