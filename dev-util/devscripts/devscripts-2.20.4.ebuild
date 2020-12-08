@@ -1,10 +1,9 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-
-PYTHON_COMPAT=( python3_{6,7,8,9} )
-DISTUTILS_OPTIONAL=true
+PYTHON_COMPAT=( python3_{7,8,9} )
+DISTUTILS_SINGLE_IMPL=1
 
 inherit distutils-r1
 
@@ -15,16 +14,14 @@ SRC_URI="mirror://debian/pool/main/d/${PN}/${PN}_${PV}.tar.xz"
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="python test"
-
-REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
+IUSE="test"
 
 CDEPEND="
 	dev-lang/perl:=
 	dev-perl/File-DesktopEntry
 	dev-perl/libwww-perl
 	dev-util/distro-info
-	python? ( ${PYTHON_DEPS} )
+	${PYTHON_DEPS}
 "
 DEPEND="${CDEPEND}
 	app-shells/bash-completion
@@ -32,8 +29,10 @@ DEPEND="${CDEPEND}
 	test? (
 		dev-perl/Software-License
 		dev-perl/UNIVERSAL-require
-		dev-python/flake8[${PYTHON_USEDEP}]
 		dev-util/shunit2
+		$(python_gen_cond_dep '
+			dev-python/flake8[${PYTHON_MULTI_USEDEP}]
+		')
 	)"
 RDEPEND="${CDEPEND}
 	app-arch/dpkg
@@ -73,40 +72,32 @@ src_prepare() {
 src_configure() {
 	default
 
-	if use python; then
-		pushd "${DISTUTILS_S}" > /dev/null || die
-		distutils-r1_src_configure
-		popd > /dev/null || die
-	fi
+	pushd "${DISTUTILS_S}" > /dev/null || die
+	distutils-r1_src_configure
+	popd > /dev/null || die
 }
 
 src_compile() {
 	default
 
-	if use python; then
-		pushd "${DISTUTILS_S}" > /dev/null || die
-		distutils-r1_src_compile
-		popd > /dev/null || die
-	fi
+	pushd "${DISTUTILS_S}" > /dev/null || die
+	distutils-r1_src_compile
+	popd > /dev/null || die
 }
 
 src_install() {
 	dodir /usr/bin
 	default
 
-	if use python ;then
-		pushd "${DISTUTILS_S}" > /dev/null || die
-		distutils-r1_src_install
-		popd > /dev/null || die
-	fi
+	pushd "${DISTUTILS_S}" > /dev/null || die
+	distutils-r1_src_install
+	popd > /dev/null || die
 }
 
 src_test() {
 	default
 
-	if use python; then
-		pushd "${DISTUTILS_S}" > /dev/null || die
-		distutils-r1_src_test
-		popd > /dev/null || die
-	fi
+	pushd "${DISTUTILS_S}" > /dev/null || die
+	distutils-r1_src_test
+	popd > /dev/null || die
 }
