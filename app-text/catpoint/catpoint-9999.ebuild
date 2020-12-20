@@ -1,7 +1,7 @@
 # Copyright 2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit git-r3
 
@@ -20,16 +20,7 @@ RDEPEND=""
 src_prepare() {
 	default
 
-	sed -i \
-		-e "/^CDFLAGS/{s|=|+=|g;s|-O. | |g}" \
-		-e "/^LDFLAGS/{s|=|+=|g;s|-s | |g}" \
-		-e "s@^LIBS = .*@& -ltinfow@" \
-		-e "s@-I/usr/include@@" -e "s@-L/usr/lib@@" \
-		config.mk || die
-
-	if use static; then
-		echo "LDFLAGS += -static" >> config.mk
-	fi
+	sed 's/^CATPOINT_LDFLAGS = .*/& -ltinfow/' -i Makefile || die
 }
 
 src_compile() {
@@ -38,5 +29,5 @@ src_compile() {
 
 src_install() {
 	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
-	dodoc README.md showoff/*.txt
+	dodoc README.md PATH-MAX-LIMIT.md TOOLS showoff/*.txt
 }
