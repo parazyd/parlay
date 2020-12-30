@@ -4,7 +4,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3_{6,7,8,9} )
-inherit distutils-r1 git-r3
+inherit distutils-r1
 
 DESCRIPTION="Easily import docs to your gh-pages branch"
 HOMEPAGE="https://github.com/c-w/ghp-import https://pypi.org/project/ghp-import/"
