@@ -12,9 +12,13 @@ EGIT_REPO_URI="git://git.codemadness.org/hurl"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="libressl"
 
-DEPEND="dev-libs/libressl dev-libs/libbsd"
+DEPEND="
+	libressl? ( dev-libs/libressl )
+	!libressl? ( dev-libs/libretls )
+	dev-libs/libbsd
+"
 RDEPEND=""
 
 PATCHES=( "${FILESDIR}/linux.patch" )
