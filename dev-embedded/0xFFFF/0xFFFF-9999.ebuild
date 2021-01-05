@@ -24,14 +24,14 @@ src_unpack() {
 src_prepare() {
 	default
 
-	cd ${WORKDIR}/${P}/src || die
+	cd "${WORKDIR}/${P}/src" || die
 	sed -e 's@^CFLAGS .*@& -static@' \
 		-e 's@^LIBS .*@LIBS += -L./ ./libusb.a -ldl -static@' \
 		-i Makefile || die
 }
 
 src_configure() {
-	cd ${WORKDIR}/libusb-0.1.12 || die
+	cd "${WORKDIR}/libusb-0.1.12" || die
 
 	CFLAGS="-Wno-format-truncation" \
 		econf \
@@ -40,12 +40,12 @@ src_configure() {
 }
 
 src_compile() {
-	cd ${WORKDIR}/libusb-0.1.12 || die
+	cd "${WORKDIR}/libusb-0.1.12" || die
 	emake || die
 
-	cp .libs/libusb.a ${WORKDIR}/${P}/src || die
+	cp .libs/libusb.a "${WORKDIR}/${P}/src" || die
 
-	cd ${WORKDIR}/${P} || die
+	cd "${WORKDIR}/${P}" || die
 	emake || die
 }
 
