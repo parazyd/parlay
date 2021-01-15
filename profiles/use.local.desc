@@ -1,0 +1,15 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+net-misc/feather:xmrig - Enable mining support using a user specified xmrig binary.
+net-misc/feather:xmrto - Enable swaps to Bitcoin using xmr.to.
+net-misc/feather-wow:xmrig - Enable mining support using a user specified xmrig binary.
+net-misc/xmrig:donate - Set the default donation level to 1% instead of 0
+net-misc/xmrig-mo:donate - Enable a default donation value of 1% CPU time instead of 0.
+net-misc/xmrig-proxy:http - Enable HTTP server for API.
+net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
+net-p2p/monero:hw-wallet - Enable if you want to use a hardware wallet like a Trezor or Ledger.
+net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
+net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
+net-p2p/monero:wallet-rpc - Build the RPC wallet, monero-wallet-rpc.
