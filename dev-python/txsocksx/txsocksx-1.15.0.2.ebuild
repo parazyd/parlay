@@ -17,6 +17,6 @@ IUSE=""
 
 DEPEND="
 	dev-python/twisted
-	dev-python/parsley
+	dev-python/Parsley
 "
 RDEPEND="${DEPEND}"
