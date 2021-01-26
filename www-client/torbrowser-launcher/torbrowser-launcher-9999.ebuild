@@ -28,6 +28,7 @@ RDEPEND="
 	dev-python/PyQt5[${PYTHON_USEDEP},widgets]
 	dev-python/PySocks[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
 	apparmor? ( sys-libs/libapparmor )
 "
 
