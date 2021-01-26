@@ -18,5 +18,6 @@ IUSE=""
 DEPEND="
 	dev-python/twisted
 	dev-python/Parsley
+	dev-python/vcversioner
 "
 RDEPEND="${DEPEND}"
