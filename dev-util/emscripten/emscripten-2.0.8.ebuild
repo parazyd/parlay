@@ -56,5 +56,17 @@ src_install() {
 	tools/create_entry_points.py || die
 	insinto "/usr/$(get_libdir)/emscripten"
 	doins -r .
-	fperms +x "/usr/$(get_libdir)/emscripten"/*
+	fperms +x \
+		"/usr/$(get_libdir)/emscripten/em++" \
+		"/usr/$(get_libdir)/emscripten/emar" \
+		"/usr/$(get_libdir)/emscripten/embuilder" \
+		"/usr/$(get_libdir)/emscripten/emcc" \
+		"/usr/$(get_libdir)/emscripten/emcmake" \
+		"/usr/$(get_libdir)/emscripten/em-config" \
+		"/usr/$(get_libdir)/emscripten/emconfigure" \
+		"/usr/$(get_libdir)/emscripten/emmake" \
+		"/usr/$(get_libdir)/emscripten/emranlib" \
+		"/usr/$(get_libdir)/emscripten/emrun" \
+		"/usr/$(get_libdir)/emscripten/emscons" \
+		"/usr/$(get_libdir)/emscripten/emsize"
 }
