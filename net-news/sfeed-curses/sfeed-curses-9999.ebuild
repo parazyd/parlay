@@ -18,7 +18,7 @@ DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND} net-news/sfeed"
 
 src_compile() {
-	emake LDFLAGS="${LDFLAGS} -lcursesw -ltinfow" all
+	emake LDFLAGS="${LDFLAGS} -lncursesw -ltinfow" all
 }
 
 src_install() {
