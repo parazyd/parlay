@@ -19,12 +19,6 @@ RDEPEND=""
 
 src_prepare() {
 	default
-
-	sed -i \
-		-e "/^CFLAGS/{s|=|+=|;s|-O. | |g}" \
-		-e "/^LDFLAGS/{s|=|+=|g;s|-s$| |g}" \
-		config.mk || die
-
 	restore_config config.h
 }
 
