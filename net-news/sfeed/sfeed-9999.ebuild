@@ -22,6 +22,9 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr" \
+		MANPREFIX="${EPREFIX}/usr/share/man"\
+		install
 	dodoc README README.xml sfeedrc.example
 }
