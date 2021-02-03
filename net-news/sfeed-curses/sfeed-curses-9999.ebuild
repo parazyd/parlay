@@ -12,10 +12,23 @@ EGIT_REPO_URI="git://git.codemadness.org/sfeed_curses"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
+IUSE="+mono-theme newsboat-theme templeos-theme"
+REQUIRED_USE="^^ ( mono-theme newsboat-theme templeos-theme )"
 
 DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND} net-news/sfeed"
+
+src_prepare() {
+	default
+
+	if use mono-theme; then
+		sed -e 's/SFEED_THEME =.*/SFEED_THEME = mono/' -i Makefile
+	elif use newsboat-theme; then
+		sed -e 's/SFEED_THEME =.*/SFEED_THEME = newsboat/' -i Makefile
+	elif use templeos-theme; then
+		sed -e 's/SFEED_THEME =.*/SFEED_THEME = templeos/' -i Makefile
+	fi
+}
 
 src_compile() {
 	emake LDFLAGS="${LDFLAGS} -lncursesw -ltinfow" all
