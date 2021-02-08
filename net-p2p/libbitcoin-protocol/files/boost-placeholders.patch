@@ -1,0 +1,25 @@
+diff --git a/include/bitcoin/protocol/web/json_string.hpp b/include/bitcoin/protocol/web/json_string.hpp
+index 13b4921..499cb3f 100644
+--- a/include/bitcoin/protocol/web/json_string.hpp
++++ b/include/bitcoin/protocol/web/json_string.hpp
+@@ -19,6 +19,8 @@
+ #ifndef LIBBITCOIN_PROTOCOL_WEB_JSON_STRING_HPP
+ #define LIBBITCOIN_PROTOCOL_WEB_JSON_STRING_HPP
+ 
++#define BOOST_BIND_NO_PLACEHOLDERS
++
+ #include <cstdint>
+ #include <functional>
+ #include <string>
+diff --git a/src/web/json_string.cpp b/src/web/json_string.cpp
+index b39d3ee..f0e1707 100644
+--- a/src/web/json_string.cpp
++++ b/src/web/json_string.cpp
+@@ -21,6 +21,7 @@
+ // Explicitly use std::placeholders here for usage internally to the
+ // boost parsing helpers included from json_parser.hpp.
+ // See: https://svn.boost.org/trac10/ticket/12621
++#define BOOST_BIND_NO_PLACEHOLDERS
+ using namespace std::placeholders;
+ 
+ #include <boost/property_tree/json_parser.hpp>
