@@ -16,8 +16,8 @@ IUSE="static-libs debug test +consensus +tools"
 
 DEPEND="
 	>=dev-libs/boost-1.62.0:=[threads(+)]
-	=net-p2p/libbitcoin-database-${PV}
-	consensus? ( =net-p2p/libbitcoin-consensus-${PV} )
+	>=net-p2p/libbitcoin-database-${PV}
+	consensus? ( >=net-p2p/libbitcoin-consensus-${PV} )
 "
 RDEPEND="${DEPEND}"
 
