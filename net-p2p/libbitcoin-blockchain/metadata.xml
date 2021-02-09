@@ -4,4 +4,12 @@
 <maintainer type="person">
 	<email>parazyd@dyne.org</email>
 </maintainer>
+<use>
+	<flag name="consensus">
+		Build with libbitcoin-consensus.
+	</flag>
+	<flag name="tools">
+		Build console tools.
+	</flag>
+</use>
 </pkgmetadata>
