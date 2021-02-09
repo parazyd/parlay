@@ -17,12 +17,10 @@ IUSE="static-libs debug test +mbedtls"
 DEPEND="
 	mbedtls? ( >=net-libs/mbedtls-2.12.0 )
 	>=dev-libs/boost-1.62.0:=[threads(+)]
-	=net-p2p/libbitcoin-system-${PV}
 	>=net-libs/zeromq-4.3.2
+	>=net-p2p/libbitcoin-system-${PV}
 "
 RDEPEND="${DEPEND}"
-
-PATCHES=( ${FILESDIR}/boost-placeholders.patch )
 
 src_prepare() {
 	eautoreconf
