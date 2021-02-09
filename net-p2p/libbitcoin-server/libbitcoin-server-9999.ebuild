@@ -16,8 +16,8 @@ IUSE="static-libs debug test"
 
 DEPEND="
 	>=dev-libs/boost-1.62.0:=[threads(+)]
-	=net-p2p/libbitcoin-node-${PV}
-	=net-p2p/libbitcoin-protocol-${PV}
+	>=net-p2p/libbitcoin-node-${PV}
+	>=net-p2p/libbitcoin-protocol-${PV}
 "
 RDEPEND="${DEPEND}"
 
