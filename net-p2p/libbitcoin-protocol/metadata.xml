@@ -4,4 +4,9 @@
 <maintainer type="person">
 	<email>parazyd@dyne.org</email>
 </maintainer>
+<use>
+	<flag name="mbedtls">
+		Build TLS web backend with mbedtls.
+	</flag>
+</use>
 </pkgmetadata>
