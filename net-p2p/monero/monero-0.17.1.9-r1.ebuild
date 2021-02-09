@@ -3,11 +3,10 @@
 
 EAPI=7
 
-inherit cmake git-r3 systemd
+inherit cmake git-r3 systemd pax-utils
 
 DESCRIPTION="The secure, private, untraceable cryptocurrency"
 HOMEPAGE="https://www.getmonero.org https://github.com/monero-project/monero"
-SRC_URI=""
 EGIT_REPO_URI="https://github.com/monero-project/monero.git"
 EGIT_COMMIT="v${PV}"
 
@@ -61,6 +60,7 @@ src_install() {
 	# Install all binaries.
 	find "${BUILD_DIR}/bin/" -type f -executable -print0 |
 		while IFS= read -r -d '' line; do
+			pax-mark psmr "$line"
 			dobin "$line"
 		done
 
