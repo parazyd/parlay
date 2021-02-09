@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="static-libs debug +icu test +doc +png"
 
 DEPEND="
-	png? ( 
+	png? (
 		>=media-libs/libpng-1.6.37:=
 		>=media-gfx/qrencode-3.4.4:=
 	)
