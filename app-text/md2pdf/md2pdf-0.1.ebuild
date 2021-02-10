@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DESCRIPTION="This is a sample skeleton ebuild file"
+DESCRIPTION="Python tool for converting Markdown to PDF"
 HOMEPAGE="https://github.com/parazyd/md2pdf"
 SRC_URI="https://github.com/parazyd/${PN}/archive/${PV}.tar.gz"
 
