@@ -16,7 +16,7 @@ IUSE="static-libs debug test"
 
 DEPEND="
 	>dev-libs/libsecp256k1-0.1_pre20200911:=[recovery,schnorr]
-	>=dev-libs/boost-1.62.0:=[threads(+)]
+	<dev-libs/boost-1.75.0:=[threads(+)]
 "
 RDEPEND="${DEPEND}"
 
