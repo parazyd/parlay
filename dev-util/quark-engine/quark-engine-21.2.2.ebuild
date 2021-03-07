@@ -24,6 +24,7 @@ DEPEND="
 	>=dev-python/click-7.1.2[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
+	>=dev-python/androguard-3.4.0[${PYTHON_USEDEP}]
 "
 RDEPEND="${DEPEND}
 	dev-vcs/git
