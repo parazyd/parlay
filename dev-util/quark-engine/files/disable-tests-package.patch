@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+index 35644d6..010f91d 100644
+--- a/setup.py
++++ b/setup.py
+@@ -14,7 +14,7 @@ setuptools.setup(
+     long_description=long_description,
+     long_description_content_type="text/markdown",
+     url="https://github.com/quark-engine/quark-engine",
+-    packages=setuptools.find_packages(),
++    packages=setuptools.find_packages(exclude=['tests']),
+     entry_points={"console_scripts": ["quark=quark.cli:entry_point",
+                                       "freshquark=quark.freshquark:entry_point",
+                                       ]},
