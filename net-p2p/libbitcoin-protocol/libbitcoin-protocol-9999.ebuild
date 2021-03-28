@@ -16,7 +16,7 @@ IUSE="static-libs debug test +mbedtls"
 
 DEPEND="
 	mbedtls? ( >=net-libs/mbedtls-2.12.0 )
-	<dev-libs/boost-1.75.0:=[threads(+)]
+	>=dev-libs/boost-1.72.0:=[threads(+)]
 	>=net-libs/zeromq-4.3.2
 	>=net-p2p/libbitcoin-system-${PV}
 "

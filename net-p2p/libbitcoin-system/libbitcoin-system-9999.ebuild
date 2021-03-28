@@ -21,9 +21,9 @@ DEPEND="
 	)
 	icu? (
 		>=dev-libs/icu-51.2:=
-		<dev-libs/boost-1.75.0:=[threads(+),icu(+)]
+		>=dev-libs/boost-1.72.0:=[threads(+),icu(+)]
 	)
-	<dev-libs/boost-1.75.0:=[threads(+)]
+	>=dev-libs/boost-1.72.0:=[threads(+)]
 	>dev-libs/libsecp256k1-0.1_pre20200911:=[recovery,schnorr]
 "
 RDEPEND="${DEPEND}"

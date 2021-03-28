@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="static-libs debug +doc test"
 
 DEPEND="
-	<dev-libs/boost-1.75.0:=[threads(+)]
+	>=dev-libs/boost-1.72.0:=[threads(+)]
 	>=net-p2p/libbitcoin-system-${PV}
 	>=net-p2p/libbitcoin-protocol-${PV}
 "
