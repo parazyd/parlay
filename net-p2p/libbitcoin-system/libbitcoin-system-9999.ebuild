@@ -31,8 +31,8 @@ RDEPEND="${DEPEND}"
 PATCHES=( "${FILESDIR}/libsecp256k1-relax.patch" )
 
 src_prepare() {
-	eautoreconf
 	default
+	eautoreconf
 }
 
 src_configure() {
