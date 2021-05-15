@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{7..9} )
+PYTHON_COMPAT=( python3_{7..10} )
 inherit distutils-r1 git-r3
 
 DESCRIPTION="Maximally lightweight electrum server for a single user"
