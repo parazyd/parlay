@@ -12,16 +12,10 @@ EGIT_REPO_URI="https://github.com/wiire-a/pixiewps"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="libressl"
+IUSE=""
 
-DEPEND="
-	!libressl? ( dev-libs/openssl:0 )
-	libressl? ( dev-libs/libressl:0 )
-"
-RDEPEND="
-	${DEPEND}
-	net-wireless/aircrack-ng
-"
+DEPEND="dev-libs/openssl:0"
+RDEPEND="${DEPEND} net-wireless/aircrack-ng"
 
 src_compile() {
 	emake OPENSSL=1

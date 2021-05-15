@@ -12,11 +12,10 @@ EGIT_REPO_URI="git://git.codemadness.org/hurl"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE="libressl"
+IUSE=""
 
 DEPEND="
-	libressl? ( dev-libs/libressl )
-	!libressl? ( dev-libs/libretls )
+	dev-libs/libretls
 	dev-libs/libbsd
 "
 RDEPEND=""
