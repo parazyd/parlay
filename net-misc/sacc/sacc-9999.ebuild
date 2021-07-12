@@ -12,9 +12,12 @@ EGIT_REPO_URI="git://bitreich.org/sacc"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE="ncurses savedconfig static"
+IUSE="ncurses savedconfig static ssl"
 
-DEPEND="ncurses? ( sys-libs/ncurses:0 )"
+DEPEND="
+	ncurses? ( sys-libs/ncurses:0 )
+	ssl? ( dev-libs/libretls:0 )
+"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
@@ -26,8 +29,13 @@ src_prepare() {
 	else
 		sed -e 's/LIBS=.*/UI=txt/' -i config.mk
 	fi
+
 	if use static; then
 		echo "LDFLAGS+=-static" >> config.mk
+	fi
+
+	if use ssl; then
+		echo "LIBS+=-ltls" >> config.mk
 	fi
 
 	restore_config config.h
