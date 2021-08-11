@@ -20,13 +20,15 @@ DEPEND="
 "
 RDEPEND=""
 
-PATCHES=( "${FILESDIR}/linux.patch" )
-
 src_compile() {
 	emake all
 }
 
 src_install() {
-	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
+	emake \
+		DESTDIR="${D}" \
+		PREFIX="${EPREFIX}/usr" \
+		MANDIR="${EPREFIX}/usr/share/man/man1" \
+		install
 	dodoc README hurl.vt
 }
