@@ -18,6 +18,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 src_prepare() {
+	default
 	sed -e 's/^SFEED_CURSES_LDFLAGS = .*/& -ltinfo/' -i Makefile
 }
 
