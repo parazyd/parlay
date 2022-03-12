@@ -17,6 +17,10 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 
+src_prepare() {
+	sed -e 's/^SFEED_CURSES_LDFLAGS = .*/& -ltinfo/' -i Makefile
+}
+
 src_compile() {
 	emake all
 }
