@@ -3,14 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{7..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 inherit distutils-r1 git-r3
 
 DESCRIPTION="Maximally lightweight electrum server for a single user"
 HOMEPAGE="https://github.com/chris-belcher/electrum-personal-server/"
-# Enable when patches are upstreamed
-#EGIT_REPO_URI="https://github.com/chris-belcher/electrum-personal-server"
-EGIT_REPO_URI="https://git.parazyd.org/electrum-personal-server"
+EGIT_REPO_URI="https://github.com/chris-belcher/electrum-personal-server"
 
 LICENSE="MIT"
 SLOT="0"
@@ -28,8 +26,8 @@ src_prepare() {
 src_install() {
 	default
 	distutils-r1_src_install
-	newconfd "${FILESDIR}/${PN}.confd" "electrum-personal-server"
-	newinitd "${FILESDIR}/${PN}.initd" "electrum-personal-server"
+	newconfd "contrib/electrumpersonalserver.confd" "electrum-personal-server"
+	newinitd "contrib/electrumpersonalserver.initd" "electrum-personal-server"
 }
 
 pkg_postinst() {
