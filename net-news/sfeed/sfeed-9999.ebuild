@@ -13,7 +13,7 @@ LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
 IUSE="+mono-theme mono-highlight-theme newsboat-theme templeos-theme"
-REQUIRED_USE="^^ ( mono-theme mono-highight-theme newsboat-theme templeos-theme )"
+REQUIRED_USE="^^ ( mono-theme mono-highlight-theme newsboat-theme templeos-theme )"
 
 DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"

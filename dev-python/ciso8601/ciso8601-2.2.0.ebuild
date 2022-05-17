@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{7..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 inherit distutils-r1
 
 DESCRIPTION="Fast ISO8601 date time parser for Python written in C"
@@ -16,4 +16,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 DEPEND="test? ( dev-python/pytz )"
-RDEPEND="${DEPEND}"
+RDEPEND=""

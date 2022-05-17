@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{7..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 inherit distutils-r1 git-r3
 
 DESCRIPTION="A screamingly fast Python WSGI server written in C"

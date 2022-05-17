@@ -4,4 +4,10 @@
 <maintainer type="person">
 	<email>parazyd@dyne.org</email>
 </maintainer>
+<use>
+<flag name="mono-theme">Mono theme</flag>
+<flag name="mono-highlight-theme">Mono highlight theme</flag>
+<flag name="newsboat-theme">Newsboat theme</flag>
+<flag name="templeos-theme">TempleOS theme</flag>
+</use>
 </pkgmetadata>

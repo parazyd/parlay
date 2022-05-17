@@ -9,14 +9,14 @@ inherit perl-module
 DESCRIPTION="Perl library for stripping non-deterministic information"
 
 SLOT="0"
-KEYWORDS="amd64 ~ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+#dev-perl/Devel-Cover
 DEPEND="
 	dev-perl/Archive-Cpio
 	dev-perl/Archive-Zip
-	dev-perl/Devel-Cover
 	dev-perl/Sub-Override
 	test? (
 		>=dev-perl/Test-Fatal-0.10.0

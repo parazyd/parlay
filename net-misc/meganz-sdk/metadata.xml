@@ -5,4 +5,11 @@
 <email>parazyd@dyne.org</email>
 <name>parazyd</name>
 </maintainer>
+<use>
+  <flag name="freeimage">Enable freeimage backend</flag>
+  <flag name="fuse">Enable fuse integration</flag>
+  <flag name="libuv">Enable libuv backend</flag>
+  <flag name="mediainfo">Enable mediainfo integration</flag>
+  <flag name="qt">Enable Qt backend</flag>
+</use>
 </pkgmetadata>
