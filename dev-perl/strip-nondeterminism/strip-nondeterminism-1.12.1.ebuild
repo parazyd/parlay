@@ -15,6 +15,8 @@ RESTRICT="!test? ( test )"
 
 DEPEND="
 	dev-perl/Archive-Cpio
+	dev-perl/Archive-Zip
+	dev-perl/Devel-Cover
 	dev-perl/Sub-Override
 	test? (
 		>=dev-perl/Test-Fatal-0.10.0
