@@ -5,9 +5,9 @@ EAPI=8
 
 inherit git-r3
 
-HOMEPAGE="https://github.com/vysheng/tg"
+HOMEPAGE="https://github.com/kenorb-contrib/tg"
 DESCRIPTION="Command line interface client for Telegram"
-EGIT_REPO_URI="https://github.com/vysheng/tg.git"
+EGIT_REPO_URI="https://github.com/kenorb-contrib/tg"
 if [[ "${PV}" -ne "9999" ]]; then
 	EGIT_COMMIT="refs/tags/${PV}"
 	KEYWORDS="~amd64 ~x86"
