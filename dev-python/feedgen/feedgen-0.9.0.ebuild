@@ -10,7 +10,7 @@ DESCRIPTION="Python module to generate ATOM feeds, RSS feeds and Podcasts"
 HOMEPAGE="https://github.com/lkiesow/python-feedgen https://pypi.org/project/feedgen/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="LGPL-3 BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
