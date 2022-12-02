@@ -18,7 +18,7 @@ IUSE=""
 DEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/urllib[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 "
 RDEPEND="${DEPEND}"
