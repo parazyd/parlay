@@ -21,5 +21,11 @@ DEPEND="
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/wheel[${PYTHON_USEDEP}]
 "
 RDEPEND="${DEPEND}"
+
+src_prepare() {
+	default
+	rm -rf tests
+}
