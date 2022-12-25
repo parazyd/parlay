@@ -21,7 +21,8 @@ RDEPEND="${DEPEND}"
 src_prepare() {
 	default
 
-	sed -e 's/^SFEED_CURSES_LDFLAGS = .*/& -ltinfo/' -i Makefile
+	sed -e 's/^SFEED_CURSES_LDFLAGS = .*/SFEED_CURSES_LDFLAGS = ${LDFLAGS} -lncurses -ltinfo/' \
+		-i Makefile
 
 	if use mono-theme; then
 		sed -e 's/SFEED_THEME =.*/SFEED_THEME = mono/' -i Makefile
