@@ -3,26 +3,30 @@
 
 EAPI=8
 
-inherit golang-build golang-vcs
+inherit go-module
 
-DESCRIPTION="Simple Go program to add TLS support to other listeners"
+DESCRIPTION="Simple Go program to add TLS support to other TCP listeners"
 HOMEPAGE="https://github.com/parazyd/tlstun"
-EGO_SRC="github.com/parazyd/tlstun"
-EGO_PN="${EGO_SRC}"
+SRC_URI="https://github.com/parazyd/${PN}/archive/refs/tags/v${PV}.tar.gz"
 
 LICENSE="AGPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
+src_compile() {
+	ego build
+}
+
 src_install() {
-	default
 	dobin tlstun
 	dodoc "src/${EGO_SRC}/README.md"
 	doinitd "${FILESDIR}/initd/${PN}"
 	doconfd "${FILESDIR}/confd/${PN}"
+
+	default
 }
