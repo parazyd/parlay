@@ -24,7 +24,7 @@ src_compile() {
 
 src_install() {
 	dobin tlstun
-	dodoc "src/${EGO_SRC}/README.md"
+	dodoc "README.md"
 	doinitd "${FILESDIR}/initd/${PN}"
 	doconfd "${FILESDIR}/confd/${PN}"
 
