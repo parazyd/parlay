@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..11} )
-inherit distutils-r1 git-r3
+inherit distutils-r1
 
 DESCRIPTION="Python FFI bindings for libsecp256k1"
 HOMEPAGE="https://github.com/rustyrussell/secp256k1-py https://pypi.org/project/secp256k1/"
