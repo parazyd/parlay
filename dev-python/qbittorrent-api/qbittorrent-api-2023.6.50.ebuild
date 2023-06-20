@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="qBittorrent Web API Client"
 HOMEPAGE="https://github.com/rmartin16/qbittorrent-api/ https://pypi.org/project/qbittorrent-api/"
-#SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+PYPI_NO_NORMALIZE=1
 SRC_URI="$(pypi_sdist_url --no-normalize "${PN}" "${PV}")"
 
 LICENSE="MIT"
