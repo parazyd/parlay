@@ -12,6 +12,8 @@ HOMEPAGE="https://github.com/rmartin16/qbittorrent-api/ https://pypi.org/project
 PYPI_NO_NORMALIZE=1
 SRC_URI="$(pypi_sdist_url --no-normalize "${PN}" "${PV}")"
 
+S="${WORKDIR}/${PN}-${PV}"
+
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
