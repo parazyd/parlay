@@ -7,4 +7,4 @@ inherit acct-group
 
 DESCRIPTION="wpapriv program group"
 
-ACCT_GROUP_ID==674
+ACCT_GROUP_ID=674
