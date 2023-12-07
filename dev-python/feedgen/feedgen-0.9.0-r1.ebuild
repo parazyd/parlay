@@ -4,11 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{8..11} )
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Python module to generate ATOM feeds, RSS feeds and Podcasts"
 HOMEPAGE="https://github.com/lkiesow/python-feedgen https://pypi.org/project/feedgen/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-3 BSD"
 SLOT="0"
