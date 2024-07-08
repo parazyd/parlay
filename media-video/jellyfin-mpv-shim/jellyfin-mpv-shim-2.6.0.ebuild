@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..13} )
 inherit distutils-r1 desktop
 
 DESCRIPTION="MPV Cast Client for Jellyfin"
@@ -18,7 +18,7 @@ IUSE="display-mirroring shaders +systray"
 
 DEPEND="
 	media-video/mpv[libmpv]
-	>=dev-lang/python-3.6[tk]
+	>=dev-lang/python-3.8[tk]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-mpv[${PYTHON_USEDEP}]
 	>=dev-python/python-mpv-jsonipc-1.1.9[${PYTHON_USEDEP}]
