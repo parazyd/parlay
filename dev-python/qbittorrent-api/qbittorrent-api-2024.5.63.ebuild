@@ -10,8 +10,6 @@ inherit distutils-r1 pypi
 DESCRIPTION="qBittorrent Web API Client"
 HOMEPAGE="https://github.com/rmartin16/qbittorrent-api/ https://pypi.org/project/qbittorrent-api/"
 
-S="${WORKDIR}/${PN}-${PV}"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
