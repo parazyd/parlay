@@ -4,13 +4,11 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="qBittorrent Web API Client"
 HOMEPAGE="https://github.com/rmartin16/qbittorrent-api/ https://pypi.org/project/qbittorrent-api/"
-PYPI_NO_NORMALIZE=1
-SRC_URI="$(pypi_sdist_url --no-normalize "${PN}" "${PV}")"
 
 S="${WORKDIR}/${PN}-${PV}"
 
