@@ -9,7 +9,7 @@ DESCRIPTION="Mount Android phones on Linux with adb. No root required."
 HOMEPAGE="https://github.com/spion/adbfs-rootless"
 EGIT_REPO_URI="https://github.com/spion/adbfs-rootless"
 
-LICENSE="BSD-3"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS=""
 IUSE=""
