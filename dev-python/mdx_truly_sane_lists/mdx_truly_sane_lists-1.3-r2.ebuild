@@ -3,7 +3,9 @@
 
 EAPI=8
 
+DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..13} )
+
 inherit distutils-r1 pypi
 
 DESCRIPTION="Extension for Python-Markdown that makes lists truly sane."
