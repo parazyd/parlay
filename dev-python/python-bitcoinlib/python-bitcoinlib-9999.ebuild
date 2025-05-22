@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..13} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1 git-r3
 
 DESCRIPTION="The Swiss Army Knife of the Bitcoin protocol"
