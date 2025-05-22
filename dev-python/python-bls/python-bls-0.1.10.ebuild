@@ -3,8 +3,9 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..13} )
-inherit distutils-r1
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..13} )
+inherit distutils-r1 pypi
 
 DESCRIPTION="BLS12-381 and Signatures in python"
 HOMEPAGE="https://github.com/zebra-lucky/python-bls https://pypi.org/project/python-bls/"
