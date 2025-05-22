@@ -3,8 +3,9 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..13} )
-inherit distutils-r1
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..13} )
+inherit distutils-r1 pypi
 
 DESCRIPTION="Python API to MPV using JSON IPC"
 HOMEPAGE="https://github.com/iwalton3/python-mpv-jsonipc"
