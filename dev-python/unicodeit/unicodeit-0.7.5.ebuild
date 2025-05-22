@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..13} )
-inherit distutils-r1
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10..13} )
+inherit distutils-r1 pypi
 
 DESCRIPTION="Converts LaTeX tags to unicode"
 HOMEPAGE="https://unicodeit.net https://pypi.org/project/unicodeit/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
