@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 inherit git-r3
 
 DESCRIPTION="Tools to present point files"
-HOMEPAGE="git://bitreich.org/pointtools"
+HOMEPAGE="http://bitreich.org"
 EGIT_REPO_URI="git://bitreich.org/pointtools"
 
 LICENSE="GPL-3"
@@ -15,7 +15,6 @@ KEYWORDS=""
 IUSE="static"
 
 DEPEND="sys-libs/ncurses:0"
-RDEPEND=""
 
 src_prepare() {
 	default

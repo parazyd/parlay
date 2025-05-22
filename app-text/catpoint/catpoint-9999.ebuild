@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 inherit git-r3
 
 DESCRIPTION="curses presentation tool"
-HOMEPAGE="git://bitreich.org/catpoint"
+HOMEPAGE="http://bitreich.org"
 EGIT_REPO_URI="git://bitreich.org/catpoint"
 
 LICENSE="GPL-3"
@@ -15,7 +15,6 @@ KEYWORDS=""
 IUSE="static"
 
 DEPEND="sys-libs/ncurses:0"
-RDEPEND=""
 
 src_prepare() {
 	default

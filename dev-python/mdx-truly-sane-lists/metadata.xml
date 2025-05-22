@@ -5,6 +5,7 @@
     <email>parazyd@dyne.org</email>
   </maintainer>
   <upstream>
-    <remote-id type="github">parazyd/md2pdf</remote-id>
+    <remote-id type="github">radude/mdx_truly_sane_lists</remote-id>
+    <remote-id type="pypi">mdx_truly_sane_lists</remote-id>
   </upstream>
 </pkgmetadata>

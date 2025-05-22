@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-inherit git-r3 linux-info linux-mod savedconfig
+inherit git-r3 linux-mod-r1 savedconfig
 
 DESCRIPTION="A linux kernel module to fight against police terror"
 HOMEPAGE="https://github.com/parazyd/protecc"
@@ -26,11 +26,11 @@ src_prepare() {
 src_compile() {
 	BUILD_PARAMS="KERNELDIR=${KV_OUT_DIR} M=${S}"
 
-	linux-mod_src_compile
+	linux-mod-r1_src_compile
 }
 
 src_install() {
-	linux-mod_src_install
+	linux-mod-r1_src_install
 	dodoc README.md
 	save_config config.h
 }

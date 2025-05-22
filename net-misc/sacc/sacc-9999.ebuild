@@ -1,12 +1,12 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-inherit git-r3 savedconfig toolchain-funcs
+inherit git-r3 savedconfig
 
 DESCRIPTION="saccomys, simple console gopher client"
-HOMEPAGE="gopher://bitreich.org/1/scm/sacc"
+HOMEPAGE="http://bitreich.org"
 EGIT_REPO_URI="git://bitreich.org/sacc"
 
 LICENSE="ISC"

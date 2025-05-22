@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -12,13 +12,11 @@ EGIT_REPO_URI="git://git.codemadness.org/hurl"
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
 
 DEPEND="
 	dev-libs/libretls
 	dev-libs/libbsd
 "
-RDEPEND=""
 
 src_compile() {
 	emake all

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,16 +6,13 @@ EAPI=8
 inherit git-r3
 
 DESCRIPTION="Simple xml-to-tsv converter"
-HOMEPAGE="git://bitreich.org/xml2tsv"
+HOMEPAGE="http://bitreich.org"
 EGIT_REPO_URI="git://bitreich.org/xml2tsv"
 
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS=""
 IUSE="static"
-
-DEPEND=""
-RDEPEND=""
 
 src_prepare() {
 	default
